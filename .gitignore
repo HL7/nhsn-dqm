@@ -1,0 +1,38 @@
+# Temporary folders #
+#####################
+temp
+template
+output
+fsh-generated
+
+# Don't commit this because it's so large #
+###########################################
+/input-cache/org.hl7.fhir.publisher.jar
+
+# Windows generated files #
+###########################
+**/Thumbs.db
+
+**/.index.db
+**/.index.json
+
+# VS Code generated files
+.vscode
+
+# OS and tool generated files #
+######################
+**/.DS_Store
+.DS_Store?
+
+.vscode
+# backup files #
+################
+*.bak
+/bundles/measure/ColorectalCancerScreeningCQM/ColorectalCancerScreeningCQM-files
+/bundles/plandefinition/ColorectalCancerScreeningCDS/ColorectalCancerScreeningCDS-files
+/input-cache
+input/tests/results/
+
+# Node files
+node_modules/
+.idea/
