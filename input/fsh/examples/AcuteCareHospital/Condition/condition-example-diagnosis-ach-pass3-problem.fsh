@@ -1,12 +1,12 @@
 Instance: condition-example-diagnosis-ach-pass3-problem
-InstanceOf: USCoreConditionEncounterDiagnosisProfile
+InstanceOf: USCoreConditionProblemsHealthConcernsProfile
 Usage: #inline
 * verificationStatus.coding.version = "4.0.0"
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"
 * verificationStatus.text = "Confirmed"
 * clinicalStatus = $condition-clinical#resolved "Resolved"
-* category = $condition-category#problem-list-item "Problem List Item"
-* category.text = "Problem List Item"
+* category[us-core] = $condition-category#problem-list-item "Problem List Item"
+* category[us-core].text = "Problem List Item"
 * code.coding[0] = $sct#15805002 "Acute sinusitis (disorder)"
 * code.coding[+] = $icd-10-cm#J01.90 "Acute sinusitis, unspecified"
 * code.text = "Acute sinusitis"

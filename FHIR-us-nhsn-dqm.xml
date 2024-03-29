@@ -5,7 +5,6 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="StructureDefinition/ach-condition" key="StructureDefinition-ach-condition" name="ACH Event Condition"/>
 <artifact id="StructureDefinition/ach-coverage" key="StructureDefinition-ach-coverage" name="ACH Event Coverage"/>
 <artifact id="StructureDefinition/ach-device" key="StructureDefinition-ach-device" name="ACH Event Device"/>
 <artifact id="StructureDefinition/ach-diagnosticreport-lab" key="StructureDefinition-ach-diagnosticreport-lab" name="ACH Event Diagnostic Report (Lab)"/>
@@ -37,7 +36,6 @@
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass1" key="Bundle-bundle-example-ach-subject-ach-pass1" name="Example ACH Submission Subject Bundle 1"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass2" key="Bundle-bundle-example-ach-subject-ach-pass2" name="Example ACH Submission Subject Bundle 2"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass3" key="Bundle-bundle-example-ach-subject-ach-pass3" name="Example ACH Submission Subject Bundle 3"/>
-<artifact id="StructureDefinition/hypoglycemic-reporting-condition" key="StructureDefinition-hypoglycemic-reporting-condition" name="Hypoglycemic Event Condition"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-coverage" key="StructureDefinition-hypoglycemic-reporting-coverage" name="Hypoglycemic Event Coverage"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-encounter" key="StructureDefinition-hypoglycemic-reporting-encounter" name="Hypoglycemic Event Encounter"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-observation-lab" key="StructureDefinition-hypoglycemic-reporting-observation-lab" name="Hypoglycemic Event Lab Result Observation"/>

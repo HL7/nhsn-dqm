@@ -5,8 +5,8 @@ Usage: #inline
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"
 * verificationStatus.text = "Confirmed"
 * clinicalStatus = $condition-clinical#active "Active"
-* category = $condition-category#encounter-diagnosis "Encounter Diagnosis"
-* category.text = "Encounter Diagnosis"
+* category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[us-core].text = "Encounter Diagnosis"
 * code = $sct#1748006 "Thrombophlebitis of deep femoral vein (disorder)"
 * code.text = "Thrombophlebitis"
 * subject = Reference(patient-example-ach-ach-pass2)
