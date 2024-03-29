@@ -1,5 +1,5 @@
 Instance: condition-example-diagnosis-ach-pass3-problem
-InstanceOf: AcuteCareHospitalReportingCondition
+InstanceOf: USCoreConditionEncounterDiagnosisProfile
 Usage: #inline
 * verificationStatus.coding.version = "4.0.0"
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"

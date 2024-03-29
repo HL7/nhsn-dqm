@@ -1,5 +1,5 @@
 Instance: condition-example-diagnosis-sameresultdiffday1
-InstanceOf: AcuteCareHospitalReportingCondition
+InstanceOf: USCoreConditionEncounterDiagnosisProfile
 Usage: #example
 * verificationStatus.coding.version = "4.0.0"
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"

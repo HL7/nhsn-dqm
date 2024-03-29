@@ -311,7 +311,7 @@ Usage: #inline
 * extension[=].extension[+].url = "name"
 * extension[=].extension[=].valueString = "SDE Condition"
 * extension[=].extension[+].url = "statement"
-* extension[=].extension[=].valueString = "//============================================================================\n//Supplemental Data Element\n//When FHIR.canonical value is present, US Core 3.1.1 profiles are used\n//When FHIR.canonical value is not present, FHIR Base profiles are used\n//============================================================================\ndefine \"SDE Condition\":\n  [Condition] Conditions \n  where exists(\"Initial Population\")\n  return SharedResource.ConditionResource(Conditions,\n  {FHIR.canonical{value: 'http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/ach-condition'}})"
+* extension[=].extension[=].valueString = "//============================================================================\n//Supplemental Data Element\n//When FHIR.canonical value is present, US Core 3.1.1 profiles are used\n//When FHIR.canonical value is not present, FHIR Base profiles are used\n//============================================================================\ndefine \"SDE Condition\":\n  [Condition] Conditions \n  where exists(\"Initial Population\")\n  return SharedResource.ConditionResource(Conditions,\n  {FHIR.canonical{value: 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis'}})"
 * extension[=].extension[+].url = "displaySequence"
 * extension[=].extension[=].valueInteger = 15
 * extension[=].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-logicDefinition"
