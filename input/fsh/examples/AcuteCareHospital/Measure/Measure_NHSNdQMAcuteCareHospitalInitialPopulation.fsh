@@ -1,14 +1,6 @@
-Alias: $measure-scoring = http://terminology.hl7.org/CodeSystem/measure-scoring
-Alias: $measure-type = http://terminology.hl7.org/CodeSystem/measure-type
-Alias: $measure-population = http://terminology.hl7.org/CodeSystem/measure-population
-Alias: $measure-data-usage = http://terminology.hl7.org/CodeSystem/measure-data-usage
-Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
-Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
-Alias: $loinc = http://loinc.org
-Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
-Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
-
 Instance: NHSNdQMAcuteCareHospitalInitialPopulationMeasure
+Title: "ACH IP Measure"
+Description: "Measure for Acute Care Hospital (ACH) Initial Population"
 InstanceOf: Measure
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm"

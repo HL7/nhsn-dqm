@@ -86,15 +86,6 @@ pages:
 
 resources:
    
-   Measure/NHSNdQMAcuteCareHospitalInitialPopulationMeasure:
-     name: NHSN dQM Acute Care Hospital Initial Population
-     description: dQM Measure for Inpatients (Acute) Care setting
-     #exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/
-   
-   Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary:
-     name: NHSN dQM Acute Care Hospital Initial Population
-     description: Library of NHSN dQM Acute Care Hospital Initial Population Measure
-     #exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/
    
    
 

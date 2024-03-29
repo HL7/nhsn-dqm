@@ -1,5 +1,7 @@
 Instance: bundle-example-ach-header
 InstanceOf: NHSNSubmissionHeaderBundle
+Title: "ACH Submission Header Bundle"
+Description: "Example of separately submittable Submission Header Bundle for ACH"
 Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e9"
