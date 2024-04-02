@@ -5,7 +5,6 @@ Title: "ACH Event Observation"
 Description: "This profile contains Required and Must Support data elements for reporting observation information to the NHSN Acute Care Hospital (ACH) Digital Quality Measures. This profile is based on the [HL7 FHIR® R4 Observation Resource v4.0.1](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-observation-lab.html)."
 * ^experimental = true
 * ^status = #draft
-* id 1..
 
 * partOf MS
 * category 1.. // TODO, should we require a VS? DD says: CQL constrains to these Categories:  Social-history, vital-signs, imaging, laboratory, procedure, survey

@@ -6,7 +6,6 @@ Title: "Hypoglycemic Event Encounter"
 Description: "This profile contains Required and Must Support data elements for reporting encounter information to the NHSN Glycemic Control, Hypoglycemia Module. This profile is based on the [HL7 US Core Encounter Profile v3.1.1](http://hl7.org/fhir/us/core/STU3.1.1/StructureDefinition-us-core-encounter.html)."
 * ^experimental = true
 * ^status = #draft
-* id 1..
 
 * identifier 1..
   * use MS

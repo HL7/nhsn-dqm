@@ -4,8 +4,6 @@ Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm"
 * extension[0].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
 * extension[=].valueCodeableConcept = $measure-scoring#cohort
-* extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.population.description"
-* extension[=].valueString = "The Hypoglycemia Initial Population includes all inpatient encounters (including ED/Observation visits that end within one hour of the start of the inpatient encounter) during the measurement period for patients of all ages in which at least one diabetic medication was ordered or administered during the encounter."
 * extension[+].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-supplementalData"
 * extension[=].valueReference.extension.url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-criteriaReference"
 * extension[=].valueReference.extension.valueString = "sde-blood-glucose-observation"

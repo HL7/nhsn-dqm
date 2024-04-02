@@ -8,8 +8,6 @@ Usage: #inline
 
 * extension[0].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
 * extension[=].valueCodeableConcept = $measure-scoring#cohort
-* extension[+].url = "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.population.description"
-* extension[=].valueString = "The Acute Care Hospital Initial Population includes all encounters for patients of any age in an ED, observation, or inpatient location or all encounters for patients of any age with an ED, observation, inpatient, or short stay status during the measurement period."
 * extension[+].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-supplementalData"
 * extension[=].valueReference.extension.url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-criteriaReference"
 * extension[=].valueReference.extension.valueString = "sde-condition"

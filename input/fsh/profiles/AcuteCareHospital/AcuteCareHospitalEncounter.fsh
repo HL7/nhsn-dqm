@@ -13,7 +13,6 @@ Description: "This profile contains Required and Must Support data elements for 
 * obeys encounter-ach-initial-population3b
 * obeys encounter-ach-initial-population3c
 */
-* id 1..
 
 * identifier 1..
   * use MS
