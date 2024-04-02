@@ -21,6 +21,8 @@
 <artifact id="StructureDefinition/ach-procedure" key="StructureDefinition-ach-procedure" name="ACH Event Procedure"/>
 <artifact id="StructureDefinition/ach-servicerequest" key="StructureDefinition-ach-servicerequest" name="ACH Event ServiceRequest"/>
 <artifact id="StructureDefinition/ach-specimen" key="StructureDefinition-ach-specimen" name="ACH Event Specimen"/>
+<artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulationMeasure" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulationMeasure" name="ACH IP Measure"/>
+<artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="ACH IP Measure Library"/>
 <artifact id="ValueSet/ach-encounter-class" key="ValueSet-ach-encounter-class" name="Acute Care Hospital Encounter Class ValueSet"/>
 <artifact id="ValueSet/ach-encounter-status" key="ValueSet-ach-encounter-status" name="Acute Care Hospital Encounter Status ValueSet"/>
 <artifact id="Condition/condition-example-diagnosis-hypo1" key="Condition-condition-example-diagnosis-hypo1" name="Condition - Hypo Diagnosis Example Hypo 1"/>
@@ -70,8 +72,6 @@
 <artifact id="StructureDefinition/nhsn-submission-header-bundle" key="StructureDefinition-nhsn-submission-header-bundle" name="NHSN Submission Header Bundle"/>
 <artifact id="StructureDefinition/nhsn-submitting-device" key="StructureDefinition-nhsn-submitting-device" name="NHSN Submitting Device"/>
 <artifact id="StructureDefinition/nhsn-submitting-organization" key="StructureDefinition-nhsn-submitting-organization" name="NHSN Submitting Organization"/>
-<artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="NHSN dQM Acute Care Hospital Initial Population"/>
-<artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulationMeasure" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulationMeasure" name="NHSN dQM Acute Care Hospital Initial Population"/>
 <artifact id="Observation/observation-example-hypo-lab-hypo1" key="Observation-observation-example-hypo-lab-hypo1" name="Observation - Hypo Lab Example Hypo 1"/>
 <artifact id="Observation/observation-example-hypo-lab-hypo2" key="Observation-observation-example-hypo-lab-hypo2" name="Observation - Hypo Lab Example Hypo 2"/>
 <artifact id="Observation/observation-example-hypo-lab-hypo3" key="Observation-observation-example-hypo-lab-hypo3" name="Observation - Hypo Lab Example Hypo 3"/>

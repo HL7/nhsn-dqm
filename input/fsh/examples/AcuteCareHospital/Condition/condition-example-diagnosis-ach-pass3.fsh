@@ -6,7 +6,6 @@ Usage: #inline
 * verificationStatus.text = "Confirmed"
 * category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[us-core].text = "Encounter Diagnosis"
-* category.text = "Encounter Diagnosis"
 * code.coding[+] = $icd-10-cm#A04.7 "Enterocolitis due to Clostridium difficile"
 * code.text = "Enterocolitis due to Clostridium difficile"
 * subject = Reference(patient-example-ach-ach-pass3)
