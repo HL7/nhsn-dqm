@@ -189,29 +189,6 @@ resources:
      description: Coverage - Example Coverage Sameresultdiffday
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-coverage
    
-   
-   Condition/condition-example-diagnosis-sameresultdiffday1:
-     name: Condition - Hypo Diagnosis Example Sameersultdiffday 1
-     description: Condition - Example Hypo Diagnosis Sameresultdiffday 1
-     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
-   
-   Condition/condition-example-diagnosis-sameresultdiffday2:
-     name: Condition - Hypo Diagnosis Example Sameersultdiffday 2
-     description: Condition - Example Hypo Diagnosis Sameresultdiffday 2
-     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
-   
-   
-   Condition/condition-example-diagnosis-hypo1:
-     name: Condition - Hypo Diagnosis Example Hypo 1
-     description: Condition - Example Hypo Diagnosis Hypo 1
-     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
-   
-   Condition/condition-example-diagnosis-hypo2:
-     name: Condition - Hypo Diagnosis Example Hypo 2
-     description: Condition - Example Hypo Diagnosis Hypo 2
-     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
-   
-   
    Observation/observation-example-hypo-lab-sameresultdiffday1:
      name: Observation - Hypo Lab Example Sameresultdiffday 1
      description: Observation - Example Hypo Lab Sameresultdiffday 1

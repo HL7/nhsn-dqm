@@ -25,10 +25,6 @@
 <artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="ACH IP Measure Library"/>
 <artifact id="ValueSet/ach-encounter-class" key="ValueSet-ach-encounter-class" name="Acute Care Hospital Encounter Class ValueSet"/>
 <artifact id="ValueSet/ach-encounter-status" key="ValueSet-ach-encounter-status" name="Acute Care Hospital Encounter Status ValueSet"/>
-<artifact id="Condition/condition-example-diagnosis-hypo1" key="Condition-condition-example-diagnosis-hypo1" name="Condition - Hypo Diagnosis Example Hypo 1"/>
-<artifact id="Condition/condition-example-diagnosis-hypo2" key="Condition-condition-example-diagnosis-hypo2" name="Condition - Hypo Diagnosis Example Hypo 2"/>
-<artifact id="Condition/condition-example-diagnosis-sameresultdiffday1" key="Condition-condition-example-diagnosis-sameresultdiffday1" name="Condition - Hypo Diagnosis Example Sameersultdiffday 1"/>
-<artifact id="Condition/condition-example-diagnosis-sameresultdiffday2" key="Condition-condition-example-diagnosis-sameresultdiffday2" name="Condition - Hypo Diagnosis Example Sameersultdiffday 2"/>
 <artifact id="Coverage/coverage-example-sameresultdiffday" key="Coverage-coverage-example-sameresultdiffday" name="Coverage - Coverage Example Sameresultdiffday"/>
 <artifact id="StructureDefinition/cross-measure-patient" key="StructureDefinition-cross-measure-patient" name="Cross-Measure Patient Profile"/>
 <artifact id="Device/device-example-submitting-device" key="Device-device-example-submitting-device" name="Device - Example Submitting Device 1"/>
@@ -95,6 +91,10 @@
 <artifact id="Specimen/specimen-example-hypo-sameresultdiffday1" key="Specimen-specimen-example-hypo-sameresultdiffday1" name="Specimen - Hypo Specimen Example Sameresultdiffday 1"/>
 <artifact id="StructureDefinition/subjectlist-measurereport" key="StructureDefinition-subjectlist-measurereport" name="Subject-List MeasureReport Profile"/>
 <artifact id="Bundle/submission-full-example1" key="Bundle-submission-full-example1" name="Submission Example 1"/>
+<artifact id="Condition/condition-example-diagnosis-hypo1" key="Condition-condition-example-diagnosis-hypo1" name="condition-example-diagnosis-hypo1"/>
+<artifact id="Condition/condition-example-diagnosis-hypo2" key="Condition-condition-example-diagnosis-hypo2" name="condition-example-diagnosis-hypo2"/>
+<artifact id="Condition/condition-example-diagnosis-sameresultdiffday1" key="Condition-condition-example-diagnosis-sameresultdiffday1" name="condition-example-diagnosis-sameresultdiffday1"/>
+<artifact id="Condition/condition-example-diagnosis-sameresultdiffday2" key="Condition-condition-example-diagnosis-sameresultdiffday2" name="condition-example-diagnosis-sameresultdiffday2"/>
 <artifact id="List/list-example-ach-individual-measurereport-list" key="List-list-example-ach-individual-measurereport-list" name="list-example-ach-individual-measurereport-list"/>
 <artifact id="List/list-example-ach-patients-of-interest" key="List-list-example-ach-patients-of-interest" name="list-example-ach-patients-of-interest"/>
 <artifact id="Location/location-example-hypo-cardiology" key="Location-location-example-hypo-cardiology" name="location-example-hypo-cardiology"/>
