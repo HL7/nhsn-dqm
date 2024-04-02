@@ -3,8 +3,8 @@ InstanceOf: AcuteCareHospitalReportingLabObservation
 Usage: #example
 
 * status = #final
-* category = $observation-category#laboratory "Laboratory"
-* category.text = "Laboratory"
+* category[us-core] = $observation-category#laboratory "Laboratory"
+* category[us-core].text = "Laboratory"
 * code = $loinc#41653-7 "Glucose [Mass/volume] in Capillary blood by Glucometer"
 * code.text = "Glucose, POC"
 * subject = Reference(patient-example-sameresultdiffday)

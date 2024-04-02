@@ -12,7 +12,7 @@ Usage: #example
 * medicationReference.display = "atorvastatin (LIPITOR) tablet"
 * subject = Reference(patient-example-sameresultdiffday)
 * subject.display = "Hypo, Sameresultdiffday"
-* encounter = Reference(encounter-example-hypo-sameresultdiffday")
+* encounter = Reference(encounter-example-hypo-sameresultdiffday)
 * encounter.display = "Hospital Encounter"
 * authoredOn = "2022-08-17T16:15:04Z"
 * requester.type = "Practitioner"

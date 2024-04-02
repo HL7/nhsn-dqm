@@ -3,8 +3,8 @@ InstanceOf: AcuteCareHospitalReportingLabObservation
 Usage: #inline
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass1-blood)
-* category = $observation-category#laboratory "Laboratory"
-* category.text = "Laboratory"
+* category[us-core] = $observation-category#laboratory "Laboratory"
+* category[us-core].text = "Laboratory"
 * code = $loinc#600-7 "Bacteria identified in Blood by Culture"
 * code.text = "Bacteria identified in Blood by Culture"
 * subject = Reference(patient-example-ach-ach-pass1)
