@@ -21,12 +21,21 @@
 <artifact id="StructureDefinition/ach-procedure" key="StructureDefinition-ach-procedure" name="ACH Event Procedure"/>
 <artifact id="StructureDefinition/ach-servicerequest" key="StructureDefinition-ach-servicerequest" name="ACH Event ServiceRequest"/>
 <artifact id="StructureDefinition/ach-specimen" key="StructureDefinition-ach-specimen" name="ACH Event Specimen"/>
-<artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulationMeasure" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulationMeasure" name="ACH IP Measure"/>
-<artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="ACH IP Measure Library"/>
-<artifact id="Bundle/bundle-example-ach-header" key="Bundle-bundle-example-ach-header" name="ACH Submission Header Bundle"/>
 <artifact id="ValueSet/ach-encounter-class" key="ValueSet-ach-encounter-class" name="Acute Care Hospital Encounter Class ValueSet"/>
 <artifact id="ValueSet/ach-encounter-status" key="ValueSet-ach-encounter-status" name="Acute Care Hospital Encounter Status ValueSet"/>
+<artifact id="Condition/condition-example-diagnosis-hypo1" key="Condition-condition-example-diagnosis-hypo1" name="Condition - Hypo Diagnosis Example Hypo 1"/>
+<artifact id="Condition/condition-example-diagnosis-hypo2" key="Condition-condition-example-diagnosis-hypo2" name="Condition - Hypo Diagnosis Example Hypo 2"/>
+<artifact id="Condition/condition-example-diagnosis-sameresultdiffday1" key="Condition-condition-example-diagnosis-sameresultdiffday1" name="Condition - Hypo Diagnosis Example Sameersultdiffday 1"/>
+<artifact id="Condition/condition-example-diagnosis-sameresultdiffday2" key="Condition-condition-example-diagnosis-sameresultdiffday2" name="Condition - Hypo Diagnosis Example Sameersultdiffday 2"/>
+<artifact id="Coverage/coverage-example-sameresultdiffday" key="Coverage-coverage-example-sameresultdiffday" name="Coverage - Coverage Example Sameresultdiffday"/>
 <artifact id="StructureDefinition/cross-measure-patient" key="StructureDefinition-cross-measure-patient" name="Cross-Measure Patient Profile"/>
+<artifact id="Device/device-example-submitting-device" key="Device-device-example-submitting-device" name="Device - Example Submitting Device 1"/>
+<artifact id="Encounter/encounter-example-hypo-hypo" key="Encounter-encounter-example-hypo-hypo" name="Encounter - Hypo Encounter Example Hypo"/>
+<artifact id="Encounter/encounter-example-hypo-sameresultdiffday" key="Encounter-encounter-example-hypo-sameresultdiffday" name="Encounter - Hypo Encounter Example SameResultDiffDay"/>
+<artifact id="Bundle/bundle-example-ach-header" key="Bundle-bundle-example-ach-header" name="Example ACH Submission Header Bundle"/>
+<artifact id="Bundle/bundle-example-ach-subject-ach-pass1" key="Bundle-bundle-example-ach-subject-ach-pass1" name="Example ACH Submission Subject Bundle 1"/>
+<artifact id="Bundle/bundle-example-ach-subject-ach-pass2" key="Bundle-bundle-example-ach-subject-ach-pass2" name="Example ACH Submission Subject Bundle 2"/>
+<artifact id="Bundle/bundle-example-ach-subject-ach-pass3" key="Bundle-bundle-example-ach-subject-ach-pass3" name="Example ACH Submission Subject Bundle 3"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-coverage" key="StructureDefinition-hypoglycemic-reporting-coverage" name="Hypoglycemic Event Coverage"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-encounter" key="StructureDefinition-hypoglycemic-reporting-encounter" name="Hypoglycemic Event Encounter"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-observation-lab" key="StructureDefinition-hypoglycemic-reporting-observation-lab" name="Hypoglycemic Event Lab Result Observation"/>
@@ -37,87 +46,78 @@
 <artifact id="StructureDefinition/hypoglycemic-reporting-servicerequest" key="StructureDefinition-hypoglycemic-reporting-servicerequest" name="Hypoglycemic Event ServiceRequest"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-specimen" key="StructureDefinition-hypoglycemic-reporting-specimen" name="Hypoglycemic Event Specimen"/>
 <artifact id="List/Instance-for-measurereport-example-subjectlist1-1" key="List-Instance-for-measurereport-example-subjectlist1-1" name="Instance-for-measurereport-example-subjectlist1-1"/>
+<artifact id="List/list-example-individual-measurereport-list" key="List-list-example-individual-measurereport-list" name="List - Example Individual Measure Report List 1"/>
+<artifact id="List/list-example-patients-of-interest" key="List-list-example-patients-of-interest" name="List - Example Patients of Interest List 1"/>
+<artifact id="Location/location-example-hypo-encounter-location-sameresultdiffday" key="Location-location-example-hypo-encounter-location-sameresultdiffday" name="Location - Hypo Encounter Location Example Sameersultdiffday"/>
+<artifact id="MeasureReport/measurereport-example-individual-measurereport-sameresultdiffday" key="MeasureReport-measurereport-example-individual-measurereport-sameresultdiffday" name="MeasureReport - Example Individual Measure Report Sameresultdiffday"/>
+<artifact id="MeasureReport/measurereport-example-subjectlist1" key="MeasureReport-measurereport-example-subjectlist1" name="MeasureReport - Example Subject List 1"/>
+<artifact id="Medication/medication-example-hypo-hypo1" key="Medication-medication-example-hypo-hypo1" name="Medication - Hypo Medication Example Hypo 1"/>
+<artifact id="Medication/medication-example-hypo-hypo2" key="Medication-medication-example-hypo-hypo2" name="Medication - Hypo Medication Example Hypo 2"/>
+<artifact id="Medication/medication-example-hypo-hypo3" key="Medication-medication-example-hypo-hypo3" name="Medication - Hypo Medication Example Hypo 3"/>
+<artifact id="Medication/medication-example-hypo-hypo4" key="Medication-medication-example-hypo-hypo4" name="Medication - Hypo Medication Example Hypo 4"/>
+<artifact id="Medication/medication-example-hypo-sameresultdiffday1" key="Medication-medication-example-hypo-sameresultdiffday1" name="Medication - Hypo Medication Example Sameresultdiffday 1"/>
+<artifact id="Medication/medication-example-hypo-sameresultdiffday2" key="Medication-medication-example-hypo-sameresultdiffday2" name="Medication - Hypo Medication Example Sameresultdiffday 2"/>
+<artifact id="MedicationAdministration/medicationadministration-example-hypo-hypo1" key="MedicationAdministration-medicationadministration-example-hypo-hypo1" name="MedicationAdministration - Hypo Medication Administration Example Hypo 1"/>
+<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo1" key="MedicationRequest-medicationrequest-example-hypo-hypo1" name="MedicationRequest - Hypo MedicationRequest Example Hypo 1"/>
+<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo2" key="MedicationRequest-medicationrequest-example-hypo-hypo2" name="MedicationRequest - Hypo MedicationRequest Example Hypo 2"/>
+<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo3" key="MedicationRequest-medicationrequest-example-hypo-hypo3" name="MedicationRequest - Hypo MedicationRequest Example Hypo 3"/>
+<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo4" key="MedicationRequest-medicationrequest-example-hypo-hypo4" name="MedicationRequest - Hypo MedicationRequest Example Hypo 4"/>
+<artifact id="MedicationRequest/medicationrequest-example-hypo-sameresultdiffday1" key="MedicationRequest-medicationrequest-example-hypo-sameresultdiffday1" name="MedicationRequest - Hypo MedicationRequest Example Sameresultdiffday 1"/>
+<artifact id="MedicationRequest/medicationrequest-example-hypo-sameresultdiffday2" key="MedicationRequest-medicationrequest-example-hypo-sameresultdiffday2" name="MedicationRequest - Hypo MedicationRequest Example Sameresultdiffday 2"/>
 <artifact id="StructureDefinition/ip-measurereport-list" key="StructureDefinition-ip-measurereport-list" name="NHSN Individual MeasureReport List"/>
 <artifact id="StructureDefinition/nhsn-measurereport-bundle" key="StructureDefinition-nhsn-measurereport-bundle" name="NHSN MeasureReport Bundle"/>
 <artifact id="StructureDefinition/nhsn-subject-bundle" key="StructureDefinition-nhsn-subject-bundle" name="NHSN Subject Bundle"/>
 <artifact id="StructureDefinition/nhsn-submission-header-bundle" key="StructureDefinition-nhsn-submission-header-bundle" name="NHSN Submission Header Bundle"/>
 <artifact id="StructureDefinition/nhsn-submitting-device" key="StructureDefinition-nhsn-submitting-device" name="NHSN Submitting Device"/>
 <artifact id="StructureDefinition/nhsn-submitting-organization" key="StructureDefinition-nhsn-submitting-organization" name="NHSN Submitting Organization"/>
+<artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="NHSN dQM Acute Care Hospital Initial Population"/>
+<artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulationMeasure" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulationMeasure" name="NHSN dQM Acute Care Hospital Initial Population"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo1" key="Observation-observation-example-hypo-lab-hypo1" name="Observation - Hypo Lab Example Hypo 1"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo2" key="Observation-observation-example-hypo-lab-hypo2" name="Observation - Hypo Lab Example Hypo 2"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo3" key="Observation-observation-example-hypo-lab-hypo3" name="Observation - Hypo Lab Example Hypo 3"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo4" key="Observation-observation-example-hypo-lab-hypo4" name="Observation - Hypo Lab Example Hypo 4"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo5" key="Observation-observation-example-hypo-lab-hypo5" name="Observation - Hypo Lab Example Hypo 5"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo6" key="Observation-observation-example-hypo-lab-hypo6" name="Observation - Hypo Lab Example Hypo 6"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo7" key="Observation-observation-example-hypo-lab-hypo7" name="Observation - Hypo Lab Example Hypo 7"/>
+<artifact id="Observation/observation-example-hypo-lab-hypo8" key="Observation-observation-example-hypo-lab-hypo8" name="Observation - Hypo Lab Example Hypo 8"/>
+<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday1" key="Observation-observation-example-hypo-lab-sameresultdiffday1" name="Observation - Hypo Lab Example Sameresultdiffday 1"/>
+<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday2" key="Observation-observation-example-hypo-lab-sameresultdiffday2" name="Observation - Hypo Lab Example Sameresultdiffday 2"/>
+<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday3" key="Observation-observation-example-hypo-lab-sameresultdiffday3" name="Observation - Hypo Lab Example Sameresultdiffday 3"/>
+<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday4" key="Observation-observation-example-hypo-lab-sameresultdiffday4" name="Observation - Hypo Lab Example Sameresultdiffday 4"/>
+<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday5" key="Observation-observation-example-hypo-lab-sameresultdiffday5" name="Observation - Hypo Lab Example Sameresultdiffday 5"/>
+<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday6" key="Observation-observation-example-hypo-lab-sameresultdiffday6" name="Observation - Hypo Lab Example Sameresultdiffday 6"/>
+<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday7" key="Observation-observation-example-hypo-lab-sameresultdiffday7" name="Observation - Hypo Lab Example Sameresultdiffday 7"/>
+<artifact id="Organization/organization-example-submitting-organization" key="Organization-organization-example-submitting-organization" name="Organization - Example Submitting Organization 1"/>
+<artifact id="Patient/patient-example-hypo" key="Patient-patient-example-hypo" name="Patient - Cross-Measure Patient Example Hypo"/>
+<artifact id="Patient/patient-example-sameresultdiffday" key="Patient-patient-example-sameresultdiffday" name="Patient - Cross-Measure Patient Example SameResultDiffDay"/>
 <artifact id="StructureDefinition/poi-list" key="StructureDefinition-poi-list" name="Patients-Of-Interest List"/>
+<artifact id="ServiceRequest/servicerequest-example-hypo-sameresultdiffday1" key="ServiceRequest-servicerequest-example-hypo-sameresultdiffday1" name="ServiceRequest - Hypo ServiceRequest Example Sameresultdiffday 1"/>
+<artifact id="Specimen/specimen-example-hypo-sameresultdiffday1" key="Specimen-specimen-example-hypo-sameresultdiffday1" name="Specimen - Hypo Specimen Example Sameresultdiffday 1"/>
 <artifact id="StructureDefinition/subjectlist-measurereport" key="StructureDefinition-subjectlist-measurereport" name="Subject-List MeasureReport Profile"/>
-<artifact id="Bundle/bundle-example-ach-subject-ach-pass1" key="Bundle-bundle-example-ach-subject-ach-pass1" name="bundle-example-ach-subject-ach-pass1"/>
-<artifact id="Bundle/bundle-example-ach-subject-ach-pass2" key="Bundle-bundle-example-ach-subject-ach-pass2" name="bundle-example-ach-subject-ach-pass2"/>
-<artifact id="Bundle/bundle-example-ach-subject-ach-pass3" key="Bundle-bundle-example-ach-subject-ach-pass3" name="bundle-example-ach-subject-ach-pass3"/>
-<artifact id="Condition/condition-example-diagnosis-hypo1" key="Condition-condition-example-diagnosis-hypo1" name="condition-example-diagnosis-hypo1"/>
-<artifact id="Condition/condition-example-diagnosis-hypo2" key="Condition-condition-example-diagnosis-hypo2" name="condition-example-diagnosis-hypo2"/>
-<artifact id="Condition/condition-example-diagnosis-sameresultdiffday1" key="Condition-condition-example-diagnosis-sameresultdiffday1" name="condition-example-diagnosis-sameresultdiffday1"/>
-<artifact id="Condition/condition-example-diagnosis-sameresultdiffday2" key="Condition-condition-example-diagnosis-sameresultdiffday2" name="condition-example-diagnosis-sameresultdiffday2"/>
-<artifact id="Coverage/coverage-example-sameresultdiffday" key="Coverage-coverage-example-sameresultdiffday" name="coverage-example-sameresultdiffday"/>
-<artifact id="Device/device-example-submitting-device" key="Device-device-example-submitting-device" name="device-example-submitting-device"/>
-<artifact id="Encounter/encounter-example-hypo-hypo" key="Encounter-encounter-example-hypo-hypo" name="encounter-example-hypo-hypo"/>
-<artifact id="Encounter/encounter-example-hypo-sameresultdiffday" key="Encounter-encounter-example-hypo-sameresultdiffday" name="encounter-example-hypo-sameresultdiffday"/>
+<artifact id="Bundle/submission-full-example1" key="Bundle-submission-full-example1" name="Submission Example 1"/>
 <artifact id="List/list-example-ach-individual-measurereport-list" key="List-list-example-ach-individual-measurereport-list" name="list-example-ach-individual-measurereport-list"/>
 <artifact id="List/list-example-ach-patients-of-interest" key="List-list-example-ach-patients-of-interest" name="list-example-ach-patients-of-interest"/>
-<artifact id="List/list-example-individual-measurereport-list" key="List-list-example-individual-measurereport-list" name="list-example-individual-measurereport-list"/>
-<artifact id="List/list-example-patients-of-interest" key="List-list-example-patients-of-interest" name="list-example-patients-of-interest"/>
 <artifact id="Location/location-example-hypo-cardiology" key="Location-location-example-hypo-cardiology" name="location-example-hypo-cardiology"/>
 <artifact id="Location/location-example-hypo-emergency" key="Location-location-example-hypo-emergency" name="location-example-hypo-emergency"/>
 <artifact id="Location/location-example-hypo-encounter-location-ach-crit" key="Location-location-example-hypo-encounter-location-ach-crit" name="location-example-hypo-encounter-location-ach-crit"/>
 <artifact id="Location/location-example-hypo-encounter-location-ach-emergency" key="Location-location-example-hypo-encounter-location-ach-emergency" name="location-example-hypo-encounter-location-ach-emergency"/>
 <artifact id="Location/location-example-hypo-encounter-location-ach-inpatient" key="Location-location-example-hypo-encounter-location-ach-inpatient" name="location-example-hypo-encounter-location-ach-inpatient"/>
 <artifact id="Location/location-example-hypo-encounter-location-ach-medsurg" key="Location-location-example-hypo-encounter-location-ach-medsurg" name="location-example-hypo-encounter-location-ach-medsurg"/>
-<artifact id="Location/location-example-hypo-encounter-location-sameresultdiffday" key="Location-location-example-hypo-encounter-location-sameresultdiffday" name="location-example-hypo-encounter-location-sameresultdiffday"/>
 <artifact id="Location/location-example-hypo-hospital" key="Location-location-example-hypo-hospital" name="location-example-hypo-hospital"/>
 <artifact id="Location/location-example-hypo-nicu-level-iii" key="Location-location-example-hypo-nicu-level-iii" name="location-example-hypo-nicu-level-iii"/>
 <artifact id="MeasureReport/measurereport-example-ach-subjectlist1" key="MeasureReport-measurereport-example-ach-subjectlist1" name="measurereport-example-ach-subjectlist1"/>
 <artifact id="MeasureReport/measurereport-example-individual-measurereport-hypo" key="MeasureReport-measurereport-example-individual-measurereport-hypo" name="measurereport-example-individual-measurereport-hypo"/>
-<artifact id="MeasureReport/measurereport-example-individual-measurereport-sameresultdiffday" key="MeasureReport-measurereport-example-individual-measurereport-sameresultdiffday" name="measurereport-example-individual-measurereport-sameresultdiffday"/>
-<artifact id="MeasureReport/measurereport-example-subjectlist1" key="MeasureReport-measurereport-example-subjectlist1" name="measurereport-example-subjectlist1"/>
 <artifact id="Medication/medication-example-cipro-500" key="Medication-medication-example-cipro-500" name="medication-example-cipro-500"/>
 <artifact id="Medication/medication-example-dex4-tablet" key="Medication-medication-example-dex4-tablet" name="medication-example-dex4-tablet"/>
 <artifact id="Medication/medication-example-enoxaparin" key="Medication-medication-example-enoxaparin" name="medication-example-enoxaparin"/>
 <artifact id="Medication/medication-example-heparin" key="Medication-medication-example-heparin" name="medication-example-heparin"/>
-<artifact id="Medication/medication-example-hypo-hypo1" key="Medication-medication-example-hypo-hypo1" name="medication-example-hypo-hypo1"/>
-<artifact id="Medication/medication-example-hypo-hypo2" key="Medication-medication-example-hypo-hypo2" name="medication-example-hypo-hypo2"/>
-<artifact id="Medication/medication-example-hypo-hypo3" key="Medication-medication-example-hypo-hypo3" name="medication-example-hypo-hypo3"/>
-<artifact id="Medication/medication-example-hypo-hypo4" key="Medication-medication-example-hypo-hypo4" name="medication-example-hypo-hypo4"/>
-<artifact id="Medication/medication-example-hypo-sameresultdiffday1" key="Medication-medication-example-hypo-sameresultdiffday1" name="medication-example-hypo-sameresultdiffday1"/>
-<artifact id="Medication/medication-example-hypo-sameresultdiffday2" key="Medication-medication-example-hypo-sameresultdiffday2" name="medication-example-hypo-sameresultdiffday2"/>
 <artifact id="Medication/medication-example-insulin-lispro" key="Medication-medication-example-insulin-lispro" name="medication-example-insulin-lispro"/>
 <artifact id="Medication/medication-example-metformin-1000" key="Medication-medication-example-metformin-1000" name="medication-example-metformin-1000"/>
 <artifact id="Medication/medication-example-metronidazole" key="Medication-medication-example-metronidazole" name="medication-example-metronidazole"/>
 <artifact id="Medication/medication-example-vancomycin-15" key="Medication-medication-example-vancomycin-15" name="medication-example-vancomycin-15"/>
-<artifact id="MedicationAdministration/medicationadministration-example-hypo-hypo1" key="MedicationAdministration-medicationadministration-example-hypo-hypo1" name="medicationadministration-example-hypo-hypo1"/>
-<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo1" key="MedicationRequest-medicationrequest-example-hypo-hypo1" name="medicationrequest-example-hypo-hypo1"/>
-<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo2" key="MedicationRequest-medicationrequest-example-hypo-hypo2" name="medicationrequest-example-hypo-hypo2"/>
-<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo3" key="MedicationRequest-medicationrequest-example-hypo-hypo3" name="medicationrequest-example-hypo-hypo3"/>
-<artifact id="MedicationRequest/medicationrequest-example-hypo-hypo4" key="MedicationRequest-medicationrequest-example-hypo-hypo4" name="medicationrequest-example-hypo-hypo4"/>
-<artifact id="MedicationRequest/medicationrequest-example-hypo-sameresultdiffday1" key="MedicationRequest-medicationrequest-example-hypo-sameresultdiffday1" name="medicationrequest-example-hypo-sameresultdiffday1"/>
-<artifact id="MedicationRequest/medicationrequest-example-hypo-sameresultdiffday2" key="MedicationRequest-medicationrequest-example-hypo-sameresultdiffday2" name="medicationrequest-example-hypo-sameresultdiffday2"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo1" key="Observation-observation-example-hypo-lab-hypo1" name="observation-example-hypo-lab-hypo1"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo2" key="Observation-observation-example-hypo-lab-hypo2" name="observation-example-hypo-lab-hypo2"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo3" key="Observation-observation-example-hypo-lab-hypo3" name="observation-example-hypo-lab-hypo3"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo4" key="Observation-observation-example-hypo-lab-hypo4" name="observation-example-hypo-lab-hypo4"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo5" key="Observation-observation-example-hypo-lab-hypo5" name="observation-example-hypo-lab-hypo5"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo6" key="Observation-observation-example-hypo-lab-hypo6" name="observation-example-hypo-lab-hypo6"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo7" key="Observation-observation-example-hypo-lab-hypo7" name="observation-example-hypo-lab-hypo7"/>
-<artifact id="Observation/observation-example-hypo-lab-hypo8" key="Observation-observation-example-hypo-lab-hypo8" name="observation-example-hypo-lab-hypo8"/>
-<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday1" key="Observation-observation-example-hypo-lab-sameresultdiffday1" name="observation-example-hypo-lab-sameresultdiffday1"/>
-<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday2" key="Observation-observation-example-hypo-lab-sameresultdiffday2" name="observation-example-hypo-lab-sameresultdiffday2"/>
-<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday3" key="Observation-observation-example-hypo-lab-sameresultdiffday3" name="observation-example-hypo-lab-sameresultdiffday3"/>
-<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday4" key="Observation-observation-example-hypo-lab-sameresultdiffday4" name="observation-example-hypo-lab-sameresultdiffday4"/>
-<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday5" key="Observation-observation-example-hypo-lab-sameresultdiffday5" name="observation-example-hypo-lab-sameresultdiffday5"/>
-<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday6" key="Observation-observation-example-hypo-lab-sameresultdiffday6" name="observation-example-hypo-lab-sameresultdiffday6"/>
-<artifact id="Observation/observation-example-hypo-lab-sameresultdiffday7" key="Observation-observation-example-hypo-lab-sameresultdiffday7" name="observation-example-hypo-lab-sameresultdiffday7"/>
-<artifact id="Organization/organization-example-submitting-organization" key="Organization-organization-example-submitting-organization" name="organization-example-submitting-organization"/>
 <artifact id="Patient/patient-example-ach-ach-pass1" key="Patient-patient-example-ach-ach-pass1" name="patient-example-ach-ach-pass1"/>
 <artifact id="Patient/patient-example-ach-ach-pass2" key="Patient-patient-example-ach-ach-pass2" name="patient-example-ach-ach-pass2"/>
 <artifact id="Patient/patient-example-ach-ach-pass3" key="Patient-patient-example-ach-ach-pass3" name="patient-example-ach-ach-pass3"/>
-<artifact id="Patient/patient-example-hypo" key="Patient-patient-example-hypo" name="patient-example-hypo"/>
-<artifact id="Patient/patient-example-sameresultdiffday" key="Patient-patient-example-sameresultdiffday" name="patient-example-sameresultdiffday"/>
-<artifact id="ServiceRequest/servicerequest-example-hypo-sameresultdiffday1" key="ServiceRequest-servicerequest-example-hypo-sameresultdiffday1" name="servicerequest-example-hypo-sameresultdiffday1"/>
-<artifact id="Specimen/specimen-example-hypo-sameresultdiffday1" key="Specimen-specimen-example-hypo-sameresultdiffday1" name="specimen-example-hypo-sameresultdiffday1"/>
-<artifact id="Bundle/submission-full-example1" key="Bundle-submission-full-example1" name="submission-full-example1"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
