@@ -49,17 +49,6 @@ parameters:
   #default-jurisdiction: true
   default-copyright: true
 
-  
-  special-url-base: 
-    - http://hl7.org/fhir/5.0
-    - http://hl7.org/fhir/us/davinci-deqm
-
-  special-url:
-    - http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.supplementalDataElement.reference
-    - http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.population.description
-
-
-
 menu:
   IG Home: index.html
   Table of Contents: toc.html
@@ -85,11 +74,17 @@ pages:
     title: IG Change History 
 
 
-
 resources:
    
+   Measure/NHSNdQMAcuteCareHospitalInitialPopulationMeasure:
+     name: NHSN dQM Acute Care Hospital Initial Population
+     description: dQM Measure for Inpatients (Acute) Care setting
+     #exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/
    
-   
+   Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary:
+     name: NHSN dQM Acute Care Hospital Initial Population
+     description: Library of NHSN dQM Acute Care Hospital Initial Population Measure
+     #exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/
 
    Bundle/bundle-example-ach-header:
      name: Example ACH Submission Header Bundle
@@ -131,7 +126,6 @@ resources:
      description: List - Patients of Interest Example 1
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/poi-list
    
-   
    MeasureReport/measurereport-example-subjectlist1:
      name: MeasureReport - Example Subject List 1
      description: Measure Report - Subject List Example 1
@@ -142,19 +136,10 @@ resources:
      description: List - Individual Measure Report List Example 1
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/ip-measurereport-list
    
-   
-   
    MeasureReport/measurereport-example-individual-measurereport-sameresultdiffday:
      name: MeasureReport - Example Individual Measure Report Sameresultdiffday
      description: Measure Report - Individual Measure Report Example Sameresultdiffday
      exampleCanonical: http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm
-   
-#   MeasureReport/measurereport-example-individual-measurereport-hypo:
-#     name: MeasureReport - Example Individual Measure Report Hypo
-#     description: Measure Report - Individual Measure Report Example Hypo
-#     exampleCanonical: http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm
-   
-   
    
    Patient/patient-example-sameresultdiffday:
      name: Patient - Cross-Measure Patient Example SameResultDiffDay
@@ -166,7 +151,6 @@ resources:
      description: Patient - Example Measure Patient Hypo
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/cross-measure-patient
    
-   
    Encounter/encounter-example-hypo-sameresultdiffday:
      name: Encounter - Hypo Encounter Example SameResultDiffDay
      description: Encounter - Example Hypo Encounter SameResultDiffDay
@@ -177,17 +161,35 @@ resources:
      description: Encounter - Example Hypo Encounter Hypo
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-encounter
    
-   
    Location/location-example-hypo-encounter-location-sameresultdiffday:
      name: Location - Hypo Encounter Location Example Sameersultdiffday
      description: Location - Example Hypo Encounter Location Sameresultdiffday
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-location
    
-   
    Coverage/coverage-example-sameresultdiffday:
      name: Coverage - Coverage Example Sameresultdiffday
      description: Coverage - Example Coverage Sameresultdiffday
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-coverage
+   
+   Condition/condition-example-diagnosis-sameresultdiffday1:
+     name: Condition - Hypo Diagnosis Example Sameersultdiffday 1
+     description: Condition - Example Hypo Diagnosis Sameresultdiffday 1
+     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
+   
+   Condition/condition-example-diagnosis-sameresultdiffday2:
+     name: Condition - Hypo Diagnosis Example Sameersultdiffday 2
+     description: Condition - Example Hypo Diagnosis Sameresultdiffday 2
+     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
+   
+   Condition/condition-example-diagnosis-hypo1:
+     name: Condition - Hypo Diagnosis Example Hypo 1
+     description: Condition - Example Hypo Diagnosis Hypo 1
+     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
+   
+   Condition/condition-example-diagnosis-hypo2:
+     name: Condition - Hypo Diagnosis Example Hypo 2
+     description: Condition - Example Hypo Diagnosis Hypo 2
+     exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-condition
    
    Observation/observation-example-hypo-lab-sameresultdiffday1:
      name: Observation - Hypo Lab Example Sameresultdiffday 1
@@ -263,7 +265,6 @@ resources:
      name: Observation - Hypo Lab Example Hypo 8
      description: Observation - Example Hypo Lab Hypo 8
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-observation-lab
-        
    
    MedicationRequest/medicationrequest-example-hypo-sameresultdiffday1:
      name: MedicationRequest - Hypo MedicationRequest Example Sameresultdiffday 1
@@ -295,12 +296,10 @@ resources:
      description: MedicationRequest - Example Hypo MedicationRequest Hypo 4
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-medicationrequest
    
-   
    MedicationAdministration/medicationadministration-example-hypo-hypo1:
      name: MedicationAdministration - Hypo Medication Administration Example Hypo 1
      description: MedicationAdministration - Example Hypo Medication Administration Hypo 1
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-medicationadministration
-   
    
    Medication/medication-example-hypo-sameresultdiffday1:
      name: Medication - Hypo Medication Example Sameresultdiffday 1
@@ -332,12 +331,10 @@ resources:
      description: Medication - Example Hypo Medication Hypo 4
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-medication
    
-   
    ServiceRequest/servicerequest-example-hypo-sameresultdiffday1:
      name: ServiceRequest - Hypo ServiceRequest Example Sameresultdiffday 1
      description: ServiceRequest - Example Hypo ServiceRequest Sameresultdiffday 1
      exampleCanonical: http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/hypoglycemic-reporting-servicerequest
-   
    
    Specimen/specimen-example-hypo-sameresultdiffday1:
      name: Specimen - Hypo Specimen Example Sameresultdiffday 1
