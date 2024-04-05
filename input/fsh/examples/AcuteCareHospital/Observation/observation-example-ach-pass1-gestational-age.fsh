@@ -3,8 +3,9 @@ InstanceOf: AcuteCareHospitalReportingLabObservation
 Usage: #inline
 //https://build.fhir.org/ig/HL7/fhir-qi-core/Observation-example-gestation.json.html
 * status = #final
-* category = $observation-category#exam "exam"
-* category.text = "Exam"
+* category[+] = $observation-category#laboratory "Laboratory"
+* category[+] = $observation-category#exam "exam"
+* category[=].text = "Exam"
 * code = $loinc#76516-4 "Gestational age--at birth"
 * code.text = "Gestational age at birth"
 * subject = Reference(patient-example-ach-ach-pass1)

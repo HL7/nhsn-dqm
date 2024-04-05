@@ -86,15 +86,15 @@ Usage: #example
 * extension[=].valueReference = Reference(Condition/condition-example-diagnosis-hypo2)
 * status = #complete
 * type = #individual
-* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulationMeasure)
+* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulationMeasure|1.0.0-cibuild)
 * subject = Reference(Patient/patient-example-hypo)
 * date = "2022-11-15T21:03:38+00:00"
 * reporter = Reference(organization-example-submitting-organization)
 * period.start = "2022-08-01T00:00:00+00:00"
 * period.end = "2022-08-31T23:59:59+00:00"
 * improvementNotation = $measure-improvement-notation#increase
-* group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
-* group.measureScore.extension.valueCode = #unknown
+//* group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+//* group.measureScore.extension.valueCode = #unknown
 * group.population.code = $measure-population#initial-population "Initial Population"
 * group.population.count = 1
 * evaluatedResource[0] = Reference(Observation/observation-example-hypo-lab-hypo1)

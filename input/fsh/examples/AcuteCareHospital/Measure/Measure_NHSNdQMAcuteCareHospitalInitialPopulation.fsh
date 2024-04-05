@@ -8,15 +8,13 @@ Usage: #example
 * contained = effective-data-requirements
 * extension[0].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis"
 * extension[=].valueCode = #Encounter
-* extension[+].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-softwaresystem"
-* extension[=].valueReference = Reference(Device/cqf-tooling)
 * extension[+].id = "effective-data-requirements"
 * extension[=].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements"
 * extension[=].valueReference = Reference(effective-data-requirements)
 //* url = "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Measure/NHSNdQMAcuteCareHospitalInitialPopulation"
 * identifier.system = "https://nhsnlink.org"
 * identifier.value = "NHSNdQMAcuteCareHospitalInitialPopulation"
-* version = "0.0.014"
+* version = "1.0.0-cibuild"
 * name = "NHSNdQMAcuteCareHospitalInitialPopulation"
 * title = "NHSN dQM Acute Care Hospital Initial Population"
 * status = #draft

@@ -92,15 +92,15 @@ Usage: #inline
 
 * status = #complete
 * type = #individual
-* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulationMeasure)
+* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulationMeasure|1.0.0-cibuild)
 * subject = Reference(patient-example-ach-ach-pass1)
 * date = "2024-02-05T21:04:29.481+00:00"
 * reporter = Reference(organization-example-submitting-organization)
 * period.start = "2024-01-05T00:00:00.000+00:00"
 * period.end = "2024-02-04T00:00:00.000+00:00"
 * improvementNotation = $measure-improvement-notation#increase
-* group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
-* group.measureScore.extension.valueCode = #unknown
+//* group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+//* group.measureScore.extension.valueCode = #unknown
 * group.population.code = $measure-population#initial-population "Initial Population"
 * group.population.count = 1
 * evaluatedResource[0] = Reference(condition-example-diagnosis-ach-pass3-problem)

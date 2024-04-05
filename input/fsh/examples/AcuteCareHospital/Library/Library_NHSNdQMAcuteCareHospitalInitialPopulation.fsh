@@ -3,11 +3,12 @@ InstanceOf: Library
 Title: "ACH IP Measure Library"
 Description: "Measure Library for Acute Care Hospital (ACH) Initial Population"
 Usage: #example
+
 * contained = options
 * extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-cqlOptions"
 * extension.valueReference = Reference(options)
 //* url = "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Library/NHSNdQMAcuteCareHospitalInitialPopulation"
-* version = "0.0.014"
+* version = "1.0.0-cibuild"
 * status = #active 
 * name = "NHSNdQMAcuteCareHospitalInitialPopulation"
 * type = $library-type#logic-library

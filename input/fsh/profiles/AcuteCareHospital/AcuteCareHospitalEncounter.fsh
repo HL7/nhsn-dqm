@@ -6,13 +6,7 @@ Description: "This profile contains Required and Must Support data elements for 
 * ^experimental = true
 * ^status = #draft
 * obeys encounter-ach-initial-population
-/* obeys encounter-ach-initial-population1
-* obeys encounter-ach-initial-population2
-* obeys encounter-ach-initial-population3
-* obeys encounter-ach-initial-population3a
-* obeys encounter-ach-initial-population3b
-* obeys encounter-ach-initial-population3c
-*/
+
 
 * identifier 1..
   * use MS
