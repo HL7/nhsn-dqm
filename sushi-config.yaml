@@ -3,7 +3,7 @@ fhirVersion: 4.0.1
 
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.us.nhsn-dqm
-#packageId: gov.cdc.nhsn.measures
+#packageId: hl7.fhir.us.nhsn-dqm
 title: National Healthcare Safety Network (NHSN) using digital quality measures (dQMs)
 name: NHSNdQM
 status: active
@@ -68,7 +68,7 @@ pages:
     title: Must Support
   downloads.xml:
     title: Useful Downloads
-  ImplementationGuide-gov.cdc.nhsn.measures.md:
+  ImplementationGuide-hl7.fhir.us.nhsn-dqm.md:
     title: NHSN Implementation Guide Resource
   changes.xml:
     title: IG Change History 
