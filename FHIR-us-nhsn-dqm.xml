@@ -36,6 +36,7 @@
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass1" key="Bundle-bundle-example-ach-subject-ach-pass1" name="Example ACH Submission Subject Bundle 1"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass2" key="Bundle-bundle-example-ach-subject-ach-pass2" name="Example ACH Submission Subject Bundle 2"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass3" key="Bundle-bundle-example-ach-subject-ach-pass3" name="Example ACH Submission Subject Bundle 3"/>
+<artifact id="CodeSystem/healthcare-capacity-codes" key="CodeSystem-healthcare-capacity-codes" name="Healthcare Capacity Reporting Code System"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-coverage" key="StructureDefinition-hypoglycemic-reporting-coverage" name="Hypoglycemic Event Coverage"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-encounter" key="StructureDefinition-hypoglycemic-reporting-encounter" name="Hypoglycemic Event Encounter"/>
 <artifact id="StructureDefinition/hypoglycemic-reporting-observation-lab" key="StructureDefinition-hypoglycemic-reporting-observation-lab" name="Hypoglycemic Event Lab Result Observation"/>
