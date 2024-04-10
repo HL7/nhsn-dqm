@@ -4,7 +4,7 @@ Title: "Healthcare Capacity Reporting Code System"
 * ^copyright = "This Valueset is not copyrighted."
 * ^experimental = false
 * ^description = "This CodeSystem defines coded concepts for Healthcare Capacity reporting to NHSN"
-* ^caseSensitive = "false"
+* ^caseSensitive = false
 * #HOSP "Hospital"
 * #IRF "Inpatient Rehabilitation"
 * #IPF "Inpatient Psychiatric"
