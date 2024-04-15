@@ -19,7 +19,7 @@
   <h3>Description</h3>
   <p>
     These specifications are for the content contained within the encounters identified as meeting 
-    the criteria for the dQM Initial Population. The dQM IP defines the cohort population from 
+    the criteria for the dQM Initial Population. The dQM initial population defines the cohort population from 
     which NHSN analysts determine the denominator and calculate events per the metrics defined 
     in each NHSN protocol. The Initial Population can vary between dQMs and may include all 
     inpatient, emergency department, and observation encounters. NHSNLink (or other compiling 
