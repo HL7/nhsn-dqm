@@ -52,6 +52,7 @@ parameters:
 menu:
   IG Home: index.html
   Table of Contents: toc.html
+  Use Cases: use_cases.html
   Artifact Index: artifacts.html
   Support:
     FHIR Spec: http://hl7.org/fhir/R4/index.html
@@ -66,6 +67,8 @@ pages:
     title: NHSN dQMs Home
   must_support.xml:
     title: Must Support
+  use_cases.xml:
+    title: Use Cases
   downloads.xml:
     title: Useful Downloads
   ImplementationGuide-hl7.fhir.us.nhsn-dqm.md:

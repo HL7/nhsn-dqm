@@ -78,5 +78,6 @@
 <page key="ImplementationGuide-hl7.fhir.us.nhsn-dqm" name="NHSN Implementation Guide Resource"/>
 <page key="index" name="NHSN dQMs Home"/>
 <page key="toc" name="Table of Contents"/>
+<page key="use_cases" name="Use Cases"/>
 <page key="downloads" name="Useful Downloads"/>
 </specification>
