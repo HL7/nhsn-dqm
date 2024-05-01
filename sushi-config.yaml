@@ -63,16 +63,16 @@ menu:
 
 
 pages:
-  index.xml:
+  index.md:
     title: NHSN dQMs Home
-  must_support.xml:
+  must_support.md:
     title: Must Support
-  use_cases.xml:
+  use_cases.md:
     title: Use Cases
-  downloads.xml:
+  downloads.md:
     title: Useful Downloads
   ImplementationGuide-hl7.fhir.us.nhsn-dqm.md:
     title: NHSN Implementation Guide Resource
-  changes.xml:
+  changes.md:
     title: IG Change History 
 
