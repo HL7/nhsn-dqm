@@ -42,12 +42,9 @@ Content in this implementation guide was produced and developed by Lantana Consu
 
 Primary Editor | Rick Geimer | Lantana Consulting Group | rick.geimer@lantanagroup.com
 Primary Editor | Corey Spears | Lantana Consulting Group | corey.spears@lantanagroup.com
-Co-Editor | Andrea Benin 
-Chief, Surveillance Branch, DHQP | CDC | aqb4@cdc.gov
-Co-Editor | Kristina Betz 
-NHSN Measure Development and Validation Unit Lead | CDC | rly7@cdc.gov
-Co-Editor | Amrit Kerr 
-Project Manager | Lantana Consulting Group | amrit.kerr@lantanangroup.com
+Co-Editor | Andrea Benin | Chief, Surveillance Branch, DHQP, CDC | aqb4@cdc.gov
+Co-Editor | Kristina Betz | NHSN Measure Development and Validation Unit Lead, CDC | rly7@cdc.gov
+Co-Editor | Amrit Kerr | Project Manager, Lantana Consulting Group | amrit.kerr@lantanangroup.com
 Co-Editor | Sheila Abner | CDC | sha8@cdc.gov
 Co-Editor | Nadine Shehab | Lantana Consulting Group | ftn0@cdc.gov
 Co-Editor | Jennifer Watkins | CACI | nub7@cdc.gov
