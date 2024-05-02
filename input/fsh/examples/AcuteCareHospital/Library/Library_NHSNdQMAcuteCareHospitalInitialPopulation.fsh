@@ -608,7 +608,7 @@ Usage: #example
 
 Instance: options
 InstanceOf: Parameters
-Usage: #inline
+Usage: #example
 * parameter[0].name = "translatorVersion"
 * parameter[=].valueString = "3.5.1"
 * parameter[+].name = "option"

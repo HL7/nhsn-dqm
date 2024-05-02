@@ -130,7 +130,7 @@ Usage: #example
 
 Instance: effective-data-requirements
 InstanceOf: Library
-Usage: #inline
+Usage: #example
 * extension[0].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode"
 * extension[=].valueCoding = $v3-ActCode#EMER "emergency"
 * extension[+].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode"
