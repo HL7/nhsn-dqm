@@ -24,7 +24,7 @@ Usage: #example
 * description = "The Acute Care Hospital Initial Population includes all encounters for patients of any age in an ED, observation, or inpatient location or all encounters for patients of any age with an ED, observation, inpatient, or short stay status during the measurement period."
 * copyright = "Limited proprietary coding is contained in the Measure specifications for user convenience. Users of proprietary code sets should obtain all necessary licenses from the owners of the code sets."
 * relatedArtifact.type = #documentation
-* relatedArtifact.display = "https://www.cdc.gov/nhsn/index.html [placeholder for link to protocol on CDC website] "
+* relatedArtifact.display = "https://www.cdc.gov/nhsn/index.html [placeholder for link to protocol on CDC website]"
 * relatedArtifact.url = "https://www.cdc.gov/nhsn/index.html"
 * relatedArtifact.document.url = "https://www.cdc.gov/nhsn/index.html"
 * library = Canonical(NHSNdQMAcuteCareHospitalInitialPopulationLibrary)
@@ -130,7 +130,7 @@ Usage: #example
 
 Instance: effective-data-requirements
 InstanceOf: Library
-Usage: #inline
+Usage: #example
 * extension[0].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode"
 * extension[=].valueCoding = $v3-ActCode#EMER "emergency"
 * extension[+].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode"
