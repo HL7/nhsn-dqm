@@ -1,5 +1,7 @@
 Instance: list-example-patients-of-interest
 InstanceOf: PatientsOfInterestList
+Title: "List - Example Patients of Interest List 1"
+Description: "List - Patients of Interest Example 1"
 Usage: #example
 * identifier.system = "https://nhsnlink.org"
 * identifier.value = "NHSNdQMAcuteCareHospitalInitialPopulation"

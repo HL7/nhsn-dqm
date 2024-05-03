@@ -1,5 +1,7 @@
 Instance: observation-example-ach-pass3-cdiff
 InstanceOf: AcuteCareHospitalReportingLabObservation
+Title: "Observation - Example ACH Pass3 Cdiff"
+Description: "Observation - Example ACH Pass3 Cdiff"
 Usage: #example
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass3-cdiff)

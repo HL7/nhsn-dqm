@@ -1,6 +1,6 @@
 Instance: NHSNdQMAcuteCareHospitalInitialPopulationMeasure
-Title: "ACH IP Measure"
-Description: "Measure for Acute Care Hospital (ACH) Initial Population"
+Title: "Acute Care Hospital Initial Population Measure"
+Description: "The Acute Care Hospital (ACH) Initial Population includes all encounters for patients of any age in an ED, observation, or inpatient location or all encounters for patients of any age with an ED, observation, inpatient, or short stay status during the measurement period."
 InstanceOf: Measure
 Usage: #example
 * meta.profile[0] = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm"
@@ -130,6 +130,8 @@ Usage: #example
 
 Instance: effective-data-requirements
 InstanceOf: Library
+Title: "Effective - Data Requirements"
+Description: "Effective - Data Requirements"
 Usage: #example
 * extension[0].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-directReferenceCode"
 * extension[=].valueCoding = $v3-ActCode#EMER "emergency"

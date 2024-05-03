@@ -1,5 +1,7 @@
 Instance: location-example-hypo-nicu-level-iii
 InstanceOf: AcuteCareHospitalReportingLocation
+Title: "Location - Example Hypo Nicu Level Iii"
+Description: "Location - Example Hypo Nicu Level Iii"
 Usage: #example
 * identifier.system = "http://www.example.org/location"
 * identifier.value = "2933"

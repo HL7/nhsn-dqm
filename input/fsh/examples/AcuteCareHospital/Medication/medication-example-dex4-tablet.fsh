@@ -1,5 +1,7 @@
 Instance: medication-example-dex4-tablet
 InstanceOf: AcuteCareHospitalReportingMedication
+Title: "Medication - Example Dex4 Tablet"
+Description: "Medication - Example Dex4 Tablet"
 Usage: #example
 
 * code.coding[+] = $rxnorm#860995 "metformin hydrochloride 1000 MG"

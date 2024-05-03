@@ -1,5 +1,7 @@
 Instance: medicationrequest-example-ach-pass2-heparin
 InstanceOf: AcuteCareHospitalReportingMedicationRequest
+Title: "MedicationRequest - Example ACH Pass2 Heparin"
+Description: "MedicationRequest - Example ACH Pass2 Heparin"
 Usage: #example
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"

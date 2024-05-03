@@ -1,5 +1,7 @@
 Instance: measurereport-example-ach-subjectlist1
 InstanceOf: SubjectListMeasureReportProfile
+Title: "MeasureReport - Example ACH Subject List 1"
+Description: "Measure Report - Example ACH Subject List Example 1"
 Usage: #example
 
 * status = #complete
@@ -14,6 +16,8 @@ Usage: #example
 
 Instance: list-example-ach-individual-measurereport-list
 InstanceOf: IndividualMeasureReportList
+Title: "List - Example ACH Individual Measure Report List"
+Description: "List - Example ACH Individual Measure Report List Example"
 Usage: #example
 //* id = "list-example-individual-measurereport-list"
 * status = #current

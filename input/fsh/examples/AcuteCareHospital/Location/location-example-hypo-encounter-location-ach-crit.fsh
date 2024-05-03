@@ -1,5 +1,7 @@
 Instance: location-example-hypo-encounter-location-ach-crit
 InstanceOf: AcuteCareHospitalReportingLocation
+Title: "Location - Example Hypo Encounter Location ACH Crit"
+Description: "Location - Example Hypo Encounter Location ACH Crit"
 Usage: #example
 * identifier.system = "http://www.example.org/location"
 * identifier.value = "2936"

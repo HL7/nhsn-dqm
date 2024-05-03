@@ -1,5 +1,7 @@
 Instance: medication-example-metronidazole
 InstanceOf: AcuteCareHospitalReportingMedication
+Title: "Medication - Example Metronidazole"
+Description: "Medication - Example Metronidazole"
 Usage: #example
 
 * code.coding[+] = $rxnorm#317428 "metroNIDAZOLE 500 MG"

@@ -19,6 +19,8 @@ Usage: #example
 
 Instance: bundle-example-ach-subject-ach-pass1
 InstanceOf: NHSNSubjectBundle
+Title: "Example ACH Submission Subject Bundle 1"
+Description: "Example Separated ACH Submission Subject Bundle 1 for LOS/MEN"
 Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e1"
@@ -65,6 +67,8 @@ Usage: #example
 
 Instance: bundle-example-ach-subject-ach-pass2
 InstanceOf: NHSNSubjectBundle
+Title: "Example ACH Submission Subject Bundle 2"
+Description: "Example Separated ACH Submission Subject Bundle 2 for Hypoglycemia and VTE"
 Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e1"
@@ -142,6 +146,8 @@ Usage: #example
 
 Instance: bundle-example-ach-subject-ach-pass3
 InstanceOf: NHSNSubjectBundle
+Title: "Example ACH Submission Subject Bundle 3"
+Description: "Example Separated ACH Submission Subject Bundle 3 for CDI and VTE"
 Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e2"

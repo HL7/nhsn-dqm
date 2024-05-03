@@ -1,5 +1,7 @@
 Instance: medication-example-metformin-1000
 InstanceOf: AcuteCareHospitalReportingMedication
+Title: "Medication - Example Metformin 1000"
+Description: "Medication - Example Metformin 1000"
 Usage: #example
 
 * code.coding[+] = $rxnorm#860995 "metFORMIN hydrochloride 1000 MG"

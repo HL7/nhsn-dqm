@@ -1,5 +1,7 @@
 Instance: list-example-ach-patients-of-interest
 InstanceOf: PatientsOfInterestList
+Title: "List - Example ACH Patients Of Interest"
+Description: "List - Example ACH Patients Of Interest"
 Usage: #example
 * identifier.system = "https://nhsnlink.org"
 * identifier.value = "NHSNdQMAcuteCareHospitalInitialPopulation"

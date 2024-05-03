@@ -1,5 +1,7 @@
 Instance: measurereport-example-individual-ach-ach-pass3
 InstanceOf: MeasureReport
+Title: "MeasureReport - Example Individual ACH Pass3"
+Description: "MeasureReport - Example Individual ACH Pass3"
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm"
 

@@ -1,5 +1,7 @@
 Instance: organization-example-submitting-organization
 InstanceOf: SubmittingOrganization
+Title: "Organization - Example Submitting Organization"
+Description: "Organization - Submitting Organization Example"
 Usage: #example
 * identifier[nhsn_org_id].system = "https://www.cdc.gov/nhsn/OrgID"
 * identifier[nhsn_org_id].value = "ExampleNHSNSubmitterOrgID"

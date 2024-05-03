@@ -1,5 +1,7 @@
 Instance: encounter-example-ach-ach-pass2-inpatient
 InstanceOf: AcuteCareHospitalReportingEncounter
+Title: "Encounter - Example ACH Pass2 Inpatient"
+Description: "Encounter - Example ACH Pass2 Inpatient"
 Usage: #example
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.698.8"

@@ -1,5 +1,7 @@
 Instance: medication-example-hypo-hypo2
 InstanceOf: AcuteCareHospitalReportingMedication
+Title: "Medication - Example Hypo Hypo2"
+Description: "Medication - Example Hypo Hypo2"
 Usage: #example
 * code.coding[0] = $atc#A10AB04
 * code.coding[+] = $rxnorm#86009

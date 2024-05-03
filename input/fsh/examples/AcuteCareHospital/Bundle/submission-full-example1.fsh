@@ -1,5 +1,7 @@
 Instance: submission-full-example1
 InstanceOf: NHSNMeasureReportBundleProfileCurrent
+Title: "Full Submission Bundle Example 1"
+Description: "Measure Bundle - Full Submission Bundle Example 1"
 Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e9"

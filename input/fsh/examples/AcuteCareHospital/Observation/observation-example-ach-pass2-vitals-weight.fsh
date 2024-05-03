@@ -1,5 +1,7 @@
 Instance: observation-example-ach-pass2-vitals-weight
 InstanceOf: AcuteCareHospitalReportingVitalsObservation
+Title: "Observation - Example ACH Pass2 Vitals Weight"
+Description: "Observation - Example ACH Pass2 Vitals Weight"
 Usage: #example
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"

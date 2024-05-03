@@ -1,5 +1,7 @@
 Instance: observation-example-ach-pass1-blood
 InstanceOf: AcuteCareHospitalReportingLabObservation
+Title: "Observation - Example ACH Pass1 Blood"
+Description: "Observation - Example ACH Pass1 Blood"
 Usage: #example
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass1-blood)

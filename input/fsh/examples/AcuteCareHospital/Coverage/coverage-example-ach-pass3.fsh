@@ -1,5 +1,7 @@
 Instance: coverage-example-ach-pass3
 InstanceOf: AcuteCareHospitalReportingCoverage
+Title: "Coverage - Example ACH Pass3"
+Description: "Coverage - Example ACH Pass3"
 Usage: #example
 * identifier.type = $v2-0203#MB "Member Number"
 * identifier.system = "http://example.org/fhir/memberidentifier"

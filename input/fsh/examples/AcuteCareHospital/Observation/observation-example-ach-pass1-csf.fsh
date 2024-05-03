@@ -1,5 +1,7 @@
 Instance: observation-example-ach-pass1-csf
 InstanceOf: AcuteCareHospitalReportingLabObservation
+Title: "Observation - Example ACH Pass1 Csf"
+Description: "Observation - Example ACH Pass1 Csf"
 Usage: #example
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass1-csf)
