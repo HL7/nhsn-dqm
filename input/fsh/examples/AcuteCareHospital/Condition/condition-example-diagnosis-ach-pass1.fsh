@@ -1,7 +1,7 @@
 Instance: condition-example-diagnosis-ach-pass1
 InstanceOf: USCoreConditionEncounterDiagnosisProfile
 Title: "Condition - Example Diagnosis ACH Pass1"
-Description: "Condition - Example Diagnosis ACH Pass1 - Bacteremia Encounter Diagnosis"
+Description: "Condition - Example Diagnosis ACH Pass1 - Encounter Diagnosis: Bacteremia"
 Usage: #example
 * verificationStatus.coding.version = "4.0.0"
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"
