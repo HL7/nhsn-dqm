@@ -9,7 +9,7 @@ name: NHSNdQM
 status: active
 date: 2024-03-28
 copyrightYear: 2024+
-version: 1.0.0-cibuild  
+version: 0.1.0-cibuild  
 releaseLabel: Continuous Integration
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 extension:
