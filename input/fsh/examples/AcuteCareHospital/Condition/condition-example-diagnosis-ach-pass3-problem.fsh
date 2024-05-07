@@ -1,7 +1,7 @@
 Instance: condition-example-diagnosis-ach-pass3-problem
 InstanceOf: USCoreConditionProblemsHealthConcernsProfile
 Title: "Condition - Example Diagnosis ACH Pass3 Problem"
-Description: "Condition - Example Diagnosis ACH Pass3 - Problem List: Sinusitis"
+Description: "Condition - Example Diagnosis ACH Pass3 - Problem List: Acute sinusitis"
 Usage: #example
 * verificationStatus.coding.version = "4.0.0"
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"

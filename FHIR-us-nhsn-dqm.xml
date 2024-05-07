@@ -43,11 +43,11 @@
 <artifact id="DiagnosticReport/diagnosticreport-example-ach-ach-pass2-lab-cbc" key="DiagnosticReport-diagnosticreport-example-ach-ach-pass2-lab-cbc" name="DiagnosticReport - Example ACH Pass2 Lab CBC"/>
 <artifact id="DiagnosticReport/diagnosticreport-example-ach-ach-pass2-radiology" key="DiagnosticReport-diagnosticreport-example-ach-ach-pass2-radiology" name="DiagnosticReport - Example ACH Pass2 Radiology"/>
 <artifact id="Library/effective-data-requirements" key="Library-effective-data-requirements" name="Effective - Data Requirements"/>
-<artifact id="Encounter/encounter-example-ach-ach-pass1" key="Encounter-encounter-example-ach-ach-pass1" name="Encounter - Example ACH Pass1"/>
-<artifact id="Encounter/encounter-example-ach-ach-pass2-emergency" key="Encounter-encounter-example-ach-ach-pass2-emergency" name="Encounter - Example ACH Pass2 Emergency"/>
-<artifact id="Encounter/encounter-example-ach-ach-pass2-inpatient" key="Encounter-encounter-example-ach-ach-pass2-inpatient" name="Encounter - Example ACH Pass2 Inpatient"/>
-<artifact id="Encounter/encounter-example-ach-ach-pass3-acute" key="Encounter-encounter-example-ach-ach-pass3-acute" name="Encounter - Example ACH Pass3 Acute"/>
-<artifact id="Encounter/encounter-example-ach-ach-pass3-short-stay" key="Encounter-encounter-example-ach-ach-pass3-short-stay" name="Encounter - Example ACH Pass3 Short Stay"/>
+<artifact id="Encounter/encounter-example-ach-ach-pass1" key="Encounter-encounter-example-ach-ach-pass1" name="Encounter - Example ACH Pass1 - Inpatient"/>
+<artifact id="Encounter/encounter-example-ach-ach-pass2-emergency" key="Encounter-encounter-example-ach-ach-pass2-emergency" name="Encounter - Example ACH Pass2 - Emergency"/>
+<artifact id="Encounter/encounter-example-ach-ach-pass2-inpatient" key="Encounter-encounter-example-ach-ach-pass2-inpatient" name="Encounter - Example ACH Pass2 - Inpatient"/>
+<artifact id="Encounter/encounter-example-ach-ach-pass3-acute" key="Encounter-encounter-example-ach-ach-pass3-acute" name="Encounter - Example ACH Pass3 - Acute"/>
+<artifact id="Encounter/encounter-example-ach-ach-pass3-short-stay" key="Encounter-encounter-example-ach-ach-pass3-short-stay" name="Encounter - Example ACH Pass3 - Short Stay"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass1" key="Bundle-bundle-example-ach-subject-ach-pass1" name="Example ACH Submission Subject Bundle 1"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass2" key="Bundle-bundle-example-ach-subject-ach-pass2" name="Example ACH Submission Subject Bundle 2"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass3" key="Bundle-bundle-example-ach-subject-ach-pass3" name="Example ACH Submission Subject Bundle 3"/>
@@ -56,26 +56,19 @@
 <artifact id="List/list-example-ach-individual-measurereport-list" key="List-list-example-ach-individual-measurereport-list" name="List - Example ACH Individual Measure Report List"/>
 <artifact id="List/list-example-ach-patients-of-interest" key="List-list-example-ach-patients-of-interest" name="List - Example ACH Patients Of Interest"/>
 <artifact id="List/list-example-patients-of-interest" key="List-list-example-patients-of-interest" name="List - Example Patients of Interest List 1"/>
-<artifact id="Location/location-example-hypo-cardiology" key="Location-location-example-hypo-cardiology" name="Location - Example Hypo Cardiology"/>
-<artifact id="Location/location-example-hypo-emergency" key="Location-location-example-hypo-emergency" name="Location - Example Hypo Emergency"/>
-<artifact id="Location/location-example-hypo-encounter-location-ach-crit" key="Location-location-example-hypo-encounter-location-ach-crit" name="Location - Example Hypo Encounter Location ACH Crit"/>
-<artifact id="Location/location-example-hypo-encounter-location-ach-emergency" key="Location-location-example-hypo-encounter-location-ach-emergency" name="Location - Example Hypo Encounter Location ACH Emergency"/>
-<artifact id="Location/location-example-hypo-encounter-location-ach-inpatient" key="Location-location-example-hypo-encounter-location-ach-inpatient" name="Location - Example Hypo Encounter Location ACH Inpatient"/>
-<artifact id="Location/location-example-hypo-encounter-location-ach-medsurg" key="Location-location-example-hypo-encounter-location-ach-medsurg" name="Location - Example Hypo Encounter Location ACH Medsurg"/>
-<artifact id="Location/location-example-hypo-hospital" key="Location-location-example-hypo-hospital" name="Location - Example Hypo Hospital"/>
-<artifact id="Location/location-example-hypo-nicu-level-iii" key="Location-location-example-hypo-nicu-level-iii" name="Location - Example Hypo Nicu Level Iii"/>
+<artifact id="Location/location-example-ach-crit" key="Location-location-example-ach-crit" name="Location - Example ACH - Crit"/>
+<artifact id="Location/location-example-ach-emergency" key="Location-location-example-ach-emergency" name="Location - Example ACH - Emergency"/>
+<artifact id="Location/location-example-ach-inpatient" key="Location-location-example-ach-inpatient" name="Location - Example ACH - Inpatient"/>
+<artifact id="Location/location-example-ach-medsurg" key="Location-location-example-ach-medsurg" name="Location - Example ACH - Medsurg"/>
+<artifact id="Location/location-example-ach-nicu-level-iii" key="Location-location-example-ach-nicu-level-iii" name="Location - Example ACH - Nicu"/>
 <artifact id="MeasureReport/measurereport-example-ach-subjectlist1" key="MeasureReport-measurereport-example-ach-subjectlist1" name="MeasureReport - Example ACH Subject List 1"/>
-<artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass1" key="MeasureReport-measurereport-example-individual-ach-ach-pass1" name="MeasureReport - Example Individual ACH Pass1"/>
-<artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass2" key="MeasureReport-measurereport-example-individual-ach-ach-pass2" name="MeasureReport - Example Individual ACH Pass2"/>
-<artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass3" key="MeasureReport-measurereport-example-individual-ach-ach-pass3" name="MeasureReport - Example Individual ACH Pass3"/>
+<artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass1" key="MeasureReport-measurereport-example-individual-ach-ach-pass1" name="MeasureReport - Example Individual ACH Pass1 - LOS/MEN"/>
+<artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass2" key="MeasureReport-measurereport-example-individual-ach-ach-pass2" name="MeasureReport - Example Individual ACH Pass2 - Hypo"/>
+<artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass3" key="MeasureReport-measurereport-example-individual-ach-ach-pass3" name="MeasureReport - Example Individual ACH Pass3 - C. diff"/>
 <artifact id="Medication/medication-example-cipro-500" key="Medication-medication-example-cipro-500" name="Medication - Example Cipro 500"/>
 <artifact id="Medication/medication-example-dex4-tablet" key="Medication-medication-example-dex4-tablet" name="Medication - Example Dex4 Tablet"/>
 <artifact id="Medication/medication-example-enoxaparin" key="Medication-medication-example-enoxaparin" name="Medication - Example Enoxaparin"/>
 <artifact id="Medication/medication-example-heparin" key="Medication-medication-example-heparin" name="Medication - Example Heparin"/>
-<artifact id="Medication/medication-example-hypo-hypo1" key="Medication-medication-example-hypo-hypo1" name="Medication - Example Hypo Hypo1"/>
-<artifact id="Medication/medication-example-hypo-hypo2" key="Medication-medication-example-hypo-hypo2" name="Medication - Example Hypo Hypo2"/>
-<artifact id="Medication/medication-example-hypo-hypo3" key="Medication-medication-example-hypo-hypo3" name="Medication - Example Hypo Hypo3"/>
-<artifact id="Medication/medication-example-hypo-hypo4" key="Medication-medication-example-hypo-hypo4" name="Medication - Example Hypo Hypo4"/>
 <artifact id="Medication/medication-example-insulin-lispro" key="Medication-medication-example-insulin-lispro" name="Medication - Example Insulin Lispro"/>
 <artifact id="Medication/medication-example-metformin-1000" key="Medication-medication-example-metformin-1000" name="Medication - Example Metformin 1000"/>
 <artifact id="Medication/medication-example-metronidazole" key="Medication-medication-example-metronidazole" name="Medication - Example Metronidazole"/>
@@ -116,13 +109,13 @@
 <artifact id="Observation/observation-example-ach-pass2-poc-2" key="Observation-observation-example-ach-pass2-poc-2" name="Observation - Example ACH Pass2 Poc 2"/>
 <artifact id="Observation/observation-example-ach-pass2-vitals-weight" key="Observation-observation-example-ach-pass2-vitals-weight" name="Observation - Example ACH Pass2 Vitals Weight"/>
 <artifact id="Observation/observation-example-ach-pass2-aptt" key="Observation-observation-example-ach-pass2-aptt" name="Observation - Example ACH Pass2 aPTT"/>
-<artifact id="Observation/observation-example-ach-pass3-cdiff" key="Observation-observation-example-ach-pass3-cdiff" name="Observation - Example ACH Pass3 Cdiff"/>
+<artifact id="Observation/observation-example-ach-pass3-cdiff" key="Observation-observation-example-ach-pass3-cdiff" name="Observation - Example ACH Pass3 C. diff"/>
 <artifact id="Observation/observation-example-ach-pass3-vitals-height" key="Observation-observation-example-ach-pass3-vitals-height" name="Observation - Example ACH Pass3 Vitals Height"/>
 <artifact id="Observation/observation-example-ach-pass3-vitals-weight" key="Observation-observation-example-ach-pass3-vitals-weight" name="Observation - Example ACH Pass3 Vitals Weight"/>
 <artifact id="Organization/organization-example-submitting-organization" key="Organization-organization-example-submitting-organization" name="Organization - Example Submitting Organization"/>
-<artifact id="Patient/patient-example-ach-ach-pass1" key="Patient-patient-example-ach-ach-pass1" name="Patient - Example ACH Pass1"/>
-<artifact id="Patient/patient-example-ach-ach-pass2" key="Patient-patient-example-ach-ach-pass2" name="Patient - Example ACH Pass2"/>
-<artifact id="Patient/patient-example-ach-ach-pass3" key="Patient-patient-example-ach-ach-pass3" name="Patient - Example ACH Pass3"/>
+<artifact id="Patient/patient-example-ach-ach-pass1" key="Patient-patient-example-ach-ach-pass1" name="Patient - Example ACH Pass1 - LOS/MEN"/>
+<artifact id="Patient/patient-example-ach-ach-pass2" key="Patient-patient-example-ach-ach-pass2" name="Patient - Example ACH Pass2 - Hypo"/>
+<artifact id="Patient/patient-example-ach-ach-pass3" key="Patient-patient-example-ach-ach-pass3" name="Patient - Example ACH Pass3 - CDI/HOB"/>
 <artifact id="Patient/patient-example-sameresultdiffday" key="Patient-patient-example-sameresultdiffday" name="Patient - Example Sameresultdiffday"/>
 <artifact id="StructureDefinition/poi-list" key="StructureDefinition-poi-list" name="Patients-Of-Interest List"/>
 <artifact id="Procedure/procedure-example-ach-ach-pass1-central-line" key="Procedure-procedure-example-ach-ach-pass1-central-line" name="Procedure - Example ACH Pass1 Central Line"/>

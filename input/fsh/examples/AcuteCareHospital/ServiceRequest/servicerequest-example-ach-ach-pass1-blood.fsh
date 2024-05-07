@@ -12,6 +12,7 @@ Usage: #example
 * intent = #original-order
 * category = $sct#108252007 "Laboratory procedure"
 * category.text = "Laboratory procedure"
+// TODO, is this really a procedure code or an observation code. Orders should be for procedures. Need to verify and update appropriately.
 * code = $loinc#600-7 "Bacteria identified in Blood by Culture"
 * code.text = "Bacteria identified in Blood by Culture"
 * quantityQuantity.value = 1

@@ -1,7 +1,7 @@
 Instance: observation-example-ach-pass1-gestational-age
 InstanceOf: AcuteCareHospitalReportingLabObservation
 Title: "Observation - Example ACH Pass1 Gestational Age"
-Description: "Observation - Example ACH Pass1 Gestational Age"
+Description: "Observation - Example ACH Pass1 - Lab: Gestational age at birth"
 Usage: #example
 //https://build.fhir.org/ig/HL7/fhir-qi-core/Observation-example-gestation.json.html
 * status = #final

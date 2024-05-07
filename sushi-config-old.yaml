@@ -195,11 +195,11 @@ groups:
       - Location/location-example-hypo-hospital
       - Location/location-example-hypo-cardiology
       - Location/location-example-hypo-emergency
-      - Location/location-example-hypo-encounter-location-ach-crit
-      - Location/location-example-hypo-encounter-location-ach-emergency
-      - Location/location-example-hypo-encounter-location-ach-inpatient
-      - Location/location-example-hypo-encounter-location-ach-medsurg
-      - Location/location-example-hypo-nicu-level-iii
+      - Location/location-example-ach-crit
+      - Location/location-example-ach-emergency
+      - Location/location-example-ach-inpatient
+      - Location/location-example-ach-medsurg
+      - Location/location-example-ach-nicu-level-iii
       
 
       - Coverage/coverage-example-sameresultdiffday
