@@ -53,7 +53,4 @@ Alias: $vital-sign-profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
 
 Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
 
-Alias: $capacity = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes
-
-Alias: $fhir-bed-capabity-context-codes = http://example.com/fhir-bed-capabity-context-codes
-Alias: $bed-capacity-code-system = http://example.com/fhir/bed-capacity-code-system
+Alias: $healthcare-capacity-codes = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes

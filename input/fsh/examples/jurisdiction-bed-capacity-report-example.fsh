@@ -1,3 +1,5 @@
+Alias: $bed-capacity-code-system = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes
+
 Instance: jurisdiction-bed-capacity-report-example
 InstanceOf: Bundle
 Title: "Jurisdiction Capacity Full Report Bundle Example"
@@ -7,10 +9,12 @@ Usage: #example
 * identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e1"
 * type = #collection
 * timestamp = "2023-08-28T07:01:07.563Z"
-* entry[0].fullUrl = "http://example.org/fhir/MeasureReport/bed-capacity-measurereport-example-hosp"
+* entry[0].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-hosp"
 * entry[=].resource = bed-capacity-measurereport-example-hosp
-* entry[+].resource = bed-capacity-measurereport-example-ipf
-* entry[+].resource = bed-capacity-measurereport-example-chld
+* entry[+].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-ipf"
+* entry[=].resource = bed-capacity-measurereport-example-ipf
+* entry[+].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-chld"
+* entry[=].resource = bed-capacity-measurereport-example-chld
 
 Instance: bed-capacity-measurereport-example-hosp
 InstanceOf: MeasureReport
@@ -19,7 +23,7 @@ Usage: #inline
 * contained.resourceType = "Location"
 * contained.id = "hosp-location-example-bed-capacity"
 * contained.name = "XYZ Hospital"
-* contained.type = $fhir-bed-capabity-context-codes#HOSP "Hospital"
+* contained.type = $bed-capacity-code-system#HOSP "Hospital"
 * status = #complete
 * type = #individual
 * measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure-example"
@@ -196,7 +200,7 @@ Usage: #inline
 * contained.resourceType = "Location"
 * contained.id = "ipf-location-example-bed-capacity"
 * contained.name = "XYZ Hospital - Inpatient Psychiatric"
-* contained.type = $fhir-bed-capabity-context-codes#IPF "Inpatient Psychiatric"
+* contained.type = $bed-capacity-code-system#IPF "Inpatient Psychiatric"
 * status = #complete
 * type = #individual
 * measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure-example"
@@ -377,7 +381,7 @@ Usage: #inline
 * contained.resourceType = "Location"
 * contained.id = "chld-location-example-bed-capacity"
 * contained.name = "XYZ Hospital - Childrens"
-* contained.type = $fhir-bed-capabity-context-codes#CHLD "Children's or Pediatrics"
+* contained.type = $bed-capacity-code-system#CHLD "Children's or Pediatrics"
 * status = #complete
 * type = #individual
 * measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure-example"
