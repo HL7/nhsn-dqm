@@ -1,7 +1,7 @@
 Instance: patient-example-sameresultdiffday
 InstanceOf: CrossMeasurePatient
 Title: "Patient - Example Sameresultdiffday"
-Description: "Patient - Example Sameresultdiffday"
+Description: "Patient - Example Sameresultdiffday - Hypoglycemia"
 Usage: #example
 * extension[0].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
 * extension[=].extension[0].url = "ombCategory"

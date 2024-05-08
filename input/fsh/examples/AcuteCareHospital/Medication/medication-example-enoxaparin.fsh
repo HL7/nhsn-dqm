@@ -1,11 +1,9 @@
 Instance: medication-example-enoxaparin
 InstanceOf: AcuteCareHospitalReportingMedication
 Title: "Medication - Example Enoxaparin"
-Description: "Medication - Example Enoxaparin"
+Description: "Medication - Example - Enoxaparin sodium, 0.4 ML,  100 MG/ML Prefilled Syringe"
 Usage: #example
 
-* code.coding[+] = $rxnorm#317428 "metronidazole 500 MG"
-* code.text = "metronidazole 500 MG"
+* code.coding[+] = $rxnorm#854235 "0.4 ML enoxaparin sodium 100 MG/ML Prefilled Syringe"
+* code.text = "Enoxaparin sodium, 0.4 ML,  100 MG/ML Prefilled Syringe"
 * status = #active
-// * form = $sct#385219001 "Solution for injection"
-// * form.text = "Injection solution"

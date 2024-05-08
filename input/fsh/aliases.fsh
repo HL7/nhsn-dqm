@@ -52,3 +52,5 @@ Alias: $procedure-code = http://hl7.org/fhir/ValueSet/procedure-code
 Alias: $vital-sign-profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
 
 Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
+
+Alias: $healthcare-capacity-codes = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes
