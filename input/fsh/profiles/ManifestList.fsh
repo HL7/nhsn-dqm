@@ -8,22 +8,32 @@ Description: "A List containing references to the set of resources that form a c
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "item"
 * entry ^slicing.rules = #open
-* entry ^slicing.description = "Slice different resources included in the bundle"
 * entry contains
 	sending-device 1..1 MS and
     sending-org 1..1 MS and
     census 1..1 MS and
     patient-data 0..* MS
 * entry[sending-device].item only Reference(NHSNSubmittingDevice)
+* entry[sending-device].extension contains SuppliedFileName named suppliedFileName 0..1 MS
 * entry[sending-device] ^short = "Sending device"
 * entry[sending-org].item only Reference(SubmittingOrganization)
+* entry[sending-org].extension contains SuppliedFileName named suppliedFileName 0..1 MS
 * entry[sending-org] ^short = "Sending organization"
 * entry[census].item only Reference(PatientsOfInterestList)
+* entry[census].extension contains SuppliedFileName named suppliedFileName 0..1 MS
 * entry[census] ^short = "Patient Census"
 * entry[patient-data].item only Reference(Bundle or BulkPatientData)
 * entry[patient-data] ^short = "Patient data as a Bundle or ND-JSON file"
+* entry[patient-data].extension contains SuppliedFileName named suppliedFileName 0..1 MS
 * entry[patient-data].extension contains PatientDataEntry named patientDataEntry 0..* MS
   
+  
+Extension: SuppliedFileName
+Id: supplied-file-name
+Description: "A resource present in the patient data"
+* ^context[+].type = #element
+* ^context[=].expression = "List.entry"
+* value[x] only string
   
 Extension: PatientDataEntry
 Id: patient-data-entry
