@@ -1,5 +1,5 @@
 Instance: organization-example-submitting-organization
-InstanceOf: SubmittingOrganization
+InstanceOf: NHSNSubmittingOrganization
 Title: "Organization - Example Submitting Organization"
 Description: "Organization - Submitting Organization Example"
 Usage: #example

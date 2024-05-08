@@ -1,4 +1,4 @@
-Profile: SubmittingOrganization
+Profile: NHSNSubmittingOrganization
 Parent: USCoreOrganizationProfile
 Id: nhsn-submitting-organization
 Title: "NHSN Submitting Organization"

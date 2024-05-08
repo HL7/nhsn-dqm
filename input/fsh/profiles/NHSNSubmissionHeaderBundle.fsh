@@ -25,7 +25,7 @@ Description: "This profile defines a valid Submission Header Bundle. The Bundle 
 */
 * entry[submitting-organization] ^short = "The Submitting Organization: the organization that is the source of the data"
   * resource 1..
-  * resource only SubmittingOrganization
+  * resource only NHSNSubmittingOrganization
     * ^short = "Bundle entry for submitting organization"
 * entry[submitting-device] ^short = "The Submitting Device: the device or software that is submitting the data"
   * resource 1..
