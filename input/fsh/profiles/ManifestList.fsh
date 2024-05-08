@@ -29,7 +29,7 @@ Description: "A List containing references to the set of resources that form a c
   
 Extension: SuppliedFileName
 Id: supplied-file-name
-Description: "A resource present in the patient data"
+Description: "The supplied file name of the resource reference, if not using a RESTful paradigm."
 * ^context[+].type = #element
 * ^context[=].expression = "List.entry"
 * value[x] only string
