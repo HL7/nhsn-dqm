@@ -65,7 +65,17 @@ Usage: #example
 * entry[census].extension[suppliedFileName].valueString = "List-list-example-patients-of-interest.json"
 * entry[patient-data].item = Reference(bundle-example-ach-subject-ach-pass1)
 * entry[patient-data].extension[suppliedFileName].valueString = "Bundle-bundle-example-ach-subject-ach-pass1.json"
-* entry[patient-data].extension[patientDataEntry].extension[reference].url = "reference"
-* entry[patient-data].extension[patientDataEntry].extension[reference].valueReference = Reference(MeasureReport/measurereport-example-individual-ach-ach-pass1)
+
+* entry[patient-data].extension[patientDataEntry][+].extension[reference].url = "reference"
+* entry[patient-data].extension[patientDataEntry][=].extension[reference].valueReference = Reference(MeasureReport/measurereport-example-individual-ach-ach-pass1)
+* entry[patient-data].extension[patientDataEntry][=].extension[index].url = "index"
+* entry[patient-data].extension[patientDataEntry][=].extension[index].valueInteger = 0
+
+* entry[patient-data].extension[patientDataEntry][+].extension[reference].url = "reference"
+* entry[patient-data].extension[patientDataEntry][=].extension[reference].valueReference = Reference(Patient/patient-example-ach-ach-pass1)
+* entry[patient-data].extension[patientDataEntry][=].extension[index].url = "index"
+* entry[patient-data].extension[patientDataEntry][=].extension[index].valueInteger = 1
+
+
 
 
