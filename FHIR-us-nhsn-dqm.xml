@@ -44,6 +44,7 @@
 <artifact id="DiagnosticReport/diagnosticreport-example-ach-ach-pass2-lab-cbc" key="DiagnosticReport-diagnosticreport-example-ach-ach-pass2-lab-cbc" name="DiagnosticReport - Example ACH Pass2 Lab CBC"/>
 <artifact id="DiagnosticReport/diagnosticreport-example-ach-ach-pass2-radiology" key="DiagnosticReport-diagnosticreport-example-ach-ach-pass2-radiology" name="DiagnosticReport - Example ACH Pass2 Radiology"/>
 <artifact id="Library/effective-data-requirements" key="Library-effective-data-requirements" name="Effective - Data Requirements"/>
+<artifact id="ValueSet/2.16.840.1.113883.3.117.1.7.1.292" key="ValueSet-2.16.840.1.113883.3.117.1.7.1.292" name="Emergency Department Visit"/>
 <artifact id="Encounter/encounter-example-ach-ach-pass1" key="Encounter-encounter-example-ach-ach-pass1" name="Encounter - Example ACH Pass1 - Inpatient"/>
 <artifact id="Encounter/encounter-example-ach-ach-pass2-emergency" key="Encounter-encounter-example-ach-ach-pass2-emergency" name="Encounter - Example ACH Pass2 - Emergency"/>
 <artifact id="Encounter/encounter-example-ach-ach-pass2-inpatient" key="Encounter-encounter-example-ach-ach-pass2-inpatient" name="Encounter - Example ACH Pass2 - Inpatient"/>

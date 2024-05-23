@@ -11,7 +11,7 @@ Usage: #example
 * extension[+].id = "effective-data-requirements"
 * extension[=].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements"
 * extension[=].valueReference = Reference(effective-data-requirements)
-//* url = "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Measure/NHSNdQMAcuteCareHospitalInitialPopulation"
+* url = "http://hl7.org/fhir/us/nhsn-dqm/Measure/NHSNdQMAcuteCareHospitalInitialPopulation"
 * identifier.system = "https://nhsnlink.org"
 * identifier.value = "NHSNdQMAcuteCareHospitalInitialPopulation"
 * version = "1.0.0-cibuild"

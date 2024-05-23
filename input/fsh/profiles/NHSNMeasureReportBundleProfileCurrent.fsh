@@ -33,7 +33,7 @@ Description: "This profile defines a valid Submission Bundle to NHSN with all re
   * resource only PatientsOfInterestList
     * ^short = "The Bundle entry for Patients of Interest List"
 * entry[subject-list] ^short = "Summary Measure Report: For each measure, there is one Summary MeasureReport. The Summary MeasureReport includes the population count and a link to the List of Individual MeasureReports that are included in the summary"
-  * resource only SubjectListMeasureReportProfile
+  * resource only DEQMSubjectListMeasureReport
     * ^short = "The Bundle entry for a Summary Measure Report"
 * entry[individual-measurereport] ^short = "Individual Measure Report: each Individual MeasureReport refers to one Patient and one measure included in the Individual Measure Report List"
   * resource 1..

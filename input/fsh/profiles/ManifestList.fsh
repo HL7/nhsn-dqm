@@ -36,7 +36,7 @@ Description: "The supplied file name of the resource reference, if not using a R
   
 Extension: PatientDataEntry
 Id: patient-data-entry
-Description: "A resource present in the patient data"
+Description: "A resource present in the patient data, along with an optional index into the patient data for ease of retrieval"
 * ^context[+].type = #element
 * ^context[=].expression = "List.entry"
 * extension ^slicing.discriminator.type = #value

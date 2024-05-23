@@ -5,9 +5,7 @@ Description: "Observation - Example ACH Pass1 - Lab: Gestational age at birth"
 Usage: #example
 //https://build.fhir.org/ig/HL7/fhir-qi-core/Observation-example-gestation.json.html
 * status = #final
-* category[+] = $observation-category#laboratory "Laboratory"
-* category[+] = $observation-category#exam "exam"
-* category[=].text = "Exam"
+* category[us-core] = $observation-category#laboratory "Laboratory"
 * code = $loinc#76516-4 "Gestational age--at birth"
 * code.text = "Gestational age at birth"
 * subject = Reference(patient-example-ach-ach-pass1)
