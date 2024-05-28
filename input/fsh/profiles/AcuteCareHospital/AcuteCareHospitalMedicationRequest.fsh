@@ -1,5 +1,5 @@
 Profile: AcuteCareHospitalReportingMedicationRequest
-Parent: USCoreMedicationRequestProfile
+Parent: QICoreMedicationRequest
 Id: ach-medicationrequest
 Title: "ACH Event MedicationRequest"
 Description: "This profile contains Required and Must Support data elements for reporting medication request (order) information to the NHSN Acute Care Hospital (ACH) Digital Quality Measures."

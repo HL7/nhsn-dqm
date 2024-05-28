@@ -1,5 +1,5 @@
 Profile: AcuteCareHospitalReportingEncounter
-Parent: USCoreEncounterProfile
+Parent: QICoreEncounter
 Id: ach-encounter
 Title: "ACH Event Encounter"
 Description: "This profile contains Required and Must Support data elements for reporting encounter information to the NHSN Acute Care Hospital (ACH) Digital Quality Measures."

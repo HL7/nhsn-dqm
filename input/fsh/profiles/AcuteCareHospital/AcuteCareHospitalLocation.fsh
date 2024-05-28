@@ -1,5 +1,5 @@
 Profile: AcuteCareHospitalReportingLocation
-Parent: USCoreLocation
+Parent: QICoreLocation
 Id: ach-location
 Title: "ACH Event Location"
 Description: "This profile contains Required and Must Support data elements for reporting location information to the NHSN Acute Care Hospital (ACH) Digital Quality Measures."

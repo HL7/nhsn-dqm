@@ -1,5 +1,5 @@
 Profile: AcuteCareHospitalReportingVitalsObservation
-Parent: $vital-sign-profile
+Parent: USCoreVitalSignsProfile
 Id: ach-observation-vitals
 Title: "ACH Event Observation - Vital Signs"
 Description: "This profile contains Required and Must Support data elements for reporting observation-vital signs information to the NHSN Acute Care Hospital (ACH) Digital Quality Measures."

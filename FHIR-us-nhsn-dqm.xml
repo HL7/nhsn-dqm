@@ -98,7 +98,6 @@
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-cipro" key="MedicationRequest-medicationrequest-example-ach-pass3-cipro" name="MedicationRequest - Example ACH Pass3 Cipro"/>
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-enoxaparin" key="MedicationRequest-medicationrequest-example-ach-pass3-enoxaparin" name="MedicationRequest - Example ACH Pass3 Enoxaparin"/>
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-metronidazole" key="MedicationRequest-medicationrequest-example-ach-pass3-metronidazole" name="MedicationRequest - Example ACH Pass3 Metronidazole"/>
-<artifact id="StructureDefinition/ip-measurereport-list" key="StructureDefinition-ip-measurereport-list" name="NHSN Individual MeasureReport List"/>
 <artifact id="StructureDefinition/nhsn-measurereport-bundle" key="StructureDefinition-nhsn-measurereport-bundle" name="NHSN MeasureReport Bundle"/>
 <artifact id="StructureDefinition/nhsn-subject-bundle" key="StructureDefinition-nhsn-subject-bundle" name="NHSN Subject Bundle"/>
 <artifact id="StructureDefinition/nhsn-submission-header-bundle" key="StructureDefinition-nhsn-submission-header-bundle" name="NHSN Submission Header Bundle"/>
@@ -140,8 +139,10 @@
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-1" key="Specimen-specimen-example-ach-ach-pass2-blood-1" name="Specimen - Example ACH Pass2 Blood 1"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-2" key="Specimen-specimen-example-ach-ach-pass2-blood-2" name="Specimen - Example ACH Pass2 Blood 2"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass3-stool" key="Specimen-specimen-example-ach-ach-pass3-stool" name="Specimen - Example ACH Pass3 Stool"/>
-<artifact id="StructureDefinition/subjectlist-measurereport" key="StructureDefinition-subjectlist-measurereport" name="Subject-List MeasureReport Profile"/>
 <artifact id="StructureDefinition/supplied-file-name" key="StructureDefinition-supplied-file-name" name="SuppliedFileName"/>
+<artifact id="MeasureReport/bed-capacity-measurereport-example-chld" key="MeasureReport-bed-capacity-measurereport-example-chld" name="bed-capacity-measurereport-example-chld"/>
+<artifact id="MeasureReport/bed-capacity-measurereport-example-hosp" key="MeasureReport-bed-capacity-measurereport-example-hosp" name="bed-capacity-measurereport-example-hosp"/>
+<artifact id="MeasureReport/bed-capacity-measurereport-example-ipf" key="MeasureReport-bed-capacity-measurereport-example-ipf" name="bed-capacity-measurereport-example-ipf"/>
 <artifact id="Parameters/options" key="Parameters-options" name="options"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>

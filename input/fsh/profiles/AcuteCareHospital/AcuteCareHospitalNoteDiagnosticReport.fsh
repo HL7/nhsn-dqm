@@ -1,5 +1,5 @@
 Profile: AcuteCareHospitalNoteDiagnosticReport
-Parent: USCoreDiagnosticReportProfileNoteExchange
+Parent: QICoreDiagnosticReportNote
 Id: ach-diagnosticreport-note
 Title: "ACH Event Diagnostic Report - Report and Note"
 Description: "This profile contains Required and Must Support data elements for reporting diagnostic report- report and note information to the NHSN Acute Care Hospital (ACH) Digital Quality Measures."

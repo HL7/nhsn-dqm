@@ -8,7 +8,7 @@ Usage: #example
 * identifier.value = "101888892"
 * status = #active
 * intent = #plan
-* reportedBoolean = true
+// * reportedBoolean = true
 * category = $medicationrequest-category#outpatient "Outpatient"
 * category.text = "Outpatient"
 * medicationReference = Reference(medication-example-dex4-tablet)

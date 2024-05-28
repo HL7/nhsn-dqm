@@ -1,5 +1,5 @@
 Profile: AcuteCareHospitalDevice
-Parent: Device
+Parent: QICoreDevice
 Id: ach-device
 Title: "ACH Event Device"
 Description: "This profile contains Required and Must Support data elements for reporting device information to the NHSN Acute Care Hospital (ACH) Digital Quality Measures."

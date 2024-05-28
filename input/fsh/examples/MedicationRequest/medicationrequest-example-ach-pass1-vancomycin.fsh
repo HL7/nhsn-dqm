@@ -8,7 +8,7 @@ Usage: #example
 * identifier.value = "101888811"
 * status = #completed
 * intent = #order
-* reportedBoolean = false
+// * reportedBoolean = false
 * category = $medicationrequest-category#inpatient "Inpatient"
 * category.text = "Inpatient"
 * medicationReference = Reference(medication-example-vancomycin-15)

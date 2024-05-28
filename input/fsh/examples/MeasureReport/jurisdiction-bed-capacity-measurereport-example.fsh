@@ -1,34 +1,38 @@
 Alias: $bed-capacity-code-system = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes
 
-Instance: jurisdiction-bed-capacity-report-example
-InstanceOf: Bundle
-Title: "Jurisdiction Capacity Full Report Bundle Example"
-Description: "Example Bundle of jurisidictional report for capacity reporting"
-Usage: #example
-* identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e1"
-* type = #collection
-* timestamp = "2023-08-28T07:01:07.563Z"
-* entry[0].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-hosp"
-* entry[=].resource = bed-capacity-measurereport-example-hosp
-* entry[+].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-ipf"
-* entry[=].resource = bed-capacity-measurereport-example-ipf
-* entry[+].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-chld"
-* entry[=].resource = bed-capacity-measurereport-example-chld
+Instance: hosp-location-example-bed-capacity
+InstanceOf: AcuteCareHospitalReportingLocation
+Title: "Location - Example ACH - Crit"
+Description: "Location - Example ACH - Medical Critical Care"
+Usage: #inline
+* identifier.system = "http://www.example.org/location"
+* identifier.value = "123"
+* status = #active
+* name = "XYZ Hospital"
+* type = $bed-capacity-code-system#HOSP "Hospital"
+
 
 Instance: bed-capacity-measurereport-example-hosp
-InstanceOf: MeasureReport
-Usage: #inline
-* meta.profile = "http://hl7.org/fhir/uv/saner/StructureDefinition/PublicHealthMeasureReport"
-* contained.resourceType = "Location"
-* contained.id = "hosp-location-example-bed-capacity"
-* contained.name = "XYZ Hospital"
-* contained.type = $bed-capacity-code-system#HOSP "Hospital"
+InstanceOf: DEQMIndividualMeasureReportProfile
+Usage: #example
+
+// * contained.resourceType = "Location"
+// * contained.id = "hosp-location-example-bed-capacity"
+// * contained.identifier.system = "http://www.example.org/location"
+// * contained.identifier.value = "123"
+// * contained.name = "XYZ Hospital"
+// * contained.type = $bed-capacity-code-system#HOSP "Hospital"
+
+* contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure-example"
-* subject = Reference(hosp-location-example-bed-capacity)
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure"
+// Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
+// * subject = Reference(hosp-location-example-bed-capacity)
+* subject.identifier.system = "http://www.example.org/location"
+* subject.identifier.value = "123"
 * date = "2023-08-28T07:01:07.563Z"
+* reporter = Reference(organization-example-submitting-organization)
 * period.start = "2023-08-28T07:01:07.563Z"
 * period.end = "2023-08-28T19:01:07.562Z"
 * group.population[0].code = $bed-capacity-code-system#AllBedsOccupied
@@ -194,18 +198,18 @@ Usage: #inline
 * group.population[=].count = 1921
 
 Instance: bed-capacity-measurereport-example-ipf
-InstanceOf: MeasureReport
-Usage: #inline
-* meta.profile = "http://hl7.org/fhir/uv/saner/StructureDefinition/PublicHealthMeasureReport"
-* contained.resourceType = "Location"
-* contained.id = "ipf-location-example-bed-capacity"
-* contained.name = "XYZ Hospital - Inpatient Psychiatric"
-* contained.type = $bed-capacity-code-system#IPF "Inpatient Psychiatric"
+InstanceOf: DEQMIndividualMeasureReportProfile
+Usage: #example
+* contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure-example"
-* subject = Reference(ipf-location-example-bed-capacity)
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure"
+// Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
+// * subject = Reference(hosp-location-example-bed-capacity)
+* subject.identifier.system = "http://www.example.org/location"
+* subject.identifier.value = "123"
 * date = "2023-08-28T07:01:07.563Z"
+* reporter = Reference(organization-example-submitting-organization)
 * period.start = "2023-08-28T07:01:07.563Z"
 * period.end = "2023-08-28T19:01:07.562Z"
 * group.population[0].code = $bed-capacity-code-system#AllBedsOccupied
@@ -375,18 +379,18 @@ Usage: #inline
 * group.population[=].count = 0
 
 Instance: bed-capacity-measurereport-example-chld
-InstanceOf: MeasureReport
-Usage: #inline
-* meta.profile = "http://hl7.org/fhir/uv/saner/StructureDefinition/PublicHealthMeasureReport"
-* contained.resourceType = "Location"
-* contained.id = "chld-location-example-bed-capacity"
-* contained.name = "XYZ Hospital - Childrens"
-* contained.type = $bed-capacity-code-system#CHLD "Children's or Pediatrics"
+InstanceOf: DEQMIndividualMeasureReportProfile
+Usage: #example
+* contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure-example"
-* subject = Reference(chld-location-example-bed-capacity)
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure"
+// Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
+// * subject = Reference(hosp-location-example-bed-capacity)
+* subject.identifier.system = "http://www.example.org/location"
+* subject.identifier.value = "123"
 * date = "2023-08-28T07:01:07.563Z"
+* reporter = Reference(organization-example-submitting-organization)
 * period.start = "2023-08-28T07:01:07.563Z"
 * period.end = "2023-08-28T19:01:07.562Z"
 * group.population[0].code = $bed-capacity-code-system#AllBedsOccupied
