@@ -44,6 +44,7 @@ Alias: $encounter-status = http://hl7.org/fhir/encounter-status
 Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $condition-category_1 = http://open.epic.com/FHIR/StructureDefinition/condition-category
 Alias: $icd-10-cm = http://hl7.org/fhir/sid/icd-10-cm
+Alias: $icd-10 = http://www.cms.gov/Medicare/Coding/ICD10
 Alias: $coverage-type = http://open.epic.com/FHIR/StructureDefinition/coverage-type
 Alias: $v2-0136 = http://terminology.hl7.org/CodeSystem/v2-0136
 Alias: $v3-EntityCode = http://terminology.hl7.org/CodeSystem/v3-EntityCode

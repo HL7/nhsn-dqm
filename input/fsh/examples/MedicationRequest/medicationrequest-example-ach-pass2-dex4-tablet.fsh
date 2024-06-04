@@ -1,5 +1,5 @@
 Instance: medicationrequest-example-ach-pass2-dex4-tablet
-InstanceOf: AcuteCareHospitalReportingMedicationRequest
+InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass2 Dex4 Tablet"
 Description: "MedicationRequest - Example ACH Pass2 - Dex4 4 gm chewable tablet X1"
 Usage: #example

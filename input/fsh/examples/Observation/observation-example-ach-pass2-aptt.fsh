@@ -1,5 +1,5 @@
 Instance: observation-example-ach-pass2-aptt
-InstanceOf: AcuteCareHospitalReportingLabObservation
+InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass2 aPTT"
 Description: "Observation - Example ACH Pass2 Lab: aPTT in Blood by Coagulation assay"
 Usage: #example

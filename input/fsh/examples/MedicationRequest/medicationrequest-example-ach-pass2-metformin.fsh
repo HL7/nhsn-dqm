@@ -1,5 +1,5 @@
 Instance: medicationrequest-example-ach-pass2-metformin
-InstanceOf: AcuteCareHospitalReportingMedicationRequest
+InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass2 Metformin"
 Description: "MedicationRequest - Example ACH Pass2 - Metformin hydrochloride 1000 MG"
 Usage: #example

@@ -1,5 +1,5 @@
 Instance: procedure-example-ach-ach-pass1-central-line
-InstanceOf: AcuteCareHospitalReportingProcedure
+InstanceOf: QICoreProcedure
 Title: "Procedure - Example ACH Pass1 Central Line"
 Description: "Procedure - Example ACH Pass1 - Placement procedure"
 Usage: #example

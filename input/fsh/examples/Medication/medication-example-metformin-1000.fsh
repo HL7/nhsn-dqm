@@ -1,5 +1,5 @@
 Instance: medication-example-metformin-1000
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Metformin 1000"
 Description: "Medication - Example - Metformin hydrochloride 1000 MG"
 Usage: #example

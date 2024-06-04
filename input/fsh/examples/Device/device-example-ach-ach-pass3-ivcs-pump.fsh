@@ -1,5 +1,5 @@
 Instance: device-example-ach-ach-pass3-ivcs-pump
-InstanceOf: AcuteCareHospitalDevice
+InstanceOf: QICoreDevice
 Title: "Device - Example ACH Pass3 Ivcs Pump"
 Description: "Device - Example ACH Pass3 - Intermittent venous compression system pump"
 Usage: #example

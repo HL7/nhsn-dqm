@@ -1,5 +1,5 @@
 Instance: procedure-example-ach-ach-pass3-transfusion
-InstanceOf: AcuteCareHospitalReportingProcedure
+InstanceOf: QICoreProcedure
 Title: "Procedure - Example ACH Pass3 Transfusion"
 Description: "Procedure - Example ACH Pass3 - Transfusion of red blood cells"
 Usage: #example

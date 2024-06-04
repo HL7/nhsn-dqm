@@ -1,5 +1,5 @@
 Instance: servicerequest-example-ach-ach-pass3-cdiff
-InstanceOf: AcuteCareHospitalReportingServiceRequest
+InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass3 Cdiff"
 Description: "ServiceRequest - Example ACH Pass3 - Clostridioides difficile toxin A in Stool by Immunoassay"
 Usage: #example

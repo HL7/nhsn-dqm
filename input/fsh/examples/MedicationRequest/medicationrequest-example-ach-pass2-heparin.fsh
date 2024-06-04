@@ -1,5 +1,5 @@
 Instance: medicationrequest-example-ach-pass2-heparin
-InstanceOf: AcuteCareHospitalReportingMedicationRequest
+InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass2 Heparin"
 Description: "MedicationRequest - Example ACH Pass2 - heparin sodium, 0.5 ML, porcine 10000 UNT/ML Prefilled Syringe"
 Usage: #example

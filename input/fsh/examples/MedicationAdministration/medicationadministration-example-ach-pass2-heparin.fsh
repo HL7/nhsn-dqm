@@ -1,5 +1,5 @@
 Instance: medicationadministration-example-ach-pass2-heparin-1
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass2 Heparin 1"
 Description: "MedicationAdministration - Example ACH Pass2 - heparin sodium, 0.5 ML, porcine 10000 UNT/ML Prefilled Syringe - First Encounter Administration"
 Usage: #example
@@ -26,7 +26,7 @@ Usage: #example
 
 
 Instance: medicationadministration-example-ach-pass2-heparin-2
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass2 Heparin 2"
 Description: "MedicationAdministration - Example ACH Pass2 - heparin sodium, 0.5 ML, porcine 10000 UNT/ML Prefilled Syringe - Second Encounter Administration"
 Usage: #example

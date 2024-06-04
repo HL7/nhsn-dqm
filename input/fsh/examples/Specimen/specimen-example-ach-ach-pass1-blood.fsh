@@ -1,5 +1,5 @@
 Instance: specimen-example-ach-ach-pass1-blood
-InstanceOf: AcuteCareHospitalReportingSpecimen
+InstanceOf: USCoreSpecimenProfile
 Title: "Specimen - Example ACH Pass1 Blood"
 Description: "Specimen - Example ACH Pass1 - Blood venous from heel"
 Usage: #example

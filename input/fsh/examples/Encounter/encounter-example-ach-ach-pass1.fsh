@@ -1,5 +1,5 @@
 Instance: encounter-example-ach-ach-pass1
-InstanceOf: AcuteCareHospitalReportingEncounter
+InstanceOf: QICoreEncounter
 Title: "Encounter - Example ACH Pass1 - Inpatient"
 Description: "Encounter - Example ACH Pass1 - Hospital Admission"
 Usage: #example

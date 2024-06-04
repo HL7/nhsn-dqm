@@ -1,5 +1,5 @@
 Instance: coverage-example-ach-pass3
-InstanceOf: AcuteCareHospitalReportingCoverage
+InstanceOf: QICoreCoverage
 Title: "Coverage - Example ACH Pass3"
 Description: "Coverage - Example ACH Pass3 - Commercial PPO"
 Usage: #example

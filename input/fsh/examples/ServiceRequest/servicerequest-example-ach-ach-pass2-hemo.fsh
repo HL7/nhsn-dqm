@@ -1,5 +1,5 @@
 Instance: servicerequest-example-ach-ach-pass2-hemo
-InstanceOf: AcuteCareHospitalReportingServiceRequest
+InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass2 Hemo"
 Description: "ServiceRequest - Example ACH Pass2 - Hemoglobin in Venous blood"
 Usage: #example

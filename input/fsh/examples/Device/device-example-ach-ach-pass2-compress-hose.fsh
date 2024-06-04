@@ -1,5 +1,5 @@
 Instance: device-example-ach-ach-pass2-compress-hose
-InstanceOf: AcuteCareHospitalDevice
+InstanceOf: QICoreDevice
 Title: "Device - Example ACH Pass2 Compress Hose"
 Description: "Device - Example ACH Pass2 - Graduated compression elastic hosiery"
 Usage: #example

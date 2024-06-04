@@ -1,5 +1,5 @@
 Instance: specimen-example-ach-ach-pass1-csf
-InstanceOf: AcuteCareHospitalReportingSpecimen
+InstanceOf: USCoreSpecimenProfile
 Title: "Specimen - Example ACH Pass1 CSF"
 Description: "Specimen - Example ACH Pass1 - Cerebral spinal fluid from superior articular process of lumbar vertebra"
 Usage: #example

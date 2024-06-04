@@ -1,7 +1,7 @@
 Alias: $bed-capacity-code-system = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes
 
 Instance: hosp-location-example-bed-capacity
-InstanceOf: AcuteCareHospitalReportingLocation
+InstanceOf: QICoreLocation
 Title: "Location - Example ACH - Crit"
 Description: "Location - Example ACH - Medical Critical Care"
 Usage: #inline

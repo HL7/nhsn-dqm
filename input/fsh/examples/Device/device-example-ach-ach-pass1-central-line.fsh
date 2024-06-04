@@ -1,5 +1,5 @@
 Instance: device-example-ach-ach-pass1-central-line
-InstanceOf: AcuteCareHospitalDevice
+InstanceOf: QICoreDevice
 Title: "Device - Example ACH Pass1 Central Line"
 Description: "Device - Example ACH Pass1 - Central venous catheter"
 Usage: #example

@@ -1,5 +1,5 @@
 Instance: medicationadministration-example-ach-pass3-metronidazole-1
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass3 Metronidazole 1"
 Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 MG - First Encounter Administration"
 Usage: #example
@@ -26,7 +26,7 @@ Usage: #example
 
 
 Instance: medicationadministration-example-ach-pass3-metronidazole-2
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass3 Metronidazole 2"
 Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 MG - Second Encounter Administration"
 Usage: #example
@@ -53,7 +53,7 @@ Usage: #example
 
 
 Instance: medicationadministration-example-ach-pass3-metronidazole-3
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass3 Metronidazole 3"
 Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 MG - Third Encounter Administration"
 Usage: #example

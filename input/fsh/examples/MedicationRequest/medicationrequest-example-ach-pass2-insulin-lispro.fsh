@@ -1,5 +1,5 @@
 Instance: medicationrequest-example-ach-pass2-insulin-lispro
-InstanceOf: AcuteCareHospitalReportingMedicationRequest
+InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass2 Insulin Lispro"
 Description: "MedicationRequest - Example ACH Pass2 - Insulin Lispro"
 Usage: #example

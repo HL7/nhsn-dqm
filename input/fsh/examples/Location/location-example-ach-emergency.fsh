@@ -1,5 +1,5 @@
 Instance: location-example-ach-emergency
-InstanceOf: AcuteCareHospitalReportingLocation
+InstanceOf: QICoreLocation
 Title: "Location - Example ACH - Emergency"
 Description: "Location - Example ACH - Emergency Department"
 Usage: #example

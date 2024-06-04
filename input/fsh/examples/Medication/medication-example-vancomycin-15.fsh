@@ -1,5 +1,5 @@
 Instance: medication-example-vancomycin-15
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Vancomycin 15"
 Description: "Medication - Example - Vancomycin Injectable Solution"
 Usage: #example

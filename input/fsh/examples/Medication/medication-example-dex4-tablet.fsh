@@ -1,5 +1,5 @@
 Instance: medication-example-dex4-tablet
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Dex4 Tablet"
 Description: "Medication - Example - Metformin hydrochloride 1000 MG"
 Usage: #example

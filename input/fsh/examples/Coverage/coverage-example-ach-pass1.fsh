@@ -1,5 +1,5 @@
 Instance: coverage-example-ach-pass1
-InstanceOf: AcuteCareHospitalReportingCoverage
+InstanceOf: QICoreCoverage
 Title: "Coverage - Example ACH Pass1"
 Description: "Coverage - Example ACH Pass1 - Medicaid: Child Beneficiary"
 Usage: #example

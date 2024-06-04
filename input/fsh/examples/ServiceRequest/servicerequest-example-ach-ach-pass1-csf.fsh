@@ -1,5 +1,5 @@
 Instance: servicerequest-example-ach-ach-pass1-csf
-InstanceOf: AcuteCareHospitalReportingServiceRequest
+InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass1 CSF"
 Description: "ServiceRequest - Example ACH Pass1 - Differential panel - Cerebral spinal fluid"
 Usage: #example

@@ -1,5 +1,5 @@
 Instance: medicationadministration-example-ach-pass2-insulin-lispro-1
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass2 Insulin Lispro 1"
 Description: "MedicationAdministration - Example ACH Pass2 - Insulin Lispro - First Encounter Administration"
 Usage: #example
@@ -26,7 +26,7 @@ Usage: #example
 
 
 Instance: medicationadministration-example-ach-pass2-insulin-lispro-2
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass2 Insulin Lispro 2"
 Description: "MedicationAdministration - Example ACH Pass2 - Insulin Lispro - Second Encounter Administration"
 Usage: #example
@@ -53,7 +53,7 @@ Usage: #example
 
 
 Instance: medicationadministration-example-ach-pass2-insulin-lispro-3
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass2 Insulin Lispro 3"
 Description: "MedicationAdministration - Example ACH Pass2 - Insulin Lispro - Third Encounter Administration"
 Usage: #example
@@ -80,7 +80,7 @@ Usage: #example
 
 
 Instance: medicationadministration-example-ach-pass2-insulin-lispro-4
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass2 Insulin Lispro 4"
 Description: "MedicationAdministration - Example ACH Pass2 Insulin Lispro 4"
 Usage: #example

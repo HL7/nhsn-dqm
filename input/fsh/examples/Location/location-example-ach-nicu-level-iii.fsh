@@ -1,5 +1,5 @@
 Instance: location-example-ach-nicu-level-iii
-InstanceOf: AcuteCareHospitalReportingLocation
+InstanceOf: QICoreLocation
 Title: "Location - Example ACH - Nicu"
 Description: "Location - Example ACH - Neonatal Critical Care (Level III)"
 Usage: #example

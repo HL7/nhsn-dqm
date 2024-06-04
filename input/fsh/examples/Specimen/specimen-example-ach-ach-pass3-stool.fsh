@@ -1,5 +1,5 @@
 Instance: specimen-example-ach-ach-pass3-stool
-InstanceOf: AcuteCareHospitalReportingSpecimen
+InstanceOf: USCoreSpecimenProfile
 Title: "Specimen - Example ACH Pass3 Stool"
 Description: "Specimen - Example ACH Pass3 - Bloody stool"
 Usage: #example

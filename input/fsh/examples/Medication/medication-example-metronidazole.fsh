@@ -1,5 +1,5 @@
 Instance: medication-example-metronidazole
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Metronidazole"
 Description: "Medication - Example - Metronidazole 500 MG"
 Usage: #example

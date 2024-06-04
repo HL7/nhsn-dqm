@@ -5,22 +5,6 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="StructureDefinition/ach-coverage" key="StructureDefinition-ach-coverage" name="ACH Event Coverage"/>
-<artifact id="StructureDefinition/ach-device" key="StructureDefinition-ach-device" name="ACH Event Device"/>
-<artifact id="StructureDefinition/ach-diagnosticreport-lab" key="StructureDefinition-ach-diagnosticreport-lab" name="ACH Event Diagnostic Report (Lab)"/>
-<artifact id="StructureDefinition/ach-diagnosticreport-note" key="StructureDefinition-ach-diagnosticreport-note" name="ACH Event Diagnostic Report - Report and Note"/>
-<artifact id="StructureDefinition/ach-encounter" key="StructureDefinition-ach-encounter" name="ACH Event Encounter"/>
-<artifact id="StructureDefinition/ach-diagnosticreport" key="StructureDefinition-ach-diagnosticreport" name="ACH Event General Diagnostic Report"/>
-<artifact id="StructureDefinition/ach-observation-lab" key="StructureDefinition-ach-observation-lab" name="ACH Event Lab Result Observation"/>
-<artifact id="StructureDefinition/ach-location" key="StructureDefinition-ach-location" name="ACH Event Location"/>
-<artifact id="StructureDefinition/ach-medication" key="StructureDefinition-ach-medication" name="ACH Event Medication"/>
-<artifact id="StructureDefinition/ach-medicationadministration" key="StructureDefinition-ach-medicationadministration" name="ACH Event MedicationAdministration"/>
-<artifact id="StructureDefinition/ach-medicationrequest" key="StructureDefinition-ach-medicationrequest" name="ACH Event MedicationRequest"/>
-<artifact id="StructureDefinition/ach-observation" key="StructureDefinition-ach-observation" name="ACH Event Observation"/>
-<artifact id="StructureDefinition/ach-observation-vitals" key="StructureDefinition-ach-observation-vitals" name="ACH Event Observation - Vital Signs"/>
-<artifact id="StructureDefinition/ach-procedure" key="StructureDefinition-ach-procedure" name="ACH Event Procedure"/>
-<artifact id="StructureDefinition/ach-servicerequest" key="StructureDefinition-ach-servicerequest" name="ACH Event ServiceRequest"/>
-<artifact id="StructureDefinition/ach-specimen" key="StructureDefinition-ach-specimen" name="ACH Event Specimen"/>
 <artifact id="Bundle/bundle-example-ach-header" key="Bundle-bundle-example-ach-header" name="ACH Submission Header Bundle"/>
 <artifact id="ValueSet/ach-encounter-class" key="ValueSet-ach-encounter-class" name="Acute Care Hospital Encounter Class ValueSet"/>
 <artifact id="ValueSet/ach-encounter-status" key="ValueSet-ach-encounter-status" name="Acute Care Hospital Encounter Status ValueSet"/>

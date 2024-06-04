@@ -1,10 +1,8 @@
-Instance: NHSNdQMAcuteCareHospitalInitialPopulationMeasure
+Instance: NHSNdQMAcuteCareHospitalInitialPopulation
 Title: "Acute Care Hospital Initial Population Measure"
 Description: "The Acute Care Hospital (ACH) Initial Population includes all encounters for patients of any age in an ED, observation, or inpatient location or all encounters for patients of any age with an ED, observation, inpatient, or short stay status during the measurement period."
-InstanceOf: Measure
+InstanceOf: CQFMCohortMeasure
 Usage: #example
-* meta.profile[0] = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm"
-* meta.profile[+] = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm"
 * contained = effective-data-requirements
 * extension[0].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis"
 * extension[=].valueCode = #Encounter
@@ -12,8 +10,6 @@ Usage: #example
 * extension[=].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements"
 * extension[=].valueReference = Reference(effective-data-requirements)
 * url = "http://hl7.org/fhir/us/nhsn-dqm/Measure/NHSNdQMAcuteCareHospitalInitialPopulation"
-* identifier.system = "https://nhsnlink.org"
-* identifier.value = "NHSNdQMAcuteCareHospitalInitialPopulation"
 * version = "1.0.0-cibuild"
 * name = "NHSNdQMAcuteCareHospitalInitialPopulation"
 * title = "NHSN dQM Acute Care Hospital Initial Population"

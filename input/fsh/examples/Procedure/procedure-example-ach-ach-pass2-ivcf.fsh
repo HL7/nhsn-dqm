@@ -1,5 +1,5 @@
 Instance: procedure-example-ach-ach-pass2-ivcf
-InstanceOf: AcuteCareHospitalReportingProcedure
+InstanceOf: QICoreProcedure
 Title: "Procedure - Example ACH Pass2 IVCF"
 Description: "Procedure - Example ACH Pass2 - Percutaneous insertion of inferior vena cava filter"
 Usage: #example

@@ -1,5 +1,5 @@
 Instance: medicationrequest-example-ach-pass1-vancomycin
-InstanceOf: AcuteCareHospitalReportingMedicationRequest
+InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass1 Vancomycin"
 Description: "MedicationRequest - Example ACH Pass1 - Vancomycin Injectable Solution 50MG"
 Usage: #example

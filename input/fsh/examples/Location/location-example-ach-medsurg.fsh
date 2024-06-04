@@ -1,5 +1,5 @@
 Instance: location-example-ach-medsurg
-InstanceOf: AcuteCareHospitalReportingLocation
+InstanceOf: QICoreLocation
 Title: "Location - Example ACH - Medsurg"
 Description: "Location - Example ACH - Medical-Surgical Ward"
 Usage: #example

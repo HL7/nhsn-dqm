@@ -1,16 +1,22 @@
 Instance: medicationadministration-example-ach-pass3-enoxaparin
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministrationNotDone
 Title: "MedicationAdministration - Example ACH Pass3 Enoxaparin"
 Description: "MedicationAdministration - Example ACH Pass3 - Enoxaparin sodium, 0.4 ML, 100 MG/ML Prefilled Syringe"
 Usage: #example
+
+* extension[0].url = "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-recorded"
+* extension[=].valueDateTime = "2024-02-02T21:04:00-05:00"
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
 * identifier.value = "101888833"
 * status = #not-done
+* statusReason = $sct#182903008 "Drug declined by patient - reason unknown (situation)"
 * category = $medicationrequest-category#inpatient "Inpatient"
 * category.text = "Inpatient Medication"
-* medicationReference = Reference(medication-example-enoxaparin)
-* medicationReference.display = "0.4 ML enoxaparin sodium 100 MG/ML Prefilled Syringe"
+// * medicationReference = Reference(medication-example-enoxaparin)
+// * medicationReference.display = "0.4 ML enoxaparin sodium 100 MG/ML Prefilled Syringe"
+* medicationCodeableConcept.coding[+] = $rxnorm#854235 "0.4 ML enoxaparin sodium 100 MG/ML Prefilled Syringe"
+* medicationCodeableConcept.text = "Enoxaparin sodium, 0.4 ML,  100 MG/ML Prefilled Syringe"
 * subject = Reference(patient-example-ach-ach-pass3)
 * subject.display = "Pass2 ACH"
 * context = Reference(encounter-example-ach-ach-pass3-acute)

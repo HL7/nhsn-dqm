@@ -1,5 +1,5 @@
 Instance: diagnosticreport-example-ach-ach-pass2-cardiopulmonary
-InstanceOf: AcuteCareHospitalDiagnosticReport
+InstanceOf: QICoreDiagnosticReportNote
 Title: "DiagnosticReport - Example ACH Pass2 Cardiopulmonary"
 Description: "DiagnosticReport - Example ACH Pass2 - Cardiovascular stress testing"
 Usage: #example

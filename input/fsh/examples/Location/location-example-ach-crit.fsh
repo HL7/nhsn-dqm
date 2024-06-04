@@ -1,5 +1,5 @@
 Instance: location-example-ach-crit
-InstanceOf: AcuteCareHospitalReportingLocation
+InstanceOf: QICoreLocation
 Title: "Location - Example ACH - Crit"
 Description: "Location - Example ACH - Medical Critical Care"
 Usage: #example

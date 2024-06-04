@@ -1,5 +1,5 @@
 Instance: servicerequest-example-ach-ach-pass2-aptt
-InstanceOf: AcuteCareHospitalReportingServiceRequest
+InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass2 aPTT"
 Description: "ServiceRequest - Example ACH Pass2 - aPTT in Blood by Coagulation assay"
 Usage: #example

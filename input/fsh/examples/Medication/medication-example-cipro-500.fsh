@@ -1,5 +1,5 @@
 Instance: medication-example-cipro-500
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Cipro 500"
 Description: "Medication - Example - Ciprofloxacin 500 MG"
 Usage: #example

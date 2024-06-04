@@ -1,5 +1,5 @@
 Instance: diagnosticreport-example-ach-ach-pass2-lab-cbc
-InstanceOf: AcuteCareHospitalLabDiagnosticReport
+InstanceOf: QICoreDiagnosticReportLab
 Title: "DiagnosticReport - Example ACH Pass2 Lab CBC"
 Description: "DiagnosticReport - Example ACH Pass2 - CBC panel - Blood by Automated count"
 Usage: #example

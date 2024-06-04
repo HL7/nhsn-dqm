@@ -1,5 +1,5 @@
 Instance: servicerequest-example-ach-ach-pass1-blood
-InstanceOf: AcuteCareHospitalReportingServiceRequest
+InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass1 Blood"
 Description: "ServiceRequest - Example ACH Pass1 Blood"
 Usage: #example

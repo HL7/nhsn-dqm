@@ -1,5 +1,5 @@
 Instance: medication-example-enoxaparin
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Enoxaparin"
 Description: "Medication - Example - Enoxaparin sodium, 0.4 ML,  100 MG/ML Prefilled Syringe"
 Usage: #example

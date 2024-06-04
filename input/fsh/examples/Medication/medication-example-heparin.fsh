@@ -1,5 +1,5 @@
 Instance: medication-example-heparin
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Heparin"
 Description: "Medication - Example - Heparin sodium, 0.5 ML, porcine 10000 UNT/ML Prefilled Syringe"
 Usage: #example

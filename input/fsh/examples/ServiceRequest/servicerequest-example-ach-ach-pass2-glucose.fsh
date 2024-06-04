@@ -1,5 +1,5 @@
 Instance: servicerequest-example-ach-ach-pass2-glucose
-InstanceOf: AcuteCareHospitalReportingServiceRequest
+InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass2 Glucose"
 Description: "ServiceRequest - Example ACH Pass2 - Glucose in Capillary blood by Glucometer"
 Usage: #example

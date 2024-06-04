@@ -1,5 +1,5 @@
 Instance: diagnosticreport-example-ach-ach-pass2-radiology
-InstanceOf: AcuteCareHospitalNoteDiagnosticReport
+InstanceOf: QICoreDiagnosticReportNote
 Title: "DiagnosticReport - Example ACH Pass2 Radiology"
 Description: "DiagnosticReport - Example ACH Pass2 - Ultrasonography of right lower limb"
 Usage: #example

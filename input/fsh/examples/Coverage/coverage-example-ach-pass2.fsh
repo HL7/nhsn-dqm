@@ -1,5 +1,5 @@
 Instance: coverage-example-ach-pass2
-InstanceOf: AcuteCareHospitalReportingCoverage
+InstanceOf: QICoreCoverage
 Title: "Coverage - Example ACH Pass2"
 Description: "Coverage - Example ACH Pass2 - Commercial HMO"
 Usage: #example

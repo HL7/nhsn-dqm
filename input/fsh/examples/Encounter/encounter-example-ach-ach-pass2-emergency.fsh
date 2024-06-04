@@ -1,5 +1,5 @@
 Instance: encounter-example-ach-ach-pass2-emergency
-InstanceOf: AcuteCareHospitalReportingEncounter
+InstanceOf: QICoreEncounter
 Title: "Encounter - Example ACH Pass2 - Emergency"
 Description: "Encounter - Example ACH Pass2 - Emergency department visit"
 Usage: #example

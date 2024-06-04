@@ -1,5 +1,5 @@
 Instance: location-example-ach-inpatient
-InstanceOf: AcuteCareHospitalReportingLocation
+InstanceOf: QICoreLocation
 Title: "Location - Example ACH - Inpatient"
 Description: "Location - Example ACH - Inpatient Hospital Ward"
 Usage: #example

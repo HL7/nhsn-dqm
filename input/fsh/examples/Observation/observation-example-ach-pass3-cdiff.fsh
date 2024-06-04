@@ -1,5 +1,5 @@
 Instance: observation-example-ach-pass3-cdiff
-InstanceOf: AcuteCareHospitalReportingLabObservation
+InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass3 C. diff"
 Description: "Observation - Example ACH Pass3 - Lab: Clostridioides difficile (C. diff)"
 Usage: #example

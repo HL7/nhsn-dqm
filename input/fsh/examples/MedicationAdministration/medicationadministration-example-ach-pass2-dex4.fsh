@@ -1,5 +1,5 @@
 Instance: medicationadministration-example-ach-pass2-dex4
-InstanceOf: AcuteCareHospitalReportingMedicationAdministration
+InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass2 Dex4"
 Description: "MedicationAdministration - Example ACH Pass2 - Dex4 4 gm chewable tablet X1"
 Usage: #example

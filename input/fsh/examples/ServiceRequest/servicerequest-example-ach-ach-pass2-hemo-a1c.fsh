@@ -1,5 +1,5 @@
 Instance: servicerequest-example-ach-ach-pass2-hemo-a1c
-InstanceOf: AcuteCareHospitalReportingServiceRequest
+InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass2 Hemo A1C"
 Description: "ServiceRequest - Example ACH Pass2 Hemo - Hemoglobin A1c in Blood"
 Usage: #example

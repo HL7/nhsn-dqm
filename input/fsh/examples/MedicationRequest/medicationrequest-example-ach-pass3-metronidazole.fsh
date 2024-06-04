@@ -1,5 +1,5 @@
 Instance: medicationrequest-example-ach-pass3-metronidazole
-InstanceOf: AcuteCareHospitalReportingMedicationRequest
+InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass3 Metronidazole"
 Description: "MedicationRequest - Example ACH Pass3 - Metronidazole 500 MG"
 Usage: #example

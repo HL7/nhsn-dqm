@@ -1,5 +1,5 @@
 Instance: medication-example-insulin-lispro
-InstanceOf: AcuteCareHospitalReportingMedication
+InstanceOf: QICoreMedication
 Title: "Medication - Example Insulin Lispro"
 Description: "Medication - Example - Insulin lispro"
 Usage: #example
