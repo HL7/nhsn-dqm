@@ -2453,7 +2453,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2466,7 +2466,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2479,7 +2479,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="All Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -2499,7 +2499,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2512,7 +2512,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2525,7 +2525,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="All Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -2545,7 +2545,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2558,7 +2558,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2571,7 +2571,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -2591,7 +2591,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2604,7 +2604,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2617,7 +2617,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -2637,7 +2637,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2650,7 +2650,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2663,7 +2663,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult ICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -2683,7 +2683,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2696,7 +2696,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2709,7 +2709,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult ICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -2729,7 +2729,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2742,7 +2742,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2755,7 +2755,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult ICULOC Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -2775,7 +2775,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2788,7 +2788,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2801,7 +2801,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult ICULOC Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -2821,7 +2821,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2834,7 +2834,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2847,7 +2847,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult NonICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -2867,7 +2867,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2880,7 +2880,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2893,7 +2893,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult NonICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -2913,7 +2913,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2926,7 +2926,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2939,7 +2939,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult PCU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -2959,7 +2959,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -2972,7 +2972,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -2985,7 +2985,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult PCU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3005,7 +3005,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3018,7 +3018,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3031,7 +3031,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult MTMS Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3051,7 +3051,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3064,7 +3064,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3077,7 +3077,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult MTMS Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3097,7 +3097,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3110,7 +3110,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3123,7 +3123,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult Obs Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3143,7 +3143,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3156,7 +3156,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3169,7 +3169,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult Obs Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3189,7 +3189,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3202,7 +3202,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3215,7 +3215,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds Total Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3235,7 +3235,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3248,7 +3248,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3261,7 +3261,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds Total Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3281,7 +3281,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3294,7 +3294,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3307,7 +3307,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds ICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3327,7 +3327,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3340,7 +3340,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3353,7 +3353,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds ICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3373,7 +3373,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3386,7 +3386,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3399,7 +3399,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds ICULOC Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3419,7 +3419,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3432,7 +3432,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3445,7 +3445,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds ICULOC Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3465,7 +3465,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3478,7 +3478,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3491,7 +3491,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds NonICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3511,7 +3511,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3524,7 +3524,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3537,7 +3537,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds NonICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3557,7 +3557,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3570,7 +3570,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3583,7 +3583,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds PCU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3603,7 +3603,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3616,7 +3616,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3629,7 +3629,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds PCU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3649,7 +3649,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3662,7 +3662,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3675,7 +3675,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds MTMS Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3695,7 +3695,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3708,7 +3708,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3721,7 +3721,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds MTMS Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3741,7 +3741,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3754,7 +3754,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3767,7 +3767,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds Obs Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3787,7 +3787,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3800,7 +3800,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3813,7 +3813,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds Obs Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3833,7 +3833,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3846,7 +3846,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3859,7 +3859,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Specialty Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3879,7 +3879,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3892,7 +3892,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3905,7 +3905,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Specialty Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -3925,7 +3925,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3938,7 +3938,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3951,7 +3951,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Specialty NonCrib Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -3971,7 +3971,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -3984,7 +3984,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -3997,7 +3997,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Specialty NonCrib Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4017,7 +4017,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4030,7 +4030,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4043,7 +4043,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="OB Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4063,7 +4063,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4076,7 +4076,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4089,7 +4089,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="OB Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4109,7 +4109,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4122,7 +4122,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4135,7 +4135,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4155,7 +4155,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4168,7 +4168,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4181,7 +4181,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4201,7 +4201,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4214,7 +4214,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4227,7 +4227,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU4 Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4247,7 +4247,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4260,7 +4260,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4273,7 +4273,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU4 Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4293,7 +4293,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4306,7 +4306,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4319,7 +4319,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU3Plus Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4339,7 +4339,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4352,7 +4352,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4365,7 +4365,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU3Plus Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4385,7 +4385,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4398,7 +4398,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4411,7 +4411,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU3 Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4431,7 +4431,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4444,7 +4444,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4457,7 +4457,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU3 Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4477,7 +4477,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4490,7 +4490,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4503,7 +4503,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU2 Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4523,7 +4523,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4536,7 +4536,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4549,7 +4549,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU2 Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4569,7 +4569,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4582,7 +4582,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4595,7 +4595,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU1 Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4615,7 +4615,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4628,7 +4628,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4641,7 +4641,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="NICU1 Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4661,7 +4661,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4674,7 +4674,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4687,7 +4687,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Nursery Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4707,7 +4707,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4720,7 +4720,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4733,7 +4733,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Nursery Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4753,7 +4753,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4766,7 +4766,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4779,7 +4779,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult Psych Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4799,7 +4799,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4812,7 +4812,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4825,7 +4825,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult Psych Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4845,7 +4845,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4858,7 +4858,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4871,7 +4871,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds Psych Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4891,7 +4891,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4904,7 +4904,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4917,7 +4917,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds Psych Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -4937,7 +4937,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4950,7 +4950,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -4963,7 +4963,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Rehab Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -4983,7 +4983,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -4996,7 +4996,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5009,7 +5009,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Rehab Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5029,7 +5029,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5042,7 +5042,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5055,7 +5055,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Active Total Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5075,7 +5075,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5088,7 +5088,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5101,7 +5101,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Active Total Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5121,7 +5121,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5134,7 +5134,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5147,7 +5147,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Inactive Total Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5167,7 +5167,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5180,7 +5180,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5193,7 +5193,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Inactive Total Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5213,7 +5213,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5226,7 +5226,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5239,7 +5239,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Active ICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5259,7 +5259,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5272,7 +5272,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5285,7 +5285,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Active ICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5305,7 +5305,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5318,7 +5318,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5331,7 +5331,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Inactive ICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5351,7 +5351,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5364,7 +5364,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5377,7 +5377,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Inactive ICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5397,7 +5397,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5410,7 +5410,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5423,7 +5423,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Active NonICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5443,7 +5443,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5456,7 +5456,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5469,7 +5469,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Active NonICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5489,7 +5489,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5502,7 +5502,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5515,7 +5515,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Inactive NonICU Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5535,7 +5535,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5548,7 +5548,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5561,7 +5561,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Surge Inactive NonICU Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5581,7 +5581,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5594,7 +5594,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5607,7 +5607,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Burn Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5627,7 +5627,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5640,7 +5640,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5653,7 +5653,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Burn Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5673,7 +5673,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5686,7 +5686,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5699,7 +5699,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Negative Pressure Beds Occupied Numerator"/>
          </criteria>
       </population>
@@ -5719,7 +5719,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5732,7 +5732,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5745,7 +5745,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Negative Pressure Beds Unoccupied Numerator"/>
          </criteria>
       </population>
@@ -5765,7 +5765,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5778,7 +5778,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5791,7 +5791,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult ED Census Numerator"/>
          </criteria>
       </population>
@@ -5811,7 +5811,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5824,7 +5824,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5837,7 +5837,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Adult ED Admitted Census Numerator"/>
          </criteria>
       </population>
@@ -5857,7 +5857,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5870,7 +5870,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5883,7 +5883,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds ED Census Numerator"/>
          </criteria>
       </population>
@@ -5903,7 +5903,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5916,7 +5916,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5929,7 +5929,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Peds ED Admitted Census Numerator"/>
          </criteria>
       </population>
@@ -5949,7 +5949,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -5962,7 +5962,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -5975,7 +5975,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Total ED Census Numerator"/>
          </criteria>
       </population>
@@ -5995,7 +5995,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Initial Population"/>
          </criteria>
       </population>
@@ -6008,7 +6008,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Denominator"/>
          </criteria>
       </population>
@@ -6021,7 +6021,7 @@
             </coding>
          </code>
          <criteria>
-            <language value="text/cql.identifier"/>
+            <language value="text/cql-identifier"/>
             <expression value="Total ED Admitted Census Numerator"/>
          </criteria>
       </population>

@@ -9,8 +9,9 @@
 <artifact id="ValueSet/ach-encounter-class" key="ValueSet-ach-encounter-class" name="Acute Care Hospital Encounter Class ValueSet"/>
 <artifact id="ValueSet/ach-encounter-status" key="ValueSet-ach-encounter-status" name="Acute Care Hospital Encounter Status ValueSet"/>
 <artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="Acute Care Hospital Initial Population Library"/>
-<artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulationMeasure" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulationMeasure" name="Acute Care Hospital Initial Population Measure"/>
-<artifact id="StructureDefinition/bulk-patient-data" key="StructureDefinition-bulk-patient-data" name="Bulk Patient Data"/>
+<artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulation" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulation" name="Acute Care Hospital Initial Population Measure"/>
+<artifact id="Measure/BedCapacityMeasure" key="Measure-BedCapacityMeasure" name="BedCapacityMeasure"/>
+<artifact id="Library/BedCapacityMeasure" key="Library-BedCapacityMeasure" name="BedCapacityMeasure"/>
 <artifact id="Condition/condition-example-diagnosis-ach-pass1" key="Condition-condition-example-diagnosis-ach-pass1" name="Condition - Example Diagnosis ACH Pass1"/>
 <artifact id="Condition/condition-example-diagnosis-ach-pass2" key="Condition-condition-example-diagnosis-ach-pass2" name="Condition - Example Diagnosis ACH Pass2"/>
 <artifact id="Condition/condition-example-diagnosis-ach-pass2-problem" key="Condition-condition-example-diagnosis-ach-pass2-problem" name="Condition - Example Diagnosis ACH Pass2 Problem"/>
@@ -37,6 +38,7 @@
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass1" key="Bundle-bundle-example-ach-subject-ach-pass1" name="Example ACH Submission Subject Bundle 1"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass2" key="Bundle-bundle-example-ach-subject-ach-pass2" name="Example ACH Submission Subject Bundle 2"/>
 <artifact id="Bundle/bundle-example-ach-subject-ach-pass3" key="Bundle-bundle-example-ach-subject-ach-pass3" name="Example ACH Submission Subject Bundle 3"/>
+<artifact id="Library/FHIRHelpers" key="Library-FHIRHelpers" name="FHIRHelpers"/>
 <artifact id="Bundle/submission-full-example1" key="Bundle-submission-full-example1" name="Full Submission Bundle Example 1"/>
 <artifact id="CodeSystem/healthcare-capacity-codes" key="CodeSystem-healthcare-capacity-codes" name="Healthcare Capacity Reporting Code System"/>
 <artifact id="Bundle/jurisdiction-bed-capacity-report-example" key="Bundle-jurisdiction-bed-capacity-report-example" name="Jurisdiction Capacity Full Report Bundle Example"/>
@@ -48,8 +50,6 @@
 <artifact id="Location/location-example-ach-inpatient" key="Location-location-example-ach-inpatient" name="Location - Example ACH - Inpatient"/>
 <artifact id="Location/location-example-ach-medsurg" key="Location-location-example-ach-medsurg" name="Location - Example ACH - Medsurg"/>
 <artifact id="Location/location-example-ach-nicu-level-iii" key="Location-location-example-ach-nicu-level-iii" name="Location - Example ACH - Nicu"/>
-<artifact id="StructureDefinition/manifest-list" key="StructureDefinition-manifest-list" name="Manifest List"/>
-<artifact id="List/manifest-list-example" key="List-manifest-list-example" name="Manifest List Example"/>
 <artifact id="MeasureReport/measurereport-example-ach-subjectlist1" key="MeasureReport-measurereport-example-ach-subjectlist1" name="MeasureReport - Example ACH Subject List 1"/>
 <artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass1" key="MeasureReport-measurereport-example-individual-ach-ach-pass1" name="MeasureReport - Example Individual ACH Pass1 - LOS/MEN"/>
 <artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass2" key="MeasureReport-measurereport-example-individual-ach-ach-pass2" name="MeasureReport - Example Individual ACH Pass2 - Hypo"/>
@@ -105,7 +105,6 @@
 <artifact id="Patient/patient-example-ach-ach-pass2" key="Patient-patient-example-ach-ach-pass2" name="Patient - Example ACH Pass2 - Hypo"/>
 <artifact id="Patient/patient-example-ach-ach-pass3" key="Patient-patient-example-ach-ach-pass3" name="Patient - Example ACH Pass3 - CDI/HOB"/>
 <artifact id="Patient/patient-example-sameresultdiffday" key="Patient-patient-example-sameresultdiffday" name="Patient - Example Sameresultdiffday"/>
-<artifact id="StructureDefinition/patient-data-entry" key="StructureDefinition-patient-data-entry" name="PatientDataEntry"/>
 <artifact id="StructureDefinition/poi-list" key="StructureDefinition-poi-list" name="Patients-Of-Interest List"/>
 <artifact id="Procedure/procedure-example-ach-ach-pass1-central-line" key="Procedure-procedure-example-ach-ach-pass1-central-line" name="Procedure - Example ACH Pass1 Central Line"/>
 <artifact id="Procedure/procedure-example-ach-ach-pass1-lumbar" key="Procedure-procedure-example-ach-ach-pass1-lumbar" name="Procedure - Example ACH Pass1 Lumbar"/>
@@ -123,10 +122,10 @@
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-1" key="Specimen-specimen-example-ach-ach-pass2-blood-1" name="Specimen - Example ACH Pass2 Blood 1"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-2" key="Specimen-specimen-example-ach-ach-pass2-blood-2" name="Specimen - Example ACH Pass2 Blood 2"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass3-stool" key="Specimen-specimen-example-ach-ach-pass3-stool" name="Specimen - Example ACH Pass3 Stool"/>
-<artifact id="StructureDefinition/supplied-file-name" key="StructureDefinition-supplied-file-name" name="SuppliedFileName"/>
 <artifact id="MeasureReport/bed-capacity-measurereport-example-chld" key="MeasureReport-bed-capacity-measurereport-example-chld" name="bed-capacity-measurereport-example-chld"/>
 <artifact id="MeasureReport/bed-capacity-measurereport-example-hosp" key="MeasureReport-bed-capacity-measurereport-example-hosp" name="bed-capacity-measurereport-example-hosp"/>
 <artifact id="MeasureReport/bed-capacity-measurereport-example-ipf" key="MeasureReport-bed-capacity-measurereport-example-ipf" name="bed-capacity-measurereport-example-ipf"/>
+<artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="cqf-tooling"/>
 <artifact id="Parameters/options" key="Parameters-options" name="options"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
