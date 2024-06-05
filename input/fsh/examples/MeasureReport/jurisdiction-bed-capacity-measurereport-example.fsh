@@ -26,7 +26,7 @@ Usage: #example
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure"
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
 // Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
 // * subject = Reference(hosp-location-example-bed-capacity)
 * subject.identifier.system = "http://www.example.org/location"
@@ -203,7 +203,7 @@ Usage: #example
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure"
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
 // Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
 // * subject = Reference(hosp-location-example-bed-capacity)
 * subject.identifier.system = "http://www.example.org/location"
@@ -384,7 +384,7 @@ Usage: #example
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/bed-capacity-measure"
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
 // Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
 // * subject = Reference(hosp-location-example-bed-capacity)
 * subject.identifier.system = "http://www.example.org/location"
@@ -520,6 +520,8 @@ Usage: #example
 * group.population[=].count = 0
 * group.population[+].code = $bed-capacity-code-system#SurgeActiveTotalUnoccupied
 * group.population[=].count = 0
+* group.population[+].code = $bed-capacity-code-system#SurgeInactiveTotalOccupied
+* group.population[=].count = 0
 * group.population[+].code = $bed-capacity-code-system#SurgeInactiveTotalUnoccupied
 * group.population[=].count = 0
 * group.population[+].code = $bed-capacity-code-system#SurgeActiveICUOccupied
@@ -531,6 +533,8 @@ Usage: #example
 * group.population[+].code = $bed-capacity-code-system#SurgeActiveNonICUOccupied
 * group.population[=].count = 0
 * group.population[+].code = $bed-capacity-code-system#SurgeActiveNonICUUnoccupied
+* group.population[=].count = 0
+* group.population[+].code = $bed-capacity-code-system#SurgeInactiveNonICUOccupied
 * group.population[=].count = 0
 * group.population[+].code = $bed-capacity-code-system#SurgeInactiveNonICUUnoccupied
 * group.population[=].count = 0

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><Measure xmlns="http://hl7.org/fhir">
+<?xml version="1.0" encoding="UTF-8"?>
+<Measure xmlns="http://hl7.org/fhir">
    <id value="BedCapacityMeasure"/>
    <meta>
       <profile value="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm"/>
@@ -1403,7 +1404,10 @@
          <relatedArtifact>
             <type value="depends-on"/>
             <display value="Library FHIRHelpers"/>
+            <!--
             <resource value="http://hl7.org/fhir/us/nhsn-dqm/Library/FHIRHelpers|4.0.1"/>
+            -->
+            <resource value="http://hl7.org/fhir/us/nhsn-dqm/Library/FHIRHelpers"/>
          </relatedArtifact>
          <relatedArtifact>
             <type value="depends-on"/>
@@ -2424,12 +2428,19 @@
          <reference value="Device/cqf-tooling"/>
       </valueReference>
    </extension>
-   <extension id="effective-data-requirements" url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements">
+   <extension id="effective-data-requirements"
+              url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements">
       <valueReference>
          <reference value="#effective-data-requirements"/>
       </valueReference>
    </extension>
+   <extension url="http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis">
+      <valueCode value="boolean"/>
+   </extension>
+   <name value="BedCapacityMeasure"/>
+   <experimental value="true"/>
    <date value="2024-05-23T16:48:22-04:00"/>
+   <description value="NHSN bed capacity example measure"/>
    <library value="http://hl7.org/fhir/us/nhsn-dqm/Library/BedCapacityMeasure"/>
    <scoring>
       <coding>
@@ -2440,8 +2451,9 @@
    </scoring>
    <group>
       <code>
-         <coding>
-            <code value="all beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AllBedsOccupied"/>
          </coding>
       </code>
       <population id="d2e4257">
@@ -2486,8 +2498,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="all beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AllBedsUnoccupied"/>
          </coding>
       </code>
       <population id="d2e4334">
@@ -2532,8 +2545,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultTotalOccupied"/>
          </coding>
       </code>
       <population id="d2e4411">
@@ -2578,8 +2592,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultTotalUnoccupied"/>
          </coding>
       </code>
       <population id="d2e4489">
@@ -2624,8 +2639,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult icu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultICUOccupied"/>
          </coding>
       </code>
       <population id="d2e4566">
@@ -2670,8 +2686,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult icu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e4643">
@@ -2716,8 +2733,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult iculoc beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultICU_LOCOccupied"/>
          </coding>
       </code>
       <population id="d2e4720">
@@ -2762,8 +2780,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult iculoc beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e4797">
@@ -2808,8 +2827,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult nonicu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultNonICUOccupied"/>
          </coding>
       </code>
       <population id="d2e4874">
@@ -2854,8 +2874,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult nonicu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultNonICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e4952">
@@ -2900,8 +2921,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult pcu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultPCUOccupied"/>
          </coding>
       </code>
       <population id="d2e5029">
@@ -2946,8 +2968,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult pcu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultPCUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e5106">
@@ -2992,8 +3015,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult mtms beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultMtmsOccupied"/>
          </coding>
       </code>
       <population id="d2e5183">
@@ -3038,8 +3062,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult mtms beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultMtmsUnoccupied"/>
          </coding>
       </code>
       <population id="d2e5260">
@@ -3084,8 +3109,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult obs beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultObsOccupied"/>
          </coding>
       </code>
       <population id="d2e5337">
@@ -3130,8 +3156,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult obs beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultObsUnoccupied"/>
          </coding>
       </code>
       <population id="d2e5415">
@@ -3176,8 +3203,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds total beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsTotalOccupied"/>
          </coding>
       </code>
       <population id="d2e5492">
@@ -3222,8 +3250,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds total beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsTotalUnoccupied"/>
          </coding>
       </code>
       <population id="d2e5569">
@@ -3268,8 +3297,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds icu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsICUOccupied"/>
          </coding>
       </code>
       <population id="d2e5646">
@@ -3314,8 +3344,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds icu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e5723">
@@ -3360,8 +3391,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds iculoc beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsICU_LOCOccupied"/>
          </coding>
       </code>
       <population id="d2e5800">
@@ -3406,8 +3438,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds iculoc beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e5878">
@@ -3452,8 +3485,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds nonicu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsNonICUOccupied"/>
          </coding>
       </code>
       <population id="d2e5955">
@@ -3498,8 +3532,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds nonicu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsNonICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e6032">
@@ -3544,8 +3579,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds pcu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsPCUOccupied"/>
          </coding>
       </code>
       <population id="d2e6109">
@@ -3590,8 +3626,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds pcu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsPCUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e6186">
@@ -3636,8 +3673,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds mtms beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsMtmsOccupied"/>
          </coding>
       </code>
       <population id="d2e6263">
@@ -3682,8 +3720,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds mtms beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsMtmsUnoccupied"/>
          </coding>
       </code>
       <population id="d2e6341">
@@ -3728,8 +3767,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds obs beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsObsOccupied"/>
          </coding>
       </code>
       <population id="d2e6418">
@@ -3774,8 +3814,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds obs beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsObsUnoccupied"/>
          </coding>
       </code>
       <population id="d2e6495">
@@ -3820,8 +3861,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="specialty beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SpecialtyTotalOccupied"/>
          </coding>
       </code>
       <population id="d2e6572">
@@ -3866,8 +3908,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="specialty beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SpecialtyTotalUnoccupied"/>
          </coding>
       </code>
       <population id="d2e6649">
@@ -3912,8 +3955,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="specialty noncrib beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SpecialtyNoncribOccupied"/>
          </coding>
       </code>
       <population id="d2e6726">
@@ -3958,8 +4002,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="specialty noncrib beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SpecialtyNoncribUnoccupied"/>
          </coding>
       </code>
       <population id="d2e6804">
@@ -4004,8 +4049,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="ob beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="ObOccupied"/>
          </coding>
       </code>
       <population id="d2e6881">
@@ -4050,8 +4096,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="ob beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="ObUnoccupied"/>
          </coding>
       </code>
       <population id="d2e6958">
@@ -4096,8 +4143,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICUOccupied"/>
          </coding>
       </code>
       <population id="d2e7035">
@@ -4142,8 +4190,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e7112">
@@ -4188,8 +4237,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu4 beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU4Occupied"/>
          </coding>
       </code>
       <population id="d2e7189">
@@ -4234,8 +4284,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu4 beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU4Unoccupied"/>
          </coding>
       </code>
       <population id="d2e7267">
@@ -4280,8 +4331,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu3plus beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU3plusOccupied"/>
          </coding>
       </code>
       <population id="d2e7344">
@@ -4326,8 +4378,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu3plus beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU3plusUnoccupied"/>
          </coding>
       </code>
       <population id="d2e7421">
@@ -4372,8 +4425,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu3 beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU3Occupied"/>
          </coding>
       </code>
       <population id="d2e7498">
@@ -4418,8 +4472,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu3 beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU3Unoccupied"/>
          </coding>
       </code>
       <population id="d2e7575">
@@ -4464,8 +4519,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu2 beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU2Occupied"/>
          </coding>
       </code>
       <population id="d2e7652">
@@ -4510,8 +4566,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu2 beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU2Unoccupied"/>
          </coding>
       </code>
       <population id="d2e7730">
@@ -4556,8 +4613,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu1 beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU1Occupied"/>
          </coding>
       </code>
       <population id="d2e7807">
@@ -4602,8 +4660,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nicu1 beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NICU1Unoccupied"/>
          </coding>
       </code>
       <population id="d2e7884">
@@ -4648,8 +4707,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nursery beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NurseryOccupied"/>
          </coding>
       </code>
       <population id="d2e7961">
@@ -4694,8 +4754,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="nursery beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NurseryUnoccupied"/>
          </coding>
       </code>
       <population id="d2e8038">
@@ -4740,8 +4801,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult psych beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultPsychOccupied"/>
          </coding>
       </code>
       <population id="d2e8115">
@@ -4786,8 +4848,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult psych beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultPsychUnoccupied"/>
          </coding>
       </code>
       <population id="d2e8193">
@@ -4832,8 +4895,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds psych beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsPsychOccupied"/>
          </coding>
       </code>
       <population id="d2e8270">
@@ -4878,8 +4942,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds psych beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsPsychUnoccupied"/>
          </coding>
       </code>
       <population id="d2e8347">
@@ -4924,8 +4989,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="rehab beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="RehabOccupied"/>
          </coding>
       </code>
       <population id="d2e8424">
@@ -4970,8 +5036,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="rehab beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="RehabUnoccupied"/>
          </coding>
       </code>
       <population id="d2e8501">
@@ -5016,8 +5083,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge active total beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeActiveTotalOccupied"/>
          </coding>
       </code>
       <population id="d2e8578">
@@ -5062,8 +5130,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge active total beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeActiveTotalUnoccupied"/>
          </coding>
       </code>
       <population id="d2e8656">
@@ -5108,8 +5177,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge inactive total beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeInactiveTotalOccupied"/>
          </coding>
       </code>
       <population id="d2e8733">
@@ -5154,8 +5224,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge inactive total beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeInactiveTotalUnoccupied"/>
          </coding>
       </code>
       <population id="d2e8810">
@@ -5200,8 +5271,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge active icu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeActiveICUOccupied"/>
          </coding>
       </code>
       <population id="d2e8887">
@@ -5246,8 +5318,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge active icu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeActiveICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e8964">
@@ -5292,8 +5365,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge inactive icu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeInactiveICUOccupied"/>
          </coding>
       </code>
       <population id="d2e9041">
@@ -5338,8 +5412,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge inactive icu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeInactiveICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e9119">
@@ -5384,8 +5459,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge active nonicu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeActiveNonICUOccupied"/>
          </coding>
       </code>
       <population id="d2e9196">
@@ -5430,8 +5506,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge active nonicu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeActiveNonICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e9273">
@@ -5476,8 +5553,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge inactive nonicu beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeInactiveNonICUOccupied"/>
          </coding>
       </code>
       <population id="d2e9350">
@@ -5522,8 +5600,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="surge inactive nonicu beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="SurgeInactiveNonICUUnoccupied"/>
          </coding>
       </code>
       <population id="d2e9427">
@@ -5568,8 +5647,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="burn beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="BurnOccupied"/>
          </coding>
       </code>
       <population id="d2e9504">
@@ -5614,8 +5694,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="burn beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="BurnUnoccupied"/>
          </coding>
       </code>
       <population id="d2e9582">
@@ -5660,8 +5741,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="negative pressure beds occupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NegativePressureOccupied"/>
          </coding>
       </code>
       <population id="d2e9659">
@@ -5706,8 +5788,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="negative pressure beds unoccupied"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="NegativePressureUnoccupied"/>
          </coding>
       </code>
       <population id="d2e9736">
@@ -5752,8 +5835,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult ed census"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultEdCensus"/>
          </coding>
       </code>
       <population id="d2e9813">
@@ -5798,8 +5882,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="adult ed admitted census"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="AdultEdAdmittedCensus"/>
          </coding>
       </code>
       <population id="d2e9890">
@@ -5844,8 +5929,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds ed census"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsEdCensus"/>
          </coding>
       </code>
       <population id="d2e9967">
@@ -5890,8 +5976,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="peds ed admitted census"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="PedsEdAdmittedCensus"/>
          </coding>
       </code>
       <population id="d2e10045">
@@ -5936,8 +6023,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="total ed census"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="TotalEdCensus"/>
          </coding>
       </code>
       <population id="d2e10122">
@@ -5982,8 +6070,9 @@
    </group>
    <group>
       <code>
-         <coding>
-            <code value="total ed admitted census"/>
+         <coding xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
+            <code value="TotalEdAdmittedCensus"/>
          </coding>
       </code>
       <population id="d2e10199">
