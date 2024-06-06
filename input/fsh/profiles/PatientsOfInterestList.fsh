@@ -6,5 +6,5 @@ Description: "A Patients of Interest List defines all individual Patients consid
 * ^status = #active
 
 * identifier 1..
-* entry.item only Reference(USCorePatientProfile)
+* entry.item only Reference(QICorePatient)
   * ^short = "Patient Of Interest reference"

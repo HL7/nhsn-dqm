@@ -1,5 +1,5 @@
 Profile: CrossMeasurePatient
-Parent: USCorePatientProfile
+Parent: QICorePatient
 Id: cross-measure-patient
 Title: "Cross-Measure Patient Profile"
 Description: "This profile contains NHSN-specific Required and Must-Support elements for reporting Patient information on public-health surveillance measures to NHSN (https://www.cdc.gov/nhsn/index.html)."

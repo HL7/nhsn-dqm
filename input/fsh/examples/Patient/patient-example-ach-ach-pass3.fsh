@@ -1,5 +1,5 @@
 Instance: patient-example-ach-ach-pass3
-InstanceOf: CrossMeasurePatient
+InstanceOf: QICorePatient
 Title: "Patient - Example ACH Pass3 - CDI/HOB"
 Description: "Patient - Example ACH Pass3 - Healthcare facility-onset, antibiotic-treated Clostridioides difficile infection / Hospital-onset bacteremia and fungemia (CDI/HOB)"
 Usage: #example

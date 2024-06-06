@@ -43,5 +43,5 @@ Description: "This profile defines a valid subject-specific dQM Bundle. The Bund
     * ^short = "The Bundle entry for an Individual Measure Report"
 * entry[patient] ^short = "The Patients associated with an Individual MeasureReport"
   * resource 1..
-  * resource only CrossMeasurePatient
+  * resource only QICorePatient
     * ^short = "The Bundle entry for a Patient associated with an Individual Measure Report"

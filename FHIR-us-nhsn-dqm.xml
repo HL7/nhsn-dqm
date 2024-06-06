@@ -20,7 +20,6 @@
 <artifact id="Coverage/coverage-example-ach-pass1" key="Coverage-coverage-example-ach-pass1" name="Coverage - Example ACH Pass1"/>
 <artifact id="Coverage/coverage-example-ach-pass2" key="Coverage-coverage-example-ach-pass2" name="Coverage - Example ACH Pass2"/>
 <artifact id="Coverage/coverage-example-ach-pass3" key="Coverage-coverage-example-ach-pass3" name="Coverage - Example ACH Pass3"/>
-<artifact id="StructureDefinition/cross-measure-patient" key="StructureDefinition-cross-measure-patient" name="Cross-Measure Patient Profile"/>
 <artifact id="Device/device-example-ach-ach-pass1-central-line" key="Device-device-example-ach-ach-pass1-central-line" name="Device - Example ACH Pass1 Central Line"/>
 <artifact id="Device/device-example-ach-ach-pass2-compress-hose" key="Device-device-example-ach-ach-pass2-compress-hose" name="Device - Example ACH Pass2 Compress Hose"/>
 <artifact id="Device/device-example-ach-ach-pass3-ivcs-pump" key="Device-device-example-ach-ach-pass3-ivcs-pump" name="Device - Example ACH Pass3 Ivcs Pump"/>

@@ -1,5 +1,5 @@
 Instance: patient-example-ach-ach-pass2
-InstanceOf: CrossMeasurePatient
+InstanceOf: QICorePatient
 Title: "Patient - Example ACH Pass2 - Hypo"
 Description: "Patient - Example ACH Pass2 - Hypoglycemia"
 Usage: #example

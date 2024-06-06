@@ -1,5 +1,5 @@
 Instance: patient-example-sameresultdiffday
-InstanceOf: CrossMeasurePatient
+InstanceOf: QICorePatient
 Title: "Patient - Example Sameresultdiffday"
 Description: "Patient - Example Sameresultdiffday - Hypoglycemia"
 Usage: #example

@@ -36,3 +36,4 @@ input/tests/results/
 # Node files
 node_modules/
 .idea/
+/*.docx
