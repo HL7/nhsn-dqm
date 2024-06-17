@@ -4,7 +4,8 @@ This implementation guide (IG) specifies standards for electronic submission of 
 Note that reporting dQM data to NHSN requires enrollment in NHSN, signing of NHSN data-use agreements, and completion of the dQM reporting plans, which are part of the NHSN participation process and are not defined by this specification. For an overview of NHSN and full information on NHSN participation requirements, see http://www.cdc.gov/nhsn. Provisions of the Public Health Service Act protect all data reported to NHSN from discovery through the Freedom of Information Act (FOIA). 
 
 ### Purpose ###
-These specifications define the data-content requirements for submissions to NHSN directly from a facility or through an external dQM-evaluation engine.  
+This specification defines the general requirements for submissions to NHSN directly from a facility or through an external dQM-evaluation engine.  
+
 ### Background ###
 In alignment with CDC’s Data Modernization Initiative, NHSN is implementing automated measures for public health surveillance via digital quality measures (dQMs). These dQMs were created to minimize the burden of reporting; improve the accuracy, quality, and validity of data collected by NHSN; and increase speed and efficiency of public health surveillance.  
 
