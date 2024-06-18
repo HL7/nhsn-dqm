@@ -3,22 +3,24 @@
 
 groups:
   submission:
-    name: NHSN Report Submission
-    description: Note: By default, a modifier extension may not be included in Report Submission Bundle data to NHSN until NHSN accepts the said extension's meaning is accepted by NHSN. See [Modifier Extensions](https://build.fhir.org/extensibility.html#modifierExtension) for additional information.
+    name: NHSN Report Submission Bundles
+    description: "Profiles for Bundles that are used in NHSN submissions."
     resources:
       - StructureDefinition/nhsn-measurereport-bundle
       - StructureDefinition/nhsn-submission-header-bundle
       - StructureDefinition/nhsn-subject-bundle
       #- StructureDefinition/subjectlist-measurereport Can we put DEQM here? http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm DEQMIndividualMeasureReportProfile
       #- StructureDefinition/ip-measurereport-list Can we put DEQM here?  http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-list DEQMIndividualMeasureReportList
-      - StructureDefinition/poi-list
+      
 
   cross-measure:
     name: Cross-Measure profiles
+    description: "Profiles for information included in submission bundles that may be applicable across all measures."
     resources:
       #- StructureDefinition/cross-measure-patient
       - StructureDefinition/nhsn-submitting-organization
       - StructureDefinition/nhsn-submitting-device
+      - StructureDefinition/poi-list
 
   codesystems:
     name: Terminology: CodeSystems
@@ -38,6 +40,7 @@ groups:
 
   ach-def:
     name: Acute Care Hospital Definitional Examples
+    description: "Example Measure and Library resources for Acute Care Hospital Reporting (Note: these are for example only and are not meant to be canonical)."
     resources:
       - Measure/NHSNdQMAcuteCareHospitalInitialPopulation:
         name: Acute Care Hospital Initial Population Measure
@@ -52,6 +55,7 @@ groups:
 
   ach:
     name: Acute Care Hospital Reporting Examples
+    description: "Example resources of Acute Care Hospital submission."
     resources:
       - Bundle/submission-full-example1:
         name: Full Submission Bundle Example 1
@@ -376,6 +380,7 @@ groups:
       
   bed:
     name: Bed Capacity Reporting Examples
+    description: "Example resources of Bed Capacity submission."
     resources:
       - Bundle/jurisdiction-bed-capacity-report-example:
         name: Jurisdiction Capacity Full Report Bundle Example
