@@ -53,7 +53,7 @@ parameters:
 menu:
   IG Home: index.html
   Table of Contents: toc.html
-  System Roles and Use Cases: use_cases.html
+  Actors and Use Cases: use_cases.html
   Artifact Index: 
     Artifacts (categorized): artifact-listing.html
     Artifacts (alphabetical): artifacts.html
@@ -73,7 +73,7 @@ pages:
   artifact-listing.md:
     title: Artifact Listing (Categorized)    
   use_cases.md:
-    title: System Roles and Use Cases
+    title: Actors and Use Cases
   downloads.md:
     title: Useful Downloads
   ImplementationGuide-hl7.fhir.us.nhsn-dqm.md:

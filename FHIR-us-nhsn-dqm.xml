@@ -48,13 +48,10 @@
 <artifact id="Location/location-example-ach-inpatient" key="Location-location-example-ach-inpatient" name="Location - Example ACH - Inpatient"/>
 <artifact id="Location/location-example-ach-medsurg" key="Location-location-example-ach-medsurg" name="Location - Example ACH - Medsurg"/>
 <artifact id="Location/location-example-ach-nicu-level-iii" key="Location-location-example-ach-nicu-level-iii" name="Location - Example ACH - Nicu"/>
-<artifact id="MeasureReport/bed-capacity-measurereport-example-chld" key="MeasureReport-bed-capacity-measurereport-example-chld" name="MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"/>
 <artifact id="MeasureReport/measurereport-example-ach-subjectlist1" key="MeasureReport-measurereport-example-ach-subjectlist1" name="MeasureReport - Example ACH Subject List 1"/>
 <artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass1" key="MeasureReport-measurereport-example-individual-ach-ach-pass1" name="MeasureReport - Example Individual ACH Pass1 - LOS/MEN"/>
 <artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass2" key="MeasureReport-measurereport-example-individual-ach-ach-pass2" name="MeasureReport - Example Individual ACH Pass2 - Hypo"/>
 <artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass3" key="MeasureReport-measurereport-example-individual-ach-ach-pass3" name="MeasureReport - Example Individual ACH Pass3 - C. diff"/>
-<artifact id="MeasureReport/bed-capacity-measurereport-example-hosp" key="MeasureReport-bed-capacity-measurereport-example-hosp" name="MeasureReport - Hospital Bed Capacity Individual Measure Report"/>
-<artifact id="MeasureReport/bed-capacity-measurereport-example-ipf" key="MeasureReport-bed-capacity-measurereport-example-ipf" name="MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report"/>
 <artifact id="Medication/medication-example-cipro-500" key="Medication-medication-example-cipro-500" name="Medication - Example Cipro 500"/>
 <artifact id="Medication/medication-example-dex4-tablet" key="Medication-medication-example-dex4-tablet" name="Medication - Example Dex4 Tablet"/>
 <artifact id="Medication/medication-example-enoxaparin" key="Medication-medication-example-enoxaparin" name="Medication - Example Enoxaparin"/>
@@ -123,17 +120,20 @@
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-1" key="Specimen-specimen-example-ach-ach-pass2-blood-1" name="Specimen - Example ACH Pass2 Blood 1"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-2" key="Specimen-specimen-example-ach-ach-pass2-blood-2" name="Specimen - Example ACH Pass2 Blood 2"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass3-stool" key="Specimen-specimen-example-ach-ach-pass3-stool" name="Specimen - Example ACH Pass3 Stool"/>
+<artifact id="MeasureReport/bed-capacity-measurereport-example-chld" key="MeasureReport-bed-capacity-measurereport-example-chld" name="bed-capacity-measurereport-example-chld"/>
+<artifact id="MeasureReport/bed-capacity-measurereport-example-hosp" key="MeasureReport-bed-capacity-measurereport-example-hosp" name="bed-capacity-measurereport-example-hosp"/>
+<artifact id="MeasureReport/bed-capacity-measurereport-example-ipf" key="MeasureReport-bed-capacity-measurereport-example-ipf" name="bed-capacity-measurereport-example-ipf"/>
 <artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="cqf-tooling"/>
 <artifact id="Parameters/options" key="Parameters-options" name="options"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
+<page key="use_cases" name="Actors and Use Cases"/>
 <page key="artifact-listing" name="Artifact Listing (Categorized)"/>
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="changes" name="IG Change History"/>
 <page key="must_support" name="Must Support"/>
 <page key="ImplementationGuide-hl7.fhir.us.nhsn-dqm" name="NHSN Implementation Guide Resource"/>
 <page key="index" name="NHSN dQMs Home"/>
-<page key="use_cases" name="System Roles and Use Cases"/>
 <page key="toc" name="Table of Contents"/>
 <page key="downloads" name="Useful Downloads"/>
 </specification>
