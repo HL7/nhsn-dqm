@@ -2,8 +2,8 @@ Alias: $bed-capacity-code-system = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/he
 
 Instance: hosp-location-example-bed-capacity
 InstanceOf: QICoreLocation
-Title: "Location - Example Bed Capacity Location"
-Description: "Location - Example  Bed Capacity Location"
+Title: "Location - Example ACH - Crit"
+Description: "Location - Example ACH - Medical Critical Care"
 Usage: #inline
 * identifier.system = "http://www.example.org/location"
 * identifier.value = "123"
@@ -14,8 +14,6 @@ Usage: #inline
 
 Instance: bed-capacity-measurereport-example-hosp
 InstanceOf: DEQMIndividualMeasureReportProfile
-Title: "MeasureReport - Hospital Bed Capacity Individual Measure Report"
-Description: "MeasureReport - Hospital Bed Capacity Individual Measure Report"
 Usage: #example
 
 // * contained.resourceType = "Location"
@@ -36,7 +34,8 @@ Usage: #example
 * date = "2023-08-28T07:01:07.563Z"
 * reporter = Reference(organization-example-submitting-organization)
 * period.start = "2023-08-28T07:01:07.563Z"
-* period.end = "2023-08-28T19:01:07.562Z"
+* period.end = "2023-08-28T19:01:07.561Z"
+* group.code = $bed-capacity-code-system#BedCapacityReporting
 * group.population[0].code = $bed-capacity-code-system#AllBedsOccupied
 * group.population[=].count = 177
 * group.population[+].code = $bed-capacity-code-system#AllBedsUnoccupied
@@ -201,8 +200,6 @@ Usage: #example
 
 Instance: bed-capacity-measurereport-example-ipf
 InstanceOf: DEQMIndividualMeasureReportProfile
-Title: "MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report"
-Description: "MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report"
 Usage: #example
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
@@ -384,8 +381,6 @@ Usage: #example
 
 Instance: bed-capacity-measurereport-example-chld
 InstanceOf: DEQMIndividualMeasureReportProfile
-Title: "MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"
-Description: "MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"
 Usage: #example
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
