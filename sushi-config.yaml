@@ -54,7 +54,9 @@ menu:
   IG Home: index.html
   Table of Contents: toc.html
   System Roles and Use Cases: use_cases.html
-  Artifact Index: artifacts.html
+  Artifact Index: 
+    Artifacts (categorized): artifact-listing.html
+    Artifacts (alphabetical): artifacts.html
   Support:
     FHIR Spec: http://hl7.org/fhir/R4/index.html
     CQL Spec: http://cql.hl7.org/index.html
@@ -68,6 +70,8 @@ pages:
     title: NHSN dQMs Home
   must_support.md:
     title: Must Support
+  artifact-listing.md:
+    title: Artifact Listing (Categorized)    
   use_cases.md:
     title: System Roles and Use Cases
   downloads.md:

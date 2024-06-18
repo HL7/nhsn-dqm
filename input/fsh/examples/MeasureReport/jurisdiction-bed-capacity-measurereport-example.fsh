@@ -2,8 +2,8 @@ Alias: $bed-capacity-code-system = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/he
 
 Instance: hosp-location-example-bed-capacity
 InstanceOf: QICoreLocation
-Title: "Location - Example ACH - Crit"
-Description: "Location - Example ACH - Medical Critical Care"
+Title: "Location - Example Bed Capacity Location"
+Description: "Location - Example  Bed Capacity Location"
 Usage: #inline
 * identifier.system = "http://www.example.org/location"
 * identifier.value = "123"
@@ -14,6 +14,8 @@ Usage: #inline
 
 Instance: bed-capacity-measurereport-example-hosp
 InstanceOf: DEQMIndividualMeasureReportProfile
+Title: "MeasureReport - Hospital Bed Capacity Individual Measure Report"
+Description: "MeasureReport - Hospital Bed Capacity Individual Measure Report"
 Usage: #example
 
 // * contained.resourceType = "Location"
@@ -199,6 +201,8 @@ Usage: #example
 
 Instance: bed-capacity-measurereport-example-ipf
 InstanceOf: DEQMIndividualMeasureReportProfile
+Title: "MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report"
+Description: "MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report"
 Usage: #example
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
@@ -380,6 +384,8 @@ Usage: #example
 
 Instance: bed-capacity-measurereport-example-chld
 InstanceOf: DEQMIndividualMeasureReportProfile
+Title: "MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"
+Description: "MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"
 Usage: #example
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
