@@ -2,5 +2,26 @@
 
 
 # Error caused by an invalid rule in the IG Publisher. Issue logged here: https://github.com/hapifhir/org.hl7.fhir.core/issues/1378
-ERROR: MeasureReport/measurereport-example-subjectlist1: MeasureReport.group[0].population[0]: Mismatch between count 2 and number of subjects 1
 
+
+# INFORMATION: OID Based Code System that is externally managed
+The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
+
+# NHSN dQMs do not  use performer in Observations. They are not included in samples in this IG
+Best Practice Recommendation: In general, all observations should have a performer
+
+# CodeSystems that are draft in THO, will need to be changed in future versions of THO
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/discharge-disposition|1.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/measure-scoring|3.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medication-admin-status|4.0.1
+Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|1.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/measure-scoring|3.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|1.0.0
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
+Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/location-physical-type|2.0.0
