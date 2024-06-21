@@ -3,11 +3,14 @@ InstanceOf: DEQMIndividualMeasureReportProfile
 Title: "MeasureReport - Example Individual ACH Pass1 - LOS/MEN"
 Description: "MeasureReport - Example Individual ACH Pass1 - Late Onset Sepsis and Meningitis (LOS/MEN)"
 Usage: #example
+// TODO, determine if this is actually necessary. DEQM Invariant deqm-3 seems to be incorrectly written
+* extension.url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
+* extension.valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * identifier[+].system = "http://example.org/fhir/measurereport/id"
 * identifier[=].value = "123456789-pass1"
 * status = #complete
 * type = #individual
-* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation)
+* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation|0.1.0-cibuild)
 * subject = Reference(patient-example-ach-ach-pass1)
 * date = "2024-02-05T21:04:29.481+00:00"
 * reporter = Reference(organization-example-submitting-organization)

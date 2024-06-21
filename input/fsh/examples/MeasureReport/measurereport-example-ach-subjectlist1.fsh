@@ -3,6 +3,9 @@ InstanceOf: DEQMSubjectListMeasureReport
 Title: "MeasureReport - Example ACH Subject List 1"
 Description: "Measure Report - Example ACH Subject List Example 1"
 Usage: #example
+// TODO, determine if this is actually necessary. DEQM Invariant deqm-3 seems to be incorrectly written
+* extension.url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
+* extension.valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * status = #complete
 * type = #subject-list
 * measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation)

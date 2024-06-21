@@ -1407,7 +1407,7 @@
             <!--
             <resource value="http://hl7.org/fhir/us/nhsn-dqm/Library/FHIRHelpers|4.0.1"/>
             -->
-            <resource value="http://hl7.org/fhir/us/nhsn-dqm/Library/FHIRHelpers"/>
+            <resource value="http://fhir.org/guides/cqf/common/Library/FHIRHelpers"/>
          </relatedArtifact>
          <relatedArtifact>
             <type value="depends-on"/>

@@ -9,9 +9,9 @@ Usage: #example
 * identifier.value = "urn:uuid:1eaddf4c-2ec0-4dc4-b26f-9586d7a777e1"
 * type = #collection
 * timestamp = "2023-08-28T07:01:07.563Z"
-* entry[0].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-hosp"
+* entry[0].fullUrl = "http://example.com/fhir/MeasureReport/bed-capacity-measurereport-example-hosp"
 * entry[=].resource = bed-capacity-measurereport-example-hosp
-* entry[+].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-ipf"
+* entry[+].fullUrl = "http://example.com/fhir/MeasureReport/bed-capacity-measurereport-example-ipf"
 * entry[=].resource = bed-capacity-measurereport-example-ipf
-* entry[+].fullUrl = "http://nhsnlink.org/fhir/MeasureReport/bed-capacity-measurereport-example-chld"
+* entry[+].fullUrl = "http://example.com/fhir/MeasureReport/bed-capacity-measurereport-example-chld"
 * entry[=].resource = bed-capacity-measurereport-example-chld

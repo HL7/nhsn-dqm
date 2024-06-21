@@ -3,7 +3,7 @@ InstanceOf: PatientsOfInterestList
 Title: "List - Example Patients of Interest List 1"
 Description: "List - Patients of Interest Example 1"
 Usage: #example
-* identifier.system = "https://nhsnlink.org"
+* identifier.system = "http://example.com/Identifier"
 * identifier.value = "NHSNdQMAcuteCareHospitalInitialPopulation"
 * status = #current
 * mode = #changes
