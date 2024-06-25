@@ -22,20 +22,20 @@ parameter "Measurement Period" Interval<DateTime>
 
 context Location
 
-define "Initial Population":
+define "IsBedLocation":
   Location.physicalType ~ "Bed"
 
-define "Denominator":
-  "Initial Population"
+define "All Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
 
-define "All Beds Occupied Numerator":
-  EncounterCheck
+define "All Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
 
-define "All Beds Unoccupied Numerator":
-  NoEncounterCheck
-
-define "Adult Beds Occupied Numerator":
-  EncounterCheck
+define "Adult Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where LocationIsHOSP
@@ -43,8 +43,9 @@ define "Adult Beds Occupied Numerator":
       and "LocationIsIPF"
   )
 
-define "Adult Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -52,22 +53,25 @@ define "Adult Beds Unoccupied Numerator":
       and "LocationIsIPF"
   )
 
-define "Adult ICU Beds Occupied Numerator":
-  EncounterCheck
+define "Adult ICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
   )
 
-define "Adult ICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult ICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
   )
 
-define "Adult ICULOC Beds Occupied Numerator":
-  EncounterCheck
+define "Adult ICULOC Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -75,48 +79,54 @@ define "Adult ICULOC Beds Occupied Numerator":
   )
   
 
-define "Adult ICULOC Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult ICULOC Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsIPF"
   )
 
-define "Adult NonICU Beds Occupied Numerator":
-  EncounterCheck
+define "Adult NonICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
   
-define "Adult NonICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult NonICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
 
-define "Adult PCU Beds Occupied Numerator":
-  EncounterCheck
+define "Adult PCU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsIPF"
       and "LocationIsOTH"
   )
   
-define "Adult PCU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult PCU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsIPF"
       and "LocationIsOTH"
   )
 
-define "Adult MTMS Beds Occupied Numerator":
-  EncounterCheck
+define "Adult MTMS Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -124,8 +134,9 @@ define "Adult MTMS Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Adult MTMS Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult MTMS Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -133,52 +144,59 @@ define "Adult MTMS Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Adult Obs Beds Occupied Numerator":
-  EncounterCheck
+define "Adult Obs Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsOTH"
   )
   
-define "Adult Obs Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult Obs Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsOTH"
   )
 
-define "Peds Total Beds Occupied Numerator":
-  EncounterCheck
+define "Peds Total Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsCHLD"
   )
   
-define "Peds Total Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds Total Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsCHLD"
   )
 
-define "Peds ICU Beds Occupied Numerator":
-  EncounterCheck
+define "Peds ICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsCHLD"
   )
   
-define "Peds ICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds ICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsCHLD"
   )
 
-define "Peds ICULOC Beds Occupied Numerator":
-  EncounterCheck
+define "Peds ICULOC Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -186,8 +204,9 @@ define "Peds ICULOC Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Peds ICULOC Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds ICULOC Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -195,8 +214,9 @@ define "Peds ICULOC Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Peds NonICU Beds Occupied Numerator":
-  EncounterCheck
+define "Peds NonICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsIPF"
@@ -204,8 +224,9 @@ define "Peds NonICU Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Peds NonICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds NonICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsIPF"
@@ -213,24 +234,27 @@ define "Peds NonICU Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Peds PCU Beds Occupied Numerator":
-  EncounterCheck
+define "Peds PCU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsCHLD"
       and "LocationIsOTH"
   )
   
-define "Peds PCU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds PCU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsCHLD"
       and "LocationIsOTH"
   )
 
-define "Peds MTMS Beds Occupied Numerator":
-  EncounterCheck
+define "Peds MTMS Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -239,8 +263,9 @@ define "Peds MTMS Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Peds MTMS Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds MTMS Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -249,8 +274,9 @@ define "Peds MTMS Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Peds Obs Beds Occupied Numerator":
-  EncounterCheck
+define "Peds Obs Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -259,8 +285,9 @@ define "Peds Obs Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Peds Obs Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds Obs Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -269,22 +296,25 @@ define "Peds Obs Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Specialty Beds Occupied Numerator":
-  EncounterCheck
+define "Specialty Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsOTH"
   )
   
-define "Specialty Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Specialty Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsOTH"
   )
 
-define "Specialty NonCrib Beds Occupied Numerator":
-  EncounterCheck
+define "Specialty NonCrib Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -292,8 +322,9 @@ define "Specialty NonCrib Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Specialty NonCrib Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Specialty NonCrib Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -301,8 +332,9 @@ define "Specialty NonCrib Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "OB Beds Occupied Numerator":
-  EncounterCheck
+define "OB Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsIRF"
@@ -310,8 +342,9 @@ define "OB Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "OB Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "OB Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsIRF"
@@ -319,8 +352,9 @@ define "OB Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "NICU Beds Occupied Numerator":
-  EncounterCheck
+define "NICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -328,8 +362,9 @@ define "NICU Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "NICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "NICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -337,8 +372,9 @@ define "NICU Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "NICU4 Beds Occupied Numerator":
-  EncounterCheck
+define "NICU4 Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -346,8 +382,9 @@ define "NICU4 Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "NICU4 Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "NICU4 Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -355,8 +392,9 @@ define "NICU4 Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "NICU3Plus Beds Occupied Numerator":
-  EncounterCheck
+define "NICU3Plus Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -364,8 +402,9 @@ define "NICU3Plus Beds Occupied Numerator":
       and "LocationIsCHLD"
   )
   
-define "NICU3Plus Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "NICU3Plus Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -373,8 +412,9 @@ define "NICU3Plus Beds Unoccupied Numerator":
       and "LocationIsCHLD"
   )
 
-define "NICU3 Beds Occupied Numerator":
-  EncounterCheck
+define "NICU3 Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -382,8 +422,9 @@ define "NICU3 Beds Occupied Numerator":
       and "LocationIsCHLD"
   )
   
-define "NICU3 Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "NICU3 Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -391,8 +432,9 @@ define "NICU3 Beds Unoccupied Numerator":
       and "LocationIsCHLD"
   )
 
-define "NICU2 Beds Occupied Numerator":
-  EncounterCheck
+define "NICU2 Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -400,8 +442,9 @@ define "NICU2 Beds Occupied Numerator":
       and "LocationIsCHLD"
   )
   
-define "NICU2 Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "NICU2 Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -409,8 +452,9 @@ define "NICU2 Beds Unoccupied Numerator":
       and "LocationIsCHLD"
   )
 
-define "NICU1 Beds Occupied Numerator":
-  EncounterCheck
+define "NICU1 Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -419,8 +463,9 @@ define "NICU1 Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "NICU1 Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "NICU1 Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -429,24 +474,27 @@ define "NICU1 Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Nursery Beds Occupied Numerator":
-  EncounterCheck
+define "Nursery Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsIRF"
       and "LocationIsCHLD"
   )
   
-define "Nursery Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Nursery Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsIRF"
       and "LocationIsCHLD"
   )
 
-define "Adult Psych Beds Occupied Numerator":
-  EncounterCheck
+define "Adult Psych Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -454,8 +502,9 @@ define "Adult Psych Beds Occupied Numerator":
       and "LocationIsOTH"
   )
   
-define "Adult Psych Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Adult Psych Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -463,18 +512,9 @@ define "Adult Psych Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Peds Psych Beds Occupied Numerator":
-  EncounterCheck
-  and exists(
-    Location.type types
-    where "LocationIsHOSP"
-      and "LocationIsIPF"
-      and "LocationIsCHLD"
-      and "LocationIsOTH"
-  )
-
-define "Peds Psych Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Peds Psych Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -483,22 +523,36 @@ define "Peds Psych Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Rehab Beds Occupied Numerator":
-  EncounterCheck
+define "Peds Psych Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
+  and exists(
+    Location.type types
+    where "LocationIsHOSP"
+      and "LocationIsIPF"
+      and "LocationIsCHLD"
+      and "LocationIsOTH"
+  )
+
+define "Rehab Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsIRF"
   )
 
-define "Rehab Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Rehab Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsIRF"
   )
 
-define "Surge Active Total Beds Occupied Numerator":
-  EncounterCheck
+define "Surge Active Total Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -506,8 +560,9 @@ define "Surge Active Total Beds Occupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Surge Active Total Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Surge Active Total Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -515,8 +570,9 @@ define "Surge Active Total Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Surge Inactive Total Beds Occupied Numerator":
-  EncounterCheck
+define "Surge Inactive Total Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -524,8 +580,9 @@ define "Surge Inactive Total Beds Occupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Surge Inactive Total Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Surge Inactive Total Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
@@ -533,102 +590,115 @@ define "Surge Inactive Total Beds Unoccupied Numerator":
       and "LocationIsOTH"
   )
 
-define "Surge Active ICU Beds Occupied Numerator":
-  EncounterCheck
+define "Surge Active ICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
 
-define "Surge Active ICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Surge Active ICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
 
-define "Surge Inactive ICU Beds Occupied Numerator":
-  EncounterCheck
+define "Surge Inactive ICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
 
-define "Surge Inactive ICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Surge Inactive ICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
 
-define "Surge Active NonICU Beds Occupied Numerator":
-  EncounterCheck
+define "Surge Active NonICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsCHLD"
   )
 
-define "Surge Active NonICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Surge Active NonICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsCHLD"
   )
 
-define "Surge Inactive NonICU Beds Occupied Numerator":
-  EncounterCheck
+define "Surge Inactive NonICU Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsCHLD"
   )
 
-define "Surge Inactive NonICU Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Surge Inactive NonICU Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsCHLD"
   )
 
-define "Burn Beds Occupied Numerator":
-  EncounterCheck
+define "Burn Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
 
-define "Burn Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Burn Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
       and "LocationIsOTH"
   )
 
-define "Negative Pressure Beds Occupied Numerator":
-  EncounterCheck
+define "Negative Pressure Beds Occupied Initial Population":
+  IsBedLocation
+  and EncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
   )
 
-define "Negative Pressure Beds Unoccupied Numerator":
-  NoEncounterCheck
+define "Negative Pressure Beds Unoccupied Initial Population":
+  IsBedLocation
+  and NoEncounterCheck
   and exists(
     Location.type types
     where "LocationIsHOSP"
   )
 
-define "Adult ED Census Numerator":
-  exists(
+define "Adult ED Census Initial Population":
+  IsBedLocation
+  and exists(
     [Encounter: "Emergency Department Visit"] EDVisit
     where exists(LocationMatch(EDVisit.location))
       and EDVisit.period overlaps "Measurement Period"
@@ -639,8 +709,9 @@ define "Adult ED Census Numerator":
       and "LocationIsOTH"
   )
 
-define "Adult ED Admitted Census Numerator":
-  exists(
+define "Adult ED Admitted Census Initial Population":
+  IsBedLocation
+  and exists(
     [Encounter: "Emergency Department Visit"] EDVisit
     where exists(LocationMatch(EDVisit.location))
       and EDVisit.period overlaps "Measurement Period"
@@ -652,8 +723,9 @@ define "Adult ED Admitted Census Numerator":
       and "LocationIsOTH"
   )
 
-define "Peds ED Census Numerator":
-  exists(
+define "Peds ED Census Initial Population":
+  IsBedLocation
+  and exists(
     [Encounter: "Emergency Department Visit"] EDVisit
     where exists(LocationMatch(EDVisit.location))
       and EDVisit.period overlaps "Measurement Period"
@@ -663,8 +735,9 @@ define "Peds ED Census Numerator":
     where "LocationIsCHLD"
   )
 
-define "Peds ED Admitted Census Numerator":
-  exists(
+define "Peds ED Admitted Census Initial Population":
+  IsBedLocation
+  and exists(
     [Encounter: "Emergency Department Visit"] EDVisit
     where exists(LocationMatch(EDVisit.location))
       and EDVisit.period overlaps "Measurement Period"
@@ -675,8 +748,9 @@ define "Peds ED Admitted Census Numerator":
     where "LocationIsCHLD"
   )
 
-define "Total ED Census Numerator":
-  exists(
+define "Total ED Census Initial Population":
+  IsBedLocation
+  and exists(
     [Encounter: "Emergency Department Visit"] EDVisit
     where exists(LocationMatch(EDVisit.location))
       and EDVisit.period overlaps "Measurement Period"
@@ -688,8 +762,9 @@ define "Total ED Census Numerator":
       and "LocationIsOTH"
   )
 
-define "Total ED Admitted Census Numerator":
-  exists(
+define "Total ED Admitted Census Initial Population":
+  IsBedLocation
+  and exists(
     [Encounter: "Emergency Department Visit"] EDVisit
     where exists(LocationMatch(EDVisit.location))
       and EDVisit.period overlaps "Measurement Period"
