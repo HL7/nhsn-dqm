@@ -2378,10 +2378,11 @@
          <reference value="#effective-data-requirements"/>
       </valueReference>
    </extension>
+   <url value="http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"/>
    <name value="BedCapacityMeasure"/>
    <title value="NHSN dQM Bed Capacity"/>
    <experimental value="true"/>
-   <date value="2024-06-25T15:37:43-04:00"/>
+   <date value="2024-06-25T17:37:47-04:00"/>
    <description value="NHSN bed capacity example measure"/>
    <library value="http://hl7.org/fhir/us/nhsn-dqm/Library/BedCapacityMeasure"/>
    <scoring>
