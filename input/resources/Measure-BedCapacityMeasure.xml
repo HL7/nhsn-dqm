@@ -3698,27 +3698,6 @@
       <code>
          <coding>
             <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
-            <code value="SurgeInactiveICUOccupied"/>
-         </coding>
-      </code>
-      <population id="d2e9085">
-         <code>
-            <coding>
-               <system value="http://terminology.hl7.org/CodeSystem/measure-population"/>
-               <code value="initial-population"/>
-               <display value="Initial Population"/>
-            </coding>
-         </code>
-         <criteria>
-            <language value="text/cql-identifier"/>
-            <expression value="Surge Inactive ICU Beds Occupied Initial Population"/>
-         </criteria>
-      </population>
-   </group>
-   <group>
-      <code>
-         <coding>
-            <system value="http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes"/>
             <code value="SurgeInactiveICUUnoccupied"/>
          </coding>
       </code>
