@@ -14,7 +14,7 @@ Usage: #example
 * period.start = "2022-08-01T00:00:00+00:00"
 * period.end = "2022-08-31T23:59:59+00:00"
 * group.population.code = $measure-population#initial-population "Initial Population"
-* group.population.count = 2
+* group.population.count = 3
 * group.population.subjectResults = Reference(list-example-ach-individual-measurereport-list)
 * group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * group.measureScore.extension.valueCode = #unknown
