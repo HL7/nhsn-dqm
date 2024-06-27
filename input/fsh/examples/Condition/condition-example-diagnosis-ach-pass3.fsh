@@ -6,6 +6,7 @@ Usage: #example
 * verificationStatus.coding.version = "4.0.0"
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"
 * verificationStatus.text = "Confirmed"
+* clinicalStatus = $condition-clinical#active "Active"
 * category[us-core] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[us-core].text = "Encounter Diagnosis"
 * code.coding[+] = $icd-10-cm#A04.7 "Enterocolitis due to Clostridium difficile"

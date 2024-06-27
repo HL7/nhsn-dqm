@@ -50,6 +50,11 @@ parameters:
   #default-jurisdiction: true
   default-copyright: true
 
+  path-resource: 
+  - input/resources/device
+  - input/resources/library
+  - input/resources/measure
+
 menu:
   IG Home: index.html
   Table of Contents: toc.html
@@ -81,3 +86,19 @@ pages:
   changes.md:
     title: IG Change History 
 
+
+
+resources:
+   
+  Measure/BedCapacityMeasure:
+    name: "NHSN dQM Bed Capacity Measure"
+    description: "The dQM Bed Capacity Data Collection Measure."
+
+  Library/BedCapacityMeasure:
+    name: "NHSN dQM Bed Capacity Library"
+    description: "The dQM Bed Capacity Data Collection Library."
+
+
+  Device/cqf-tooling:
+    name: "CQF Tooling Device"
+    description: "Example of a Software System Device instance for describing tooling that was used to process artifacts."

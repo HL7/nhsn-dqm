@@ -16,6 +16,8 @@ Usage: #inline
 
 Instance: bed-capacity-measurereport-example-hosp
 InstanceOf: DEQMIndividualMeasureReportProfile
+Title: "MeasureReport - Hospital Bed Capacity Individual Measure Report"
+Description: "Example MeasureReport - Hospital Bed Capacity Individual Measure Report"
 Usage: #example
 
 // * contained.resourceType = "Location"
@@ -24,11 +26,16 @@ Usage: #example
 // * contained.identifier.value = "123"
 // * contained.name = "XYZ Hospital"
 // * contained.type = $bed-capacity-code-system#HOSP "Hospital"
-
+* extension[location].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-dataLocation"
+* extension[location].valueReference = Reference(hosp-location-example-bed-capacity)
+// TODO, determine if this is actually necessary. DEQM Invariant deqm-3 seems to be incorrectly written
+* extension[1].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
+* extension[=].valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure|0.1.0-cibuild"
+//* measure = Canonical(BedCapacityMeasure)
 // Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
 // * subject = Reference(hosp-location-example-bed-capacity)
 * subject.identifier.system = "http://www.example.org/location"
@@ -221,6 +228,9 @@ Usage: #example
 * group[+].code = $bed-capacity-code-system#SurgeActiveTotalUnoccupied
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
+* group[+].code = $bed-capacity-code-system#SurgeInactiveTotalOccupied
+* group[=].population[0].code = $measure-population#initial-population "Initial Population"
+* group[=].population[=].count = 0
 * group[+].code = $bed-capacity-code-system#SurgeInactiveTotalUnoccupied
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
@@ -237,6 +247,9 @@ Usage: #example
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
 * group[+].code = $bed-capacity-code-system#SurgeActiveNonICUUnoccupied
+* group[=].population[0].code = $measure-population#initial-population "Initial Population"
+* group[=].population[=].count = 0
+* group[+].code = $bed-capacity-code-system#SurgeInactiveNonICUOccupied
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
 * group[+].code = $bed-capacity-code-system#SurgeInactiveNonICUUnoccupied
@@ -275,11 +288,18 @@ Usage: #example
 
 Instance: bed-capacity-measurereport-example-ipf
 InstanceOf: DEQMIndividualMeasureReportProfile
+Title: "MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report"
+Description: "Example MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report"
 Usage: #example
+
+* extension[location].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-dataLocation"
+* extension[location].valueReference = Reference(hosp-location-example-bed-capacity)
+* extension[1].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
+* extension[=].valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure|0.1.0-cibuild"
 // Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
 // * subject = Reference(hosp-location-example-bed-capacity)
 * subject.identifier.system = "http://www.example.org/location"
@@ -475,6 +495,9 @@ Usage: #example
 * group[+].code = $bed-capacity-code-system#SurgeActiveTotalUnoccupied
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
+* group[+].code = $bed-capacity-code-system#SurgeInactiveTotalOccupied
+* group[=].population[0].code = $measure-population#initial-population "Initial Population"
+* group[=].population[=].count = 0
 * group[+].code = $bed-capacity-code-system#SurgeInactiveTotalUnoccupied
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
@@ -491,6 +514,9 @@ Usage: #example
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
 * group[+].code = $bed-capacity-code-system#SurgeActiveNonICUUnoccupied
+* group[=].population[0].code = $measure-population#initial-population "Initial Population"
+* group[=].population[=].count = 0
+* group[+].code = $bed-capacity-code-system#SurgeInactiveNonICUOccupied
 * group[=].population[0].code = $measure-population#initial-population "Initial Population"
 * group[=].population[=].count = 0
 * group[+].code = $bed-capacity-code-system#SurgeInactiveNonICUUnoccupied
@@ -529,11 +555,18 @@ Usage: #example
 
 Instance: bed-capacity-measurereport-example-chld
 InstanceOf: DEQMIndividualMeasureReportProfile
+Title: "MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"
+Description: "Example MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"
 Usage: #example
+
+* extension[location].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-dataLocation"
+* extension[location].valueReference = Reference(hosp-location-example-bed-capacity)
+* extension[1].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
+* extension[=].valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * contained[0] = hosp-location-example-bed-capacity
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
+* measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure|0.1.0-cibuild"
 // Uncomment the line below when DEQM is updated to allow non-patient subjects in individual reports
 // * subject = Reference(hosp-location-example-bed-capacity)
 * subject.identifier.system = "http://www.example.org/location"
