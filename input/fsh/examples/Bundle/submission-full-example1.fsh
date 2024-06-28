@@ -1,5 +1,5 @@
 Instance: submission-full-example1
-InstanceOf: NHSNMeasureReportBundleProfileCurrent
+InstanceOf: NHSNMeasureReportBundle
 Title: "Full Submission Bundle Example 1"
 Description: "Measure Bundle - Full Submission Bundle Example 1"
 Usage: #example
