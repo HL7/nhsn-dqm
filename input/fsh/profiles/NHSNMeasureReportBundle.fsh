@@ -16,7 +16,7 @@ Description: "This profile defines a valid Submission Bundle to NHSN with all re
 * entry contains
     submitting-organization 1..1 and
     submitting-device 1..1 and
-    poi-list 1..1 and
+    poi-list 0..1 and
     subject-list 1..* and
     individual-measurereport 0..* and
     patient 0..*
