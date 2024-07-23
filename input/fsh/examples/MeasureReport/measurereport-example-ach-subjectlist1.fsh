@@ -19,6 +19,7 @@ Usage: #example
 * group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * group.measureScore.extension.valueCode = #unknown
 
+
 Instance: list-example-ach-individual-measurereport-list
 InstanceOf: DEQMIndividualMeasureReportList
 Title: "List - Example ACH Individual Measure Report List"

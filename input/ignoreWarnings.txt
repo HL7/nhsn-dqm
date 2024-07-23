@@ -1,16 +1,56 @@
 == Suppressed Messages ==
 
 
-# Error caused by an invalid rule in the IG Publisher. Issue logged here: https://github.com/hapifhir/org.hl7.fhir.core/issues/1378
+# Error caused by an invalid rule in the IG Publisher. Issue logged here: 
 
+https://github.com/hapifhir/org.hl7.fhir.core/issues/1378
+
+# Currently DEQM requires measure score for subject list measure reports, which was an error. This causes and error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
+
+No measureScore when the scoring of the message is 'cohort'
+
+# Currently DEQM requires measure score for subject list measure reports, which was an error. This causes and error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
+
+Slice 'Bundle.entry:subject-list': a matching slice is required, but not found (from http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|0.1.0-cibuild). Note that other slices are allowed in addition to this required slice
+
+# We do not include entry slices for all possible resource types
+
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|0.1.0-cibuild (this may not be a problem, but you should check that it's not intended to match a slice)
+
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-subject-bundle|0.1.0-cibuild (this may not be a problem, but you should check that it's not intended to match a slice)
+
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-diagnosticreport-note|6.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+# The Healthcare Capacity code system will be removed once LOINC codes have been assigned. The request is in process and is being managed by NHSN
+
+Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
+
+# Will have to raise with NHSN if assigning OIDs to a Library is useful for this community
+
+This resource could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 
 # INFORMATION: OID Based Code System that is externally managed
+
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
 
-# NHSN dQMs do not  use performer in Observations. They are not included in samples in this IG
+# NHSN dQMs do not use performer in Observations. They are not included in samples in this IG
+
 Best Practice Recommendation: In general, all observations should have a performer
 
+# Acknowledged
+
+The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+
 # CodeSystems that are draft in THO, will need to be changed in future versions of THO
+
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/discharge-disposition|1.0.0
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/measure-scoring|3.0.0

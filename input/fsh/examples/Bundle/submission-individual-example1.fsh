@@ -1,3 +1,6 @@
+
+/*
+
 Instance: bundle-example-ach-header
 InstanceOf: NHSNSubmissionHeaderBundle
 Title: "ACH Submission Header Bundle"
@@ -16,6 +19,7 @@ Usage: #example
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-ach-subjectlist1"
 * entry[=].resource = measurereport-example-ach-subjectlist1
 
+*/
 
 Instance: bundle-example-ach-subject-ach-pass1
 InstanceOf: NHSNSubjectBundle
