@@ -17,12 +17,9 @@ Description: "This profile defines a valid Submission Header Bundle. The Bundle 
 * entry contains
     submitting-organization 1..1 and
     submitting-device 1..1 and
-    poi-list 1..1 and
+    poi-list 0..1 and
     subject-list 1..*
-/*     and
-    individual-measurereport 0..* and
-    patient 1..1
-*/
+
 * entry[submitting-organization] ^short = "The Submitting Organization: the organization that is the source of the data"
   * resource 1..
   * resource only NHSNSubmittingOrganization
@@ -39,14 +36,3 @@ Description: "This profile defines a valid Submission Header Bundle. The Bundle 
   * resource 1..
   * resource only DEQMSubjectListMeasureReport
     * ^short = "The Bundle entry for a Summary Measure Report"
-/*
-* entry[individual-measurereport] ^short = "Individual Measure Report: each Individual MeasureReport refers to one Patient and one measure included in the Individual Measure Report List"
-  * resource 1..
-  * resource only DEQMIndividualMeasureReportProfile
-    * ^short = "The Bundle entry for an Individual Measure Report"
-* entry[patient] ^short = "The Patients associated with an Individual MeasureReport"
-  * resource 1..
-  * resource only CrossMeasurePatient
-    * ^short = "The Bundle entry for a Patient associated with an Individual Measure Report"
-
-  */
