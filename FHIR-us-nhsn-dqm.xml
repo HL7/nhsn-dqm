@@ -101,6 +101,7 @@
 <artifact id="Patient/patient-example-ach-ach-pass3" key="Patient-patient-example-ach-ach-pass3" name="Patient - Example ACH Pass3 - CDI/HOB"/>
 <artifact id="Patient/patient-example-sameresultdiffday" key="Patient-patient-example-sameresultdiffday" name="Patient - Example Sameresultdiffday"/>
 <artifact id="StructureDefinition/poi-list" key="StructureDefinition-poi-list" name="Patients-Of-Interest List"/>
+<artifact id="Practitioner/practitioner-example" key="Practitioner-practitioner-example" name="Practitioner Example"/>
 <artifact id="Procedure/procedure-example-ach-ach-pass1-central-line" key="Procedure-procedure-example-ach-ach-pass1-central-line" name="Procedure - Example ACH Pass1 Central Line"/>
 <artifact id="Procedure/procedure-example-ach-ach-pass1-lumbar" key="Procedure-procedure-example-ach-ach-pass1-lumbar" name="Procedure - Example ACH Pass1 Lumbar"/>
 <artifact id="Procedure/procedure-example-ach-ach-pass2-ivcf" key="Procedure-procedure-example-ach-ach-pass2-ivcf" name="Procedure - Example ACH Pass2 IVCF"/>

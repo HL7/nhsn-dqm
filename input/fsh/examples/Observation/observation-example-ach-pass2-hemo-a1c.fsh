@@ -15,7 +15,7 @@ Usage: #example
 * encounter.display = "Hospital Admission"
 * effectiveDateTime = "2024-01-31T23:01:00-05:00"
 * issued = "2024-01-31T23:52:00-05:00"
-* performer = Reference(performer-example)
+* performer = Reference(practitioner-example)
 * valueQuantity = 7.5 '%' "%"
 * specimen = Reference(specimen-example-ach-ach-pass2-blood-1)
 

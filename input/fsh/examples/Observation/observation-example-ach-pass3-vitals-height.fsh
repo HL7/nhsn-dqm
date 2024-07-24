@@ -14,5 +14,5 @@ Usage: #example
 * encounter.display = "Short Stay"
 * effectiveDateTime = "2024-02-01T19:21:00-05:00"
 * issued = "2024-02-01T19:21:00-05:00"
-* performer = Reference(performer-example)
+* performer = Reference(practitioner-example)
 * valueQuantity = 176.8 'cm' "cm"

@@ -15,6 +15,6 @@ Usage: #example
 * encounter.display = "Hospital Admission"
 * effectiveDateTime = "2024-02-02T18:13:00-05:00"
 * issued = "2024-02-03T11:47:00-05:00"
-* performer = Reference(performer-example)
+* performer = Reference(practitioner-example)
 * valueCodeableConcept = $sct#260373001 "Detected (qualifier value)"
 * specimen = Reference(specimen-example-ach-ach-pass1-csf)

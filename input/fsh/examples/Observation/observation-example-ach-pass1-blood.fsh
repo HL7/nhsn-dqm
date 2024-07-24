@@ -15,7 +15,7 @@ Usage: #example
 * encounter.display = "Hospital Admission"
 * effectiveDateTime = "2024-02-02T18:12:00-05:00"
 * issued = "2024-02-03T11:42:00-05:00"
-* performer = Reference(performer-example)
+* performer = Reference(practitioner-example)
 * valueCodeableConcept = $sct#113962001 "Staphylococcus capitis ss capitis (organism)"
 * valueCodeableConcept.text = "Staphylococcus capitis"
 * specimen = Reference(specimen-example-ach-ach-pass1-blood)

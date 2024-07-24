@@ -14,5 +14,5 @@ Usage: #example
 * encounter.display = "Hospital Admission"
 * effectiveDateTime = "2024-02-01T16:02:00-05:00"
 * issued = "2024-02-01T16:02:00-05:00"
-* performer = Reference(performer-example)
+* performer = Reference(practitioner-example)
 * valueQuantity = 0.58 'kg' "kg"
