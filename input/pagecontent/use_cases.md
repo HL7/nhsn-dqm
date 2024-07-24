@@ -41,7 +41,6 @@ For specific information on the individual NHSN protocols and metrics see:
 
 ###### Bundle Submission
 - [Full Submission Bundle](https://build.fhir.org/ig/HL7/nhsn-dqm/Bundle-submission-full-example1.html)
-- [ACH Submission Header Bundle](https://build.fhir.org/ig/HL7/nhsn-dqm/Bundle-bundle-example-ach-header.html) 
 - [Submitting Organization](https://build.fhir.org/ig/HL7/nhsn-dqm/Organization-organization-example-submitting-organization.html) 
 - [Submitting Device](https://build.fhir.org/ig/HL7/nhsn-dqm/Device-device-example-submitting-device.html) 
 

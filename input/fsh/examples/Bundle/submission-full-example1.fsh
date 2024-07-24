@@ -168,3 +168,39 @@ Usage: #example
 * entry[+].fullUrl = "http://example.com/fhir/Specimen/specimen-example-ach-ach-pass3-stool"
 * entry[=].resource = specimen-example-ach-ach-pass3-stool
 
+// The following entries were missing from the Bundle, not sure which MR they apply to
+
+
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-vancomycin-15"
+* entry[=].resource = medication-example-vancomycin-15
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-dex4-tablet"
+* entry[=].resource = medication-example-dex4-tablet
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-heparin"
+* entry[=].resource = medication-example-heparin
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-insulin-lispro"
+* entry[=].resource = medication-example-insulin-lispro
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-metformin-1000"
+* entry[=].resource = medication-example-metformin-1000
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-metronidazole"
+* entry[=].resource = medication-example-metronidazole
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-cipro-500"
+* entry[=].resource = medication-example-cipro-500
+* entry[+].fullUrl = "http://example.com/fhir/Medication/medication-example-enoxaparin"
+* entry[=].resource = medication-example-enoxaparin
+* entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-nicu-level-iii"
+* entry[=].resource = location-example-ach-nicu-level-iii
+* entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-emergency"
+* entry[=].resource = location-example-ach-emergency
+* entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-inpatient"
+* entry[=].resource = location-example-ach-inpatient
+* entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-crit"
+* entry[=].resource = location-example-ach-crit
+* entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-medsurg"
+* entry[=].resource = location-example-ach-medsurg
+* entry[+].fullUrl = "http://example.com/fhir/List/list-example-ach-individual-measurereport-list"
+* entry[=].resource = list-example-ach-individual-measurereport-list
+* entry[+].fullUrl = "http://example.com/fhir/Practitioner/practitioner-example"
+* entry[=].resource = practitioner-example
+
+
+

@@ -1,6 +1,6 @@
 {
     "package-id": "hl7.fhir.us.nhsn-dqm",
-    "version": "1.0.0-ballot",
+    "version": "1.0.0",
     "path": "http://hl7.org/fhir/usnhsn-dqm/2024Sept",
     "mode": "working",
     "status": "ballot",

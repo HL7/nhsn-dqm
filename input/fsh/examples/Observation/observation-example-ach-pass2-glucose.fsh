@@ -15,6 +15,7 @@ Usage: #example
 * encounter.display = "Hospital Admission"
 * effectiveDateTime = "2024-01-31T23:01:00-05:00"
 * issued = "2024-01-31T23:02:00-05:00"
+* performer = Reference(performer-example)
 * valueQuantity = 53 'g/dL' "d/gL"
 
 
@@ -35,6 +36,7 @@ Usage: #example
 * encounter.display = "Hospital Admission"
 * effectiveDateTime = "2024-02-02T10:14:00-05:00"
 * issued = "2024-02-02T10:15:00-05:00"
+* performer = Reference(performer-example)
 * valueQuantity = 105 'g/dL' "d/gL"
 
 

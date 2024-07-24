@@ -1059,9 +1059,6 @@ Usage: #example
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Library Global"
 * relatedArtifact[=].resource = "http://hl7.org/fhir/us/cqfmeasures/Library/MATGlobalCommonFunctions"
-//* relatedArtifact[+].type = #depends-on
-//* relatedArtifact[=].display = "Library SharedResource"
-//* relatedArtifact[=].resource = "http://www.cdc.gov/nhsn/fhirportal/dqm/ig/Library/SharedResourceCreation|0.1.005"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Code system ActCode"
 * relatedArtifact[=].resource = "http://terminology.hl7.org/CodeSystem/v3-ActCode"

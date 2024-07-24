@@ -14,4 +14,5 @@ Usage: #example
 * encounter.display = "Emergency Encounter"
 * effectiveDateTime = "2024-01-31T01:42:00-05:00"
 * issued = "2024-01-31T01:42:00-05:00"
+* performer = Reference(performer-example)
 * valueQuantity = 113.4 'kg' "kg"

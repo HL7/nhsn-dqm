@@ -1,33 +1,12 @@
 == Suppressed Messages ==
 
 
-# Error caused by an invalid rule in the IG Publisher. Issue logged here: 
-
-https://github.com/hapifhir/org.hl7.fhir.core/issues/1378
+# Error caused by an invalid rule in the IG Publisher. Issue logged here: https://github.com/hapifhir/org.hl7.fhir.core/issues/1378
 
 # Currently DEQM requires measure score for subject list measure reports, which was an error. This causes and error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
 
 No measureScore when the scoring of the message is 'cohort'
 
-# Currently DEQM requires measure score for subject list measure reports, which was an error. This causes and error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
-
-Slice 'Bundle.entry:subject-list': a matching slice is required, but not found (from http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|0.1.0-cibuild). Note that other slices are allowed in addition to this required slice
-
-# We do not include entry slices for all possible resource types
-
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|0.1.0-cibuild (this may not be a problem, but you should check that it's not intended to match a slice)
-
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-subject-bundle|0.1.0-cibuild (this may not be a problem, but you should check that it's not intended to match a slice)
-
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-diagnosticreport-note|6.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # The Healthcare Capacity code system will be removed once LOINC codes have been assigned. The request is in process and is being managed by NHSN
 
@@ -41,9 +20,6 @@ This resource could usefully have an OID assigned (OIDs are easy to assign - see
 
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
 
-# NHSN dQMs do not use performer in Observations. They are not included in samples in this IG
-
-Best Practice Recommendation: In general, all observations should have a performer
 
 # Acknowledged
 

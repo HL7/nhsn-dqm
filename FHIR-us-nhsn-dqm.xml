@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/usnhsn-dqm/2024Sept" ciUrl="" defaultVersion="1.0.0-ballot" defaultWorkgroup="pher" url="http://hl7.org/fhir/us/nhsn-dqm">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/usnhsn-dqm/2024Sept" ciUrl="" defaultVersion="1.0.0" defaultWorkgroup="pher" url="http://hl7.org/fhir/us/nhsn-dqm">
 <version code="current" url=""/>
-<version code="1.0.0-ballot" url="http://hl7.org/fhir/usnhsn-dqm/2024Sept"/>
+<version code="1.0.0" url="http://hl7.org/fhir/usnhsn-dqm/2024Sept"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
@@ -31,9 +31,6 @@
 <artifact id="Encounter/encounter-example-ach-ach-pass2-inpatient" key="Encounter-encounter-example-ach-ach-pass2-inpatient" name="Encounter - Example ACH Pass2 - Inpatient"/>
 <artifact id="Encounter/encounter-example-ach-ach-pass3-acute" key="Encounter-encounter-example-ach-ach-pass3-acute" name="Encounter - Example ACH Pass3 - Acute"/>
 <artifact id="Encounter/encounter-example-ach-ach-pass3-short-stay" key="Encounter-encounter-example-ach-ach-pass3-short-stay" name="Encounter - Example ACH Pass3 - Short Stay"/>
-<artifact id="Bundle/bundle-example-ach-subject-ach-pass1" key="Bundle-bundle-example-ach-subject-ach-pass1" name="Example ACH Submission Subject Bundle 1"/>
-<artifact id="Bundle/bundle-example-ach-subject-ach-pass2" key="Bundle-bundle-example-ach-subject-ach-pass2" name="Example ACH Submission Subject Bundle 2"/>
-<artifact id="Bundle/bundle-example-ach-subject-ach-pass3" key="Bundle-bundle-example-ach-subject-ach-pass3" name="Example ACH Submission Subject Bundle 3"/>
 <artifact id="Bundle/submission-full-example1" key="Bundle-submission-full-example1" name="Full Submission Bundle Example 1"/>
 <artifact id="CodeSystem/healthcare-capacity-codes" key="CodeSystem-healthcare-capacity-codes" name="Healthcare Capacity Reporting Code System"/>
 <artifact id="Bundle/jurisdiction-bed-capacity-report-example" key="Bundle-jurisdiction-bed-capacity-report-example" name="Jurisdiction Capacity Full Report Bundle Example"/>
@@ -81,7 +78,6 @@
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-enoxaparin" key="MedicationRequest-medicationrequest-example-ach-pass3-enoxaparin" name="MedicationRequest - Example ACH Pass3 Enoxaparin"/>
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-metronidazole" key="MedicationRequest-medicationrequest-example-ach-pass3-metronidazole" name="MedicationRequest - Example ACH Pass3 Metronidazole"/>
 <artifact id="StructureDefinition/nhsn-measurereport-bundle" key="StructureDefinition-nhsn-measurereport-bundle" name="NHSN MeasureReport Bundle"/>
-<artifact id="StructureDefinition/nhsn-subject-bundle" key="StructureDefinition-nhsn-subject-bundle" name="NHSN Subject Bundle"/>
 <artifact id="StructureDefinition/nhsn-submitting-device" key="StructureDefinition-nhsn-submitting-device" name="NHSN Submitting Device"/>
 <artifact id="StructureDefinition/nhsn-submitting-organization" key="StructureDefinition-nhsn-submitting-organization" name="NHSN Submitting Organization"/>
 <artifact id="Library/BedCapacityMeasure" key="Library-BedCapacityMeasure" name="NHSN dQM Bed Capacity Library"/>
@@ -128,7 +124,7 @@
 <page key="changes" name="IG Change History"/>
 <page key="must_support" name="Must Support"/>
 <page key="ImplementationGuide-hl7.fhir.us.nhsn-dqm" name="NHSN Implementation Guide Resource"/>
-<page key="index" name="NHSN dQMs Home"/>
+<page key="index" name="NHSN dQMs Reporting Home"/>
 <page key="toc" name="Table of Contents"/>
 <page key="downloads" name="Useful Downloads"/>
 </specification>

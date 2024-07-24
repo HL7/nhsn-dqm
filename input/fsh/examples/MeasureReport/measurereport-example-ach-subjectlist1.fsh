@@ -8,7 +8,7 @@ Usage: #example
 * extension.valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * status = #complete
 * type = #subject-list
-* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation|0.1.0-cibuild)
+* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation)
 * date = "2024-02-05T21:04:29.481+00:00"
 * reporter = Reference(organization-example-submitting-organization)
 * period.start = "2022-08-01T00:00:00+00:00"
