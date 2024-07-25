@@ -1,5 +1,9 @@
 == Suppressed Messages ==
 
+# US Core Variance received: https://jira.hl7.org/browse/FHIR-46467
+
+US FHIR Usage rules require that all profiles on Device derive from the core US profile. See https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process
+
 # This IG does not include Bundle slices for the clinical data returned in MeasureReport.evaluatedResources, because that could potentially contain any type of resource.
 
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -19,11 +23,6 @@ Most code systems defined in HL7 IGs will need to move to THO later during the p
 # INFORMATION: OID Based Code System that is externally managed
 
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
-
-
-# Acknowledged
-
-The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 
 # CodeSystems that are draft in THO, will need to be changed in future versions of THO
 
