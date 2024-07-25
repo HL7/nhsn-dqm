@@ -85,18 +85,7 @@ pages:
   changes.md:
     title: IG Change History 
 
-
-
 resources:
-   
-  Measure/BedCapacityMeasure:
-    name: "NHSN dQM Bed Capacity Measure"
-    description: "The dQM Bed Capacity Data Collection Measure."
-
-  Library/BedCapacityMeasure:
-    name: "NHSN dQM Bed Capacity Library"
-    description: "The dQM Bed Capacity Data Collection Library."
-
 
   Device/cqf-tooling:
     name: "CQF Tooling Device"

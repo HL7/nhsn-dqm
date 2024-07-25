@@ -20,13 +20,6 @@ Also, this project focuses on leveraging data compliant with existing EHR FHIR A
 
 This project will require coordination between NHSN and other branches of CDC, along with CMS.
 
-
-### Relationship to Other Standards ###
-
-The framework for the HL7 FHIR dQMs reported to NHSN has the following dependencies: 
-
-{% include dependency-table.xhtml %}
-
 ### Audience ###
 
 The audience for this work is all developers who want to enable their software systems to report surveillance data to the NHSN via FHIR dQMs. 
@@ -36,6 +29,12 @@ The audience for this work is all developers who want to enable their software s
 This IG defines the standard framework for reporting data to NHSN using a dQM with an initial population which may include all inpatient, emergency department, and observation encounters and line-level data that could be used for stratification, benchmarking and/or risk adjustment. This IG is not intended to define how to operationalize implementing reporting a specific NHSN dQM.  
 
 However, two example measures are provided in this IG: an acute care hospital (ACH) dQM and an automated bed capacity data collection measure. The ACH dQM defines the population of interest as all encounters with an inpatient, ED, or Observation status or an inpatient, ED, or Observation location. The bed-capacity data collection dQM defines the fields necessary for reporting such as AllBedsOccupied, AdultTotalOccupied, etc.
+
+### Relationship to Other Standards ###
+
+The framework for the HL7 FHIR dQMs reported to NHSN has the following dependencies: 
+
+{% include dependency-table.xhtml %}
 
 ### Acknowledgements ###
 

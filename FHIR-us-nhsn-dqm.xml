@@ -9,6 +9,7 @@
 <artifact id="ValueSet/ach-encounter-status" key="ValueSet-ach-encounter-status" name="Acute Care Hospital Encounter Status ValueSet"/>
 <artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="Acute Care Hospital Initial Population Library"/>
 <artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulation" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulation" name="Acute Care Hospital Initial Population Measure"/>
+<artifact id="Library/BedCapacityMeasureLibrary" key="Library-BedCapacityMeasureLibrary" name="BedCapacityMeasureLibrary"/>
 <artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="CQF Tooling Device"/>
 <artifact id="Condition/condition-example-diagnosis-ach-pass1" key="Condition-condition-example-diagnosis-ach-pass1" name="Condition - Example Diagnosis ACH Pass1"/>
 <artifact id="Condition/condition-example-diagnosis-ach-pass2" key="Condition-condition-example-diagnosis-ach-pass2" name="Condition - Example Diagnosis ACH Pass2"/>
@@ -80,8 +81,7 @@
 <artifact id="StructureDefinition/nhsn-measurereport-bundle" key="StructureDefinition-nhsn-measurereport-bundle" name="NHSN MeasureReport Bundle"/>
 <artifact id="StructureDefinition/nhsn-submitting-device" key="StructureDefinition-nhsn-submitting-device" name="NHSN Submitting Device"/>
 <artifact id="StructureDefinition/nhsn-submitting-organization" key="StructureDefinition-nhsn-submitting-organization" name="NHSN Submitting Organization"/>
-<artifact id="Library/BedCapacityMeasure" key="Library-BedCapacityMeasure" name="NHSN dQM Bed Capacity Library"/>
-<artifact id="Measure/BedCapacityMeasure" key="Measure-BedCapacityMeasure" name="NHSN dQM Bed Capacity Measure"/>
+<artifact id="Measure/BedCapacityMeasure" key="Measure-BedCapacityMeasure" name="NHSN dQM Bed Capacity"/>
 <artifact id="Observation/observation-example-ach-pass1-blood" key="Observation-observation-example-ach-pass1-blood" name="Observation - Example ACH Pass1 Blood"/>
 <artifact id="Observation/observation-example-ach-pass1-csf" key="Observation-observation-example-ach-pass1-csf" name="Observation - Example ACH Pass1 Csf"/>
 <artifact id="Observation/observation-example-ach-pass1-gestational-age" key="Observation-observation-example-ach-pass1-gestational-age" name="Observation - Example ACH Pass1 Gestational Age"/>

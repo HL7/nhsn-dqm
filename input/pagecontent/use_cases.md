@@ -2,11 +2,11 @@
 
 ### Actors ###
 
-This implementation guide defines the following actors. Note, it is possible for a given system to play the role of multiple actors. For example, and EHR could be both the Patient Data Server and dQM Evaluation Engine when calculating a measure internally. Likewise a system residing at NHSN that queries the Patient Data Server remotely, evaluates those data, produces MeasureReport bundles, and validates the result may be both the dQM Evaluation Engine and MeasureReport Recipient. 
+This implementation guide defines the following actors. Note, it is possible for a given system to play the role of multiple actors. For example, and EHR could be both the Data Server and dQM Evaluation Engine when calculating a measure internally. Likewise a system residing at NHSN that queries the Data Server remotely, evaluates those data, produces MeasureReport bundles, and validates the result may be both the dQM Evaluation Engine and MeasureReport Recipient. 
 
 The actors defined here are used in the [Reporting Scenarios section of the Specification](specification.html#reporting-scenarios) page in this IG.
 
-* **dQM Evaluation Engine** A system that retrieves data from the Patient Data Server and evaluates those data against one or more measures retrieved from the Measure Server. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient.
+* **dQM Evaluation Engine** A system that retrieves data from the Data Server and evaluates those data against one or more measures retrieved from the Measure Server. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient.
 
 * **Data Server** A system containing data (typically patient data, but could be situational awareness data) that will be evaluated against one or more measures. This may be a FHIR server, an EHR with a FHIR endpoint (facade), an internal data store when the Data Server and dQM Evaluation Engine actors are played by the same system such as an EHR that does it's own measure evaluation, or it may be a system containing other data such as situational awareness data that is reporting via CSV or other format.
 
@@ -52,7 +52,7 @@ POI List
 
 - [ACH Patients Of Interest](https://build.fhir.org/ig/HL7/nhsn-dqm/List-list-example-ach-patients-of-interest.html)
 
-Subject List
+Subject List Measure Report
 
 - [ACH Subject List](https://build.fhir.org/ig/HL7/nhsn-dqm/MeasureReport-measurereport-example-ach-subjectlist1.html)
 
