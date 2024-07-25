@@ -1,2 +1,0 @@
-### Definition For Must Support ###
-If the data element is available in the FHIR API/EHR, the data element *SHALL* be provided (either through submission or response to a query) for measure calculation or risk adjustment.

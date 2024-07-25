@@ -123,9 +123,10 @@
 <page key="use_cases" name="Actors and Use Cases"/>
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="changes" name="IG Change History"/>
-<page key="must_support" name="Must Support"/>
 <page key="ImplementationGuide-hl7.fhir.us.nhsn-dqm" name="NHSN Implementation Guide Resource"/>
 <page key="index" name="NHSN dQMs Reporting Home"/>
+<page key="security" name="Security and Privacy"/>
+<page key="specification" name="Specification"/>
 <page key="toc" name="Table of Contents"/>
 <page key="downloads" name="Useful Downloads"/>
 </specification>

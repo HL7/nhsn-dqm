@@ -59,24 +59,27 @@ menu:
   IG Home: index.html
   Table of Contents: toc.html
   Actors and Use Cases: use_cases.html
+  Specification: specification.html
+  Security: security.html
   Artifact Index: artifacts.html
+  Downloads: downloads.html
   Support:
     FHIR Spec: http://hl7.org/fhir/R4/index.html
     CQL Spec: http://cql.hl7.org/index.html
     FHIR Clinical Guidelines: http://hl7.org/fhir/uv/cpg
-    Must Support: must_support.html
-    Downloads: downloads.html
 
 
 pages:
   index.md:
     title: NHSN dQMs Reporting Home
-  must_support.md:
-    title: Must Support 
+  specification.md:
+    title: Specification 
   use_cases.md:
     title: Actors and Use Cases
   downloads.md:
     title: Useful Downloads
+  security.md:
+    title: Security and Privacy
   ImplementationGuide-hl7.fhir.us.nhsn-dqm.md:
     title: NHSN Implementation Guide Resource
   changes.md:
