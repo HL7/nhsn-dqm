@@ -1,11 +1,13 @@
 This section of the implementation guide (IG) defines the specific conformance requirements for systems wishing to conform to this NHSN dQM Reporting IG. The bulk of it focuses on evaluating facility data against measure criteria and submitting those data to NHSN, though it also provides guidance on privacy, security, and other implementation requirements.
 
 ### Pre-reading
+
 Before reading this formal specification, implementers should first familiarize themselves with two other key portions of the specification:
 
 * The [Actors and Use Cases](use_cases.html) page provides context for the intent and general process flow of this formal specification, as well as detaila on the various actors involved.
 
 ### Conventions
+
 This implementation guide (IG) uses specific terminology to flag statements that have relevance for the evaluation of conformance with the guide:
 
 * **SHALL** indicates requirements that must be met to be conformant with the specification.
@@ -13,7 +15,6 @@ This implementation guide (IG) uses specific terminology to flag statements that
 * **SHOULD** indicates behaviors that are strongly recommended (and which may result in interoperability issues or sub-optimal behavior if not adhered to), but which do not, for this version of the specification, affect the determination of specification conformance.
 
 * **MAY** describes optional behaviors that are free to consider but are not a recommendation for or against adoption.
-
 
 #### Must Support ###
 
@@ -30,6 +31,7 @@ Receiver:
 * The receiver **SHALL** be able to process resource instances containing must-support data elements asserting missing information (data absent reason extension).
 
 #### Profiles
+
 This specification makes significant use of [FHIR profiles]({{site.data.fhir.path}}profiling.html) and terminology artifacts to describe the content to be shared as part of AEOB requests and responses.
 
 The full set of profiles defined in this IG can be found by following the links on the [Artifacts](artifacts.html) page.

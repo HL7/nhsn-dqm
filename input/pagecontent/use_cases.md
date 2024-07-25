@@ -4,9 +4,9 @@
 
 This implementation guide defines the following actors. Note, it is possible for a given system to play the role of multiple actors. For example, and EHR could be both the Patient Data Server and dQM Evaluation Engine when calculating a measure internally. Likewise a system residing at NHSN that queries the Patient Data Server remotely, evaluates those data, produces MeasureReport bundles, and validates the result may be both the dQM Evaluation Engine and MeasureReport Recipient. 
 
-#### dQM Evaluation Engine ####
+The actors defined here are used in the Reporting Scenarios section of the (Specification)[specification.html] page in this IG.
 
-A system that retrieves data from the Patient Data Server, evaluates those data against one or more measures retrieved from the Measure Server. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient.
+* **dQM Evaluation Engine** A system that retrieves data from the Patient Data Server, evaluates those data against one or more measures retrieved from the Measure Server. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient.
 
 * **Data Server** A system containing data (typically patient data, but could be situational awareness data) that will be evaluated against one or more measures. This may be a FHIR server, an EHR with a FHIR endpoint (facade), or it may be an internal data store when the Data Server and dQM Evaluation Engine actors are played by the same system, such as an EHR that does it's own measure evaluation.
 
