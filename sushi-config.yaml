@@ -71,7 +71,7 @@ menu:
 
 pages:
   index.md:
-    title: NHSN dQMs Reporting Home
+    title: NHSN dQM Reporting Home
   specification.md:
     title: Specification 
   use_cases.md:
