@@ -6,9 +6,9 @@ This implementation guide defines the following actors. Note, it is possible for
 
 The actors defined here are used in the Reporting Scenarios section of the (Specification)[specification.html] page in this IG.
 
-* **dQM Evaluation Engine** A system that retrieves data from the Patient Data Server, evaluates those data against one or more measures retrieved from the Measure Server. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient.
+* **dQM Evaluation Engine** A system that retrieves data from the Patient Data Server and evaluates those data against one or more measures retrieved from the Measure Server. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient.
 
-* **Data Server** A system containing data (typically patient data, but could be situational awareness data) that will be evaluated against one or more measures. This may be a FHIR server, an EHR with a FHIR endpoint (facade), or it may be an internal data store when the Data Server and dQM Evaluation Engine actors are played by the same system, such as an EHR that does it's own measure evaluation.
+* **Data Server** A system containing data (typically patient data, but could be situational awareness data) that will be evaluated against one or more measures. This may be a FHIR server, an EHR with a FHIR endpoint (facade), an internal data store when the Data Server and dQM Evaluation Engine actors are played by the same system such as an EHR that does it's own measure evaluation, or it may be a system containing other data such as situational awareness data that is reporting via CSV or other format.
 
 * **Data Aggregator** For some example use cases, such as bed capacity reporting, data from multiple Data Server actors may be aggregated by a single system before measure evaluation. A Data Aggregator also plays the role of a Data Server once aggregation is complete. An example would be a state public health agency aggregating data from all facilities in the state before using those data to produce a MeasureReport containing bed capacity data for the entire state.
 
