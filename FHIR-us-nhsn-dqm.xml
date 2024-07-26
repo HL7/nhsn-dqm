@@ -124,7 +124,7 @@
 <page key="artifacts" name="Artifacts Summary"/>
 <page key="changes" name="IG Change History"/>
 <page key="ImplementationGuide-hl7.fhir.us.nhsn-dqm" name="NHSN Implementation Guide Resource"/>
-<page key="index" name="NHSN dQMs Reporting Home"/>
+<page key="index" name="NHSN dQM Reporting Home"/>
 <page key="security" name="Security and Privacy"/>
 <page key="specification" name="Specification"/>
 <page key="toc" name="Table of Contents"/>
