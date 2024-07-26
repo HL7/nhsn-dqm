@@ -42,22 +42,22 @@ The following reporting scenarios use the Actors defined on the [Actors and Use 
 
 ##### Pull from NHSN
 
-In this scenario, both the dQM Evaluation Engine and the Measure Report Recipient reside within an NHSN controlled environment, and may be the same system. The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Server and extracts the data requirements for each measure. The dQM Evaluation Engine queries the Data Server for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, and then optionallly performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems.
+In this scenario, both the dQM Evaluation Engine and the Measure Report Recipient reside within an NHSN controlled environment, and may be the same system. The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure. The dQM Evaluation Engine queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, and then optionallly performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems.
 
-In this scenario, it is assumed that the Data Server has a FHIR API that at a minimum provides read access to all resources required by the measure(s).
+In this scenario the Data Source SHALL have a FHIR API that at a minimum provides read access to all resources required by the measure(s).
 
 ![Pull from NHSN](pull-from-nhsn.png){:style="float: none;"}
 
 ##### Push to NHSN
 
-In this scenario both the Data Server and dQM evaluation engine reside at the reporting facility, and may be the same system (i.e. an EHR that performs it's own internal measure evaluation). The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Server and extracts the data requirements for each measure.  The dQM Evaluation Engine and queries the Data Server for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, then sends it to the Measure Report Recipient at NHSN. The Measure Report Recipient then optionallly performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems. 
+In this scenario both the Data Source and dQM evaluation engine reside at the reporting facility, and may be the same system (i.e. an EHR that performs it's own internal measure evaluation). The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure.  The dQM Evaluation Engine and queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, then sends it to the Measure Report Recipient at NHSN. The Measure Report Recipient then optionallly performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems. 
 
-In this scenario it is assumed that the dQM Evaluation Engine can perform a FHIR POST to push the measure report bundle to the Measure Report Recipient.
+In this scenario the dQM Evaluation Engine SHALL perform a FHIR POST or PUT to push the measure report bundle to the Measure Report Recipient.
 
-DIAGRAM TBD
+![Push to NHSN](push-to-nhsn.png){:style="float: none;"}
 
 ##### Aggregate and Push to NHSN
 
-In this scenario data for reporting is spread across multiple facilities, and those data must be aggregated before measure evaluation. Participating facilities send their data to the Data Aggregator using whatever format they negotiate (may be FHIR, CVS, or other format), which then acts as the Data Server and dQM evaluation engine. The rest of this scenario follows the Push to NHSN scenario described above. Note that as measure data requirements change, facilities reporting to the Data Aggregator may need to update their submissions; this process is a negotiation between the Data Aggregator and other facilities, and the details of this process is out of scope for this specification. 
+In this scenario data for reporting is spread across multiple facilities, and those data must be aggregated before measure evaluation. Participating facilities send their data to the Data Aggregator using whatever format they negotiate (may be FHIR, CVS, or other format), which then acts as the Data Source and dQM evaluation engine. The rest of this scenario follows the Push to NHSN scenario described above. Note that as measure data requirements change, facilities reporting to the Data Aggregator may need to update their submissions; this process is a negotiation between the Data Aggregator and other facilities, and the details of this process is out of scope for this specification. 
 
 DIAGRAM TBD
