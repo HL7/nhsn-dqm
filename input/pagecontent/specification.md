@@ -4,7 +4,7 @@ This section of the implementation guide (IG) defines the specific conformance r
 
 Before reading this formal specification, implementers should first familiarize themselves with two other key portions of the specification:
 
-* The [Actors and Use Cases](use_cases.html) page provides context for the intent and general process flow of this formal specification, as well as detaila on the various actors involved.
+* The [Actors and Use Cases](use_cases.html) page provides context for the intent and general process flow of this formal specification, as well as details on the various actors involved.
 
 ### Conventions
 
@@ -42,7 +42,7 @@ The following reporting scenarios use the Actors defined on the [Actors and Use 
 
 ##### Pull from NHSN
 
-In this scenario, both the dQM Evaluation Engine and the Measure Report Recipient reside within an NHSN controlled environment, and may be the same system. The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure. The dQM Evaluation Engine queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, and then optionallly performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems.
+In this scenario, both the dQM Evaluation Engine and the Measure Report Recipient reside within an NHSN controlled environment, and may be the same system. The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure. The dQM Evaluation Engine queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, and then optionally performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems.
 
 In this scenario the Data Source SHALL have a FHIR API that at a minimum provides read access to all resources required by the measure(s).
 
@@ -50,7 +50,7 @@ In this scenario the Data Source SHALL have a FHIR API that at a minimum provide
 
 ##### Push to NHSN
 
-In this scenario both the Data Source and dQM evaluation engine reside at the reporting facility, and may be the same system (i.e. an EHR that performs it's own internal measure evaluation). The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure.  The dQM Evaluation Engine and queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, then sends it to the Measure Report Recipient at NHSN. The Measure Report Recipient then optionallly performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems. 
+In this scenario both the Data Source and dQM evaluation engine reside at the reporting facility, and may be the same system (i.e. an EHR that performs it's own internal measure evaluation). The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure.  The dQM Evaluation Engine and queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, then sends it to the Measure Report Recipient at NHSN. The Measure Report Recipient then optionally performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems. 
 
 In this scenario the dQM Evaluation Engine SHALL perform a FHIR POST or PUT to push the measure report bundle to the Measure Report Recipient.
 
