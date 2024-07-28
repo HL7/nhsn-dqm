@@ -22,7 +22,7 @@ Usage: #definition
 * rest[+]
   * mode = #server
   * resource[+]
-    * type = #MEASURE
+    * type = #Measure
     * extension[+]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL

@@ -1,7 +1,7 @@
 Instance: NHSNdQMAcuteCareHospitalInitialPopulationLibrary
 InstanceOf: Library
 Title: "Acute Care Hospital Initial Population Library"
-Description: "Library of Acute Care Hospital (ACH) Initial Population Measure"
+Description: "Example Library of Acute Care Hospital (ACH) Initial Population Measure"
 Usage: #example
 
 * contained = ach-options

@@ -2,6 +2,7 @@ Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
 
 Instance: BedCapacityMeasureLibrary
 InstanceOf: Library
+Description: "Example Library of Bed Capacity Measure"
 Usage: #example
 * contained = bed-capacity-options
 * extension.url = "http://hl7.org/fhir/StructureDefinition/cqf-cqlOptions"

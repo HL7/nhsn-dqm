@@ -18,3 +18,5 @@ Usage: #definition
 * fhirVersion = #4.0.1
 * format[+] = #json
 * format[+] = #xml
+* rest[+]
+  * mode = #server
