@@ -78,7 +78,11 @@
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-cipro" key="MedicationRequest-medicationrequest-example-ach-pass3-cipro" name="MedicationRequest - Example ACH Pass3 Cipro"/>
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-enoxaparin" key="MedicationRequest-medicationrequest-example-ach-pass3-enoxaparin" name="MedicationRequest - Example ACH Pass3 Enoxaparin"/>
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-metronidazole" key="MedicationRequest-medicationrequest-example-ach-pass3-metronidazole" name="MedicationRequest - Example ACH Pass3 Metronidazole"/>
+<artifact id="CapabilityStatement/NHSNCapabilityStatementEvaluationEngine" key="CapabilityStatement-NHSNCapabilityStatementEvaluationEngine" name="NHSN Data Evaluation Engine CapabilityStatement"/>
+<artifact id="CapabilityStatement/NHSNCapabilityStatementDataSource" key="CapabilityStatement-NHSNCapabilityStatementDataSource" name="NHSN Data Source CapabilityStatement"/>
+<artifact id="CapabilityStatement/NHSNCapabilityStatementMeasureSource" key="CapabilityStatement-NHSNCapabilityStatementMeasureSource" name="NHSN Measure Source CapabilityStatement"/>
 <artifact id="StructureDefinition/nhsn-measurereport-bundle" key="StructureDefinition-nhsn-measurereport-bundle" name="NHSN MeasureReport Bundle"/>
+<artifact id="CapabilityStatement/NHSNCapabilityStatementMeasureReportRecipient" key="CapabilityStatement-NHSNCapabilityStatementMeasureReportRecipient" name="NHSN MeasureReport Recipient CapabilityStatement"/>
 <artifact id="StructureDefinition/nhsn-submitting-device" key="StructureDefinition-nhsn-submitting-device" name="NHSN Submitting Device"/>
 <artifact id="StructureDefinition/nhsn-submitting-organization" key="StructureDefinition-nhsn-submitting-organization" name="NHSN Submitting Organization"/>
 <artifact id="Measure/BedCapacityMeasure" key="Measure-BedCapacityMeasure" name="NHSN dQM Bed Capacity"/>
