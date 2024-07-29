@@ -6,15 +6,15 @@ This implementation guide defines the following actors. Note, it is possible for
 
 The actors defined here are used in the [Reporting Scenarios section of the Specification](specification.html#reporting-scenarios) page in this IG.
 
-* **dQM Evaluation Engine** A system that retrieves data from the Data Source and evaluates those data against one or more measures retrieved from the Measure Source. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient The dQM Evaluation Engine acts as a [US Core Client]({{site.data.fhir.ver.uscore}}/CapabilityStatement-us-core-client.html), a [DEQM Reporter Client]({{site.data.fhir.ver.deqm}}/CapabilityStatement-reporter-client.html), and implements the $evaluation-measure operation
+* **dQM Evaluation Engine** A system that retrieves data from the Data Source and evaluates those data against one or more measures retrieved from the Measure Source. The resulting MeasureReport bundle and related resources are then sent to the MeasureReport recipient The dQM Evaluation Engine acts as a [US Core Client](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-client.html), a [DEQM Reporter Client](https://www.hl7.org/fhir/us/davinci-deqm/CapabilityStatement-reporter-client.html), and implements the $evaluation-measure operation
 
-* **Data Source** A system containing data (typically patient data, but could be situational awareness data) that will be evaluated against one or more measures. This may be a FHIR server, an EHR with a FHIR endpoint (facade), an internal data store when the Data Source and dQM Evaluation Engine actors are played by the same system such as an EHR that does it's own measure evaluation, or it may be a system containing other data such as situational awareness data that is reporting via CSV or other format. When FHIR enabled, the Data Source acts as a [US Core Server]({{site.data.fhir.ver.uscore}}/CapabilityStatement-us-core-server.html)
+* **Data Source** A system containing data (typically patient data, but could be situational awareness data) that will be evaluated against one or more measures. This may be a FHIR server, an EHR with a FHIR endpoint (facade), an internal data store when the Data Source and dQM Evaluation Engine actors are played by the same system such as an EHR that does it's own measure evaluation, or it may be a system containing other data such as situational awareness data that is reporting via CSV or other format. When FHIR enabled, the Data Source acts as a [US Core Server](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-server.html)
 
-* **Data Aggregator** For some example use cases, such as bed capacity reporting, data from multiple Data Source actors may be aggregated by a single system before measure evaluation. A Data Aggregator also plays the role of a Data Source once aggregation is complete. An example would be a state public health agency aggregating data from all facilities in the state before using those data to produce a MeasureReport containing bed capacity data for the entire state. When FHIR enabled, a Data Aggregator acts as a [US Core Server]({{site.data.fhir.ver.uscore}}/CapabilityStatement-us-core-server.html) when playing the role of a Data Source after aggregation. During aggregation, the Data Aggregator acts similar to the SANER options for aggregation, but implements its own CapabilityStatement due to the incompatibilities between DEQM and SANER.
+* **Data Aggregator** For some example use cases, such as bed capacity reporting, data from multiple Data Source actors may be aggregated by a single system before measure evaluation. A Data Aggregator also plays the role of a Data Source once aggregation is complete. An example would be a state public health agency aggregating data from all facilities in the state before using those data to produce a MeasureReport containing bed capacity data for the entire state. When FHIR enabled, a Data Aggregator acts as a [US Core Server](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-server.html) when playing the role of a Data Source after aggregation. During aggregation, the Data Aggregator acts similar to the SANER options for aggregation, but implements its own CapabilityStatement due to the incompatibilities between DEQM and SANER.
 
-* **Measure Source** A system at NHSN that stores FHIR resources such as Measure, Library, ValueSet, etc. that are used for dQM Reporting. The dQM Evaluation Engine queries the Measure Source for the latest Measure content before querying the Patient Data Source and performing measure evaluation. The Measure Source acts as a [DEQM Publishable Measure Repository]({{site.data.fhir.ver.cqfm}}/measure-repository-service.html#publishable-measure-repository) 
+* **Measure Source** A system at NHSN that stores FHIR resources such as Measure, Library, ValueSet, etc. that are used for dQM Reporting. The dQM Evaluation Engine queries the Measure Source for the latest Measure content before querying the Patient Data Source and performing measure evaluation. The Measure Source acts as a [DEQM Publishable Measure Repository](https://hl7.org/fhir/us/cqfmeasures/measure-repository-service.html#publishable-measure-repository) 
 
-* **MeasureReport Recipient** A system at NHSN that receives MeasureReport bundles from the dQM Evaluation Engine and validates the result against the profiles in this implementation guide, and potentially other measure-specific profiles that are distributed with the measures themselves (this kind of validation is referred to as "pre-qualification" at NHSN). The MeasureReport Recipient acts as a [DEQM Receiver Server]({{site.data.fhir.ver.deqm}}/CapabilityStatement-receiver-server.html), provides write access to Bundle resources containing MeasureReport and other related resources, and implements the $validate operation.
+* **MeasureReport Recipient** A system at NHSN that receives MeasureReport bundles from the dQM Evaluation Engine and validates the result against the profiles in this implementation guide, and potentially other measure-specific profiles that are distributed with the measures themselves (this kind of validation is referred to as "pre-qualification" at NHSN). The MeasureReport Recipient acts as a [DEQM Receiver Server](https://www.hl7.org/fhir/us/davinci-deqm/CapabilityStatement-receiver-server.html), provides write access to Bundle resources containing MeasureReport and other related resources, and implements the $validate operation.
 
 ### Use Cases ###
 
@@ -28,7 +28,7 @@ The NHSN Acute Care Hospital (ACH) digital quality measure (dQM) allows faciliti
 
 ##### Patients of Interest
 
-The facility will work with NHSN to define a list of patients of interest(POI list). This is often the entire in-patient population at the facility. The data for the patients in the list are then extracted and evaluated against the measure criteria for the initial population (see below).
+The facility will work with NHSN to define a list of patients of interest(POI list). This is often the entire in-patient population at the facility. The data for the patients in the list are then extracted and evaluated against the measure criteria for the initial poulation (see below).
 
 ##### Initial Population
 
@@ -37,115 +37,115 @@ The initial population in the ACH dQM is defined as all encounters for patients 
 ##### Additional Use Case Information References
 For specific information on the individual NHSN protocols and metrics see: 
 [Acute Care / Critical Access Hospitals (ACH) | NHSN | CDC ](https://www.cdc.gov/nhsn/acute-care-hospital/index.html)
-[Example ACH Initial Population Library (CQL)](Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary.html)
-[Example ACH Measure Library ](Measure-NHSNdQMAcuteCareHospitalInitialPopulation.html)
+[Example ACH Initial Population Library (CQL)](https://build.fhir.org/ig/HL7/nhsn-dqm/Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary.html)
+[Example ACH Measure Library ](https://build.fhir.org/ig/HL7/nhsn-dqm/Measure-NHSNdQMAcuteCareHospitalInitialPopulation.html)
 
 ##### ACH Submission Examples
 
 ##### Bundle Submission Examples
 
-- [Full Submission Bundle](Bundle-submission-full-example1.html)
-- [Submitting Organization](Organization-organization-example-submitting-organization.html) 
-- [Submitting Device](Device-device-example-submitting-device.html) 
+- [Full Submission Bundle](https://build.fhir.org/ig/HL7/nhsn-dqm/Bundle-submission-full-example1.html)
+- [Submitting Organization](https://build.fhir.org/ig/HL7/nhsn-dqm/Organization-organization-example-submitting-organization.html) 
+- [Submitting Device](https://build.fhir.org/ig/HL7/nhsn-dqm/Device-device-example-submitting-device.html) 
 
 POI List
 
-- [ACH Patients Of Interest](List-list-example-ach-patients-of-interest.html)
+- [ACH Patients Of Interest](https://build.fhir.org/ig/HL7/nhsn-dqm/List-list-example-ach-patients-of-interest.html)
 
 Subject List Measure Report
 
-- [ACH Subject List](MeasureReport-measurereport-example-ach-subjectlist1.html)
+- [ACH Subject List](https://build.fhir.org/ig/HL7/nhsn-dqm/MeasureReport-measurereport-example-ach-subjectlist1.html)
 
 Individual Measure Report
 
-- [ACH Individual Measure Report List](List-list-example-ach-individual-measurereport-list.html)
+- [ACH Individual Measure Report List](https://build.fhir.org/ig/HL7/nhsn-dqm/List-list-example-ach-individual-measurereport-list.html)
 
 ##### Initial Population Examples
 
 Patient
 
-- [Patient - Example Sameresultdiffday](Patient-patient-example-sameresultdiffday.html)
+- [Patient - Example Sameresultdiffday](https://build.fhir.org/ig/HL7/nhsn-dqm/Patient-patient-example-sameresultdiffday.html)
 
 Encounter
 
-- [Encounter - Example ACH Pass2 - Inpatient](Encounter-encounter-example-ach-ach-pass2-inpatient.html)
-- [Encounter - Example ACH Pass2 - Emergency](Encounter-encounter-example-ach-ach-pass2-emergency.html)
-- [Encounter - Example ACH Pass3 - Short Stay](Encounter-encounter-example-ach-ach-pass3-short-stay.html)
-- [Encounter - Example ACH Pass3 - Acute](Encounter-encounter-example-ach-ach-pass3-acute.html)
+- [Encounter - Example ACH Pass2 - Inpatient](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass2-inpatient.html)
+- [Encounter - Example ACH Pass2 - Emergency](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass2-emergency.html)
+- [Encounter - Example ACH Pass3 - Short Stay](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass3-short-stay.html)
+- [Encounter - Example ACH Pass3 - Acute](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass3-acute.html)
 
 ##### Line Level Data Examples
 
 Condition
 
-- [Condition - Example Diagnosis ACH Pass1 Encounter Diagnosis](Condition-condition-example-diagnosis-ach-pass1.html)
-- [Condition - Example Diagnosis ACH Pass2 Problem List](Condition-condition-example-diagnosis-ach-pass2-problem.html)
+- [Condition - Example Diagnosis ACH Pass1 Encounter Diagnosis](https://build.fhir.org/ig/HL7/nhsn-dqm/Condition-condition-example-diagnosis-ach-pass1.html)
+- [Condition - Example Diagnosis ACH Pass2 Problem List](https://build.fhir.org/ig/HL7/nhsn-dqm/Condition-condition-example-diagnosis-ach-pass2-problem.html)
 
 Coverage
 
-- [Coverage - Example ACH Pass1 Medicaid](Coverage-coverage-example-ach-pass1.html)
-- [Coverage - Example ACH Pass2 Commercial](Coverage-coverage-example-ach-pass2.html)
+- [Coverage - Example ACH Pass1 Medicaid](https://build.fhir.org/ig/HL7/nhsn-dqm/Coverage-coverage-example-ach-pass1.html)
+- [Coverage - Example ACH Pass2 Commercial](https://build.fhir.org/ig/HL7/nhsn-dqm/Coverage-coverage-example-ach-pass2.html)
 
 Device
 
-- [Device - Example ACH Pass1 Central Line](Device-device-example-ach-ach-pass1-central-line.html)
+- [Device - Example ACH Pass1 Central Line](https://build.fhir.org/ig/HL7/nhsn-dqm/Device-device-example-ach-ach-pass1-central-line.html)
 
 Diagnostic Report
 
-- [DiagnosticReport - Example ACH Pass2 Cardiopulmonary1](DiagnosticReport-diagnosticreport-example-ach-ach-pass2-cardiopulmonary.html)
-- [DiagnosticReport - Example ACH Pass2 Lab CBC](DiagnosticReport-diagnosticreport-example-ach-ach-pass2-lab-cbc.html)
+- [DiagnosticReport - Example ACH Pass2 Cardiopulmonary1](https://build.fhir.org/ig/HL7/nhsn-dqm/DiagnosticReport-diagnosticreport-example-ach-ach-pass2-cardiopulmonary.html)
+- [DiagnosticReport - Example ACH Pass2 Lab CBC](https://build.fhir.org/ig/HL7/nhsn-dqm/DiagnosticReport-diagnosticreport-example-ach-ach-pass2-lab-cbc.html)
 
 Location
 
-- [Location - Example ACH - Emergency](Location-location-example-ach-emergency.html)
-- [Location - Example ACH - Inpatient](Location-location-example-ach-inpatient.html)
-- [Location - Example ACH - Nicu](Location-location-example-ach-nicu-level-iii.html)
+- [Location - Example ACH - Emergency](https://build.fhir.org/ig/HL7/nhsn-dqm/Location-location-example-ach-emergency.html)
+- [Location - Example ACH - Inpatient](https://build.fhir.org/ig/HL7/nhsn-dqm/Location-location-example-ach-inpatient.html)
+- [Location - Example ACH - Nicu](https://build.fhir.org/ig/HL7/nhsn-dqm/Location-location-example-ach-nicu-level-iii.html)
 
 Medication
 
-- [Medication - Example Heparin](Medication-medication-example-heparin.html)
-- [Medication - Example Metformin 1000](Medication-medication-example-metformin-1000.html)
-- [Medication - Example Vancomycin 15](Medication-medication-example-vancomycin-15.html)
-- [Medication - Example Insulin Lispro](Medication-medication-example-insulin-lispro.html)
+- [Medication - Example Heparin](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-heparin.html)
+- [Medication - Example Metformin 1000](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-metformin-1000.html)
+- [Medication - Example Vancomycin 15](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-vancomycin-15.html)
+- [Medication - Example Insulin Lispro](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-insulin-lispro.html)
 
 Medication Administration
 
-- [MedicationAdministration - Example ACH Pass2 Heparin 1](MedicationAdministration-medicationadministration-example-ach-pass2-heparin-1.html)
-- [MedicationAdministration - Example ACH Pass2 Heparin 2](MedicationAdministration-medicationadministration-example-ach-pass2-heparin-2.html)
-- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 1](MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-1.html)
-- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 2](MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-2.html)
+- [MedicationAdministration - Example ACH Pass2 Heparin 1](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-heparin-1.html)
+- [MedicationAdministration - Example ACH Pass2 Heparin 2](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-heparin-2.html)
+- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 1](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-1.html)
+- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 2](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-2.html)
 
 Medication Request
 
-- [MedicationRequest - Example ACH Pass1 Vancomycin](MedicationRequest-medicationrequest-example-ach-pass1-vancomycin.html)
-- [MedicationRequest - Example ACH Pass2 Metformin](MedicationRequest-medicationrequest-example-ach-pass2-metformin.html)
+- [MedicationRequest - Example ACH Pass1 Vancomycin](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationRequest-medicationrequest-example-ach-pass1-vancomycin.html)
+- [MedicationRequest - Example ACH Pass2 Metformin](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationRequest-medicationrequest-example-ach-pass2-metformin.html)
 
 Observation
 
-- [Observation - Example ACH Pass1 Blood](Observation-observation-example-ach-pass1-blood.html)
-- [Observation - Example ACH Pass1 Csf](Observation-observation-example-ach-pass1-csf.html)
-- [Observation - Example ACH Pass1 Gestational Age](Observation-observation-example-ach-pass1-gestational-age.html)
-- [Observation - Example ACH Pass1 Vitals Weight](Observation-observation-example-ach-pass1-vitals-weight.html)
-- [Observation - Example ACH Pass2 Hemo A1C](Observation-observation-example-ach-pass2-hemo-a1c.html)
-- [Observation - Example ACH Pass3 C. diff](Observation-observation-example-ach-pass3-cdiff.html)
+- [Observation - Example ACH Pass1 Blood](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-blood.html)
+- [Observation - Example ACH Pass1 Csf](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-csf.html)
+- [Observation - Example ACH Pass1 Gestational Age](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-gestational-age.html)
+- [Observation - Example ACH Pass1 Vitals Weight](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-vitals-weight.html)
+- [Observation - Example ACH Pass2 Hemo A1C](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass2-hemo-a1c.html)
+- [Observation - Example ACH Pass3 C. diff](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass3-cdiff.html)
 
 Procedure
 
-- [Procedure - Example ACH Pass1 Central Line](Procedure-procedure-example-ach-ach-pass1-central-line.html)
-- [Procedure - Example ACH Pass1 Lumbar](Procedure-procedure-example-ach-ach-pass1-lumbar.html)
+- [Procedure - Example ACH Pass1 Central Line](https://build.fhir.org/ig/HL7/nhsn-dqm/Procedure-procedure-example-ach-ach-pass1-central-line.html)
+- [Procedure - Example ACH Pass1 Lumbar](https://build.fhir.org/ig/HL7/nhsn-dqm/Procedure-procedure-example-ach-ach-pass1-lumbar.html)
 
 Service Request
 
-- [ServiceRequest - Example ACH Pass1 Blood](ServiceRequest-servicerequest-example-ach-ach-pass1-blood.html)
-- [ServiceRequest - Example ACH Pass1 CSF](ServiceRequest-servicerequest-example-ach-ach-pass1-csf.html)
-- [ServiceRequest - Example ACH Pass2 Glucose](ServiceRequest-servicerequest-example-ach-ach-pass2-glucose.html)
-- [ServiceRequest - Example ACH Pass2 Hemo A1C](ServiceRequest-servicerequest-example-ach-ach-pass2-hemo-a1c.html)
-- [ServiceRequest - Example ACH Pass3 Cdiff](ServiceRequest-servicerequest-example-ach-ach-pass3-cdiff.html)
+- [ServiceRequest - Example ACH Pass1 Blood](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass1-blood.html)
+- [ServiceRequest - Example ACH Pass1 CSF](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass1-csf.html)
+- [ServiceRequest - Example ACH Pass2 Glucose](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass2-glucose.html)
+- [ServiceRequest - Example ACH Pass2 Hemo A1C](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass2-hemo-a1c.html)
+- [ServiceRequest - Example ACH Pass3 Cdiff](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass3-cdiff.html)
 
 Specimen
 
-- [Specimen - Example ACH Pass1 Blood](Specimen-specimen-example-ach-ach-pass1-blood.html)
-- [Specimen - Example ACH Pass1 CSF](Specimen-specimen-example-ach-ach-pass1-csf.html)
-- [Specimen - Example ACH Pass3 Stool](Specimen-specimen-example-ach-ach-pass3-stool.html)
+- [Specimen - Example ACH Pass1 Blood](https://build.fhir.org/ig/HL7/nhsn-dqm/Specimen-specimen-example-ach-ach-pass1-blood.html)
+- [Specimen - Example ACH Pass1 CSF](https://build.fhir.org/ig/HL7/nhsn-dqm/Specimen-specimen-example-ach-ach-pass1-csf.html)
+- [Specimen - Example ACH Pass3 Stool](https://build.fhir.org/ig/HL7/nhsn-dqm/Specimen-specimen-example-ach-ach-pass3-stool.html)
 
 #### Use Case 2: Bed Capacity Reporting
 
@@ -153,7 +153,7 @@ Specimen
 
 The NHSN Bed Capacity measure allows for facilities to report real-time hospital bed capacity data electronically to CDC’s National Healthcare Safety Network (NHSN), enabling a jurisdictional capacity datastore and dashboard for viewing real-time occupancy information. The goal of this measure is to strengthen healthcare systems capacity by providing near real time insight into routine operations and especially during public health emergencies.
 
-The NHSN Bed Capacity use case is intended to follow the pattern of a [SANER](https://hl7.org/fhir/uv/saner/) measure, but there are currently incompatibilities between SANER and DEQM that the owning HL7 work groups have agreed to resolve, but have not yet implemented. Once SANER and DEQM are harmonized this IG will likely be updated to reflect that.
+The NHSN Bed Capacity use case is intended to follow the pattern of a [SANER](https://hl7.org/fhir/uv/saner/) measure, but there are currently incompatibilies between SANER and DEQM that the owning HL7 work groups have agreed to resolve, but have not yet implemented. Once SANER and DEQM are harmonized this IG will likely be updated to reflect that.
 
 ##### Background
 
