@@ -16,8 +16,8 @@ Usage: #example
 * extension[+].id = "bed-capacity-effective-data-requirements"
 * extension[=].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-effectiveDataRequirements"
 * extension[=].valueReference = Reference(bed-capacity-effective-data-requirements)
-* extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* extension[=].valueCode = #pher
+// * extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
+// * extension[=].valueCode = #pher
 * url = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
 * version = "1.0.0"
 * name = "BedCapacityMeasure"

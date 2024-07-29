@@ -20,6 +20,13 @@ Slice 'Bundle.entry:subject-list': a matching slice is required, but not found (
 
 INFORMATION: Bundle/submission-full-example1: Bundle.entry[3].resource.group[0].measureScore.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
+
+# The following extensions were intentionally added by our Measure developer 
+
+INFORMATION: Measure/NHSNdQMAcuteCareHospitalInitialPopulation: Measure.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+INFORMATION: Measure/NHSNdQMAcuteCareHospitalInitialPopulation: Measure.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
 # The Healthcare Capacity code system will be removed once LOINC codes have been assigned. The request is in process and is being managed by NHSN
 
 Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
