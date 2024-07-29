@@ -4,6 +4,10 @@
 
 US FHIR Usage rules require that all profiles on Device derive from the core US profile. See https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process
 
+# The following OID is for examples only, and was only created to suppress other informational messages about OIDs. The Measures and related artifacts in this IG are not for production use.
+
+WARNING: ImplementationGuide: The assigned auto-oid-root value '2.25.316204395913842452684237438142819890580' is not registered in https://github.com/FHIR/ig-registry/blob/master/oid-assignments.json so isn't known to be valid
+
 # This IG does not include Bundle slices for the clinical data returned in MeasureReport.evaluatedResources, because that could potentially contain any type of resource.
 
 This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
