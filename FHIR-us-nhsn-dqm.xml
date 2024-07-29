@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/usnhsn-dqm/2024Sept" ciUrl="" defaultVersion="1.0.0" defaultWorkgroup="pher" url="http://hl7.org/fhir/us/nhsn-dqm">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ballotUrl="http://hl7.org/fhir/us/nhsn-dqm/2024Sept" ciUrl="" defaultVersion="1.0.0" defaultWorkgroup="pher" url="http://hl7.org/fhir/us/nhsn-dqm">
 <version code="current" url=""/>
-<version code="1.0.0" url="http://hl7.org/fhir/usnhsn-dqm/2024Sept"/>
+<version code="1.0.0" url="http://hl7.org/fhir/us/nhsn-dqm/2024Sept"/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>

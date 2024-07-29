@@ -15,9 +15,9 @@ Description: "This profile defines a valid Submission Bundle to NHSN with all re
   * ^short = "An entry in the Bundle; will have a Resource or information"
 * entry contains
     submitting-organization 1..1 and
-    submitting-device 1..1 and
+    submitting-device 0..1 and
     poi-list 0..1 and
-    subject-list 1..* and
+    subject-list 0..* and
     individual-measurereport 0..* and
     patient 0..*
 * entry[submitting-organization] ^short = "The Submitting Organization: the organization that is the source of the data"

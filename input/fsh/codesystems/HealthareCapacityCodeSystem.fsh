@@ -2,8 +2,8 @@ CodeSystem: HealthareCapacityCodeSystem
 Id: healthcare-capacity-codes
 Title: "Healthcare Capacity Reporting Code System"
 * ^copyright = "This Valueset is not copyrighted."
-* ^experimental = false
-* ^description = "This CodeSystem defines coded concepts for Healthcare Capacity reporting to NHSN"
+* ^experimental = true
+* ^description = "This CodeSystem defines coded concepts for Healthcare Capacity reporting to NHSN. This CodeSystem is experimental, and is expected to be replaced by LOINC codes once they have been assigned."
 * ^caseSensitive = false
 * #HOSP "Hospital"
 * #IRF "Inpatient Rehabilitation"
