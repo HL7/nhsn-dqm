@@ -54,11 +54,21 @@ In this scenario both the Data Source and dQM evaluation engine reside at the re
 
 In this scenario the dQM Evaluation Engine SHALL perform a FHIR POST or PUT to push the measure report bundle to the Measure Report Recipient.
 
+Since the submission bundles can be quite large, the Measure Report Recipient SHOULD support compression and accept the following header in the POST/PUT: 
+
+Content-Encoding: gzip
+
 ![Push to NHSN](push-to-nhsn.png){:style="float: none;"}
 
 ##### Aggregate and Push to NHSN
 
 In this scenario data for reporting is spread across multiple facilities, and those data must be aggregated before measure evaluation. Participating facilities send their data to the Data Aggregator using whatever format they negotiate (may be FHIR, CVS, or other format), which then acts as the Data Source and dQM evaluation engine. The rest of this scenario follows the Push to NHSN scenario described above. Note that as measure data requirements change, facilities reporting to the Data Aggregator may need to update their submissions; this process is a negotiation between the Data Aggregator and other facilities, and the details of this process is out of scope for this specification. 
+
+In this scenario the dQM Evaluation Engine SHALL perform a FHIR POST or PUT to push the measure report bundle to the Measure Report Recipient.
+
+Since the submission bundles can be quite large, the Measure Report Recipient SHOULD support compression and accept the following header in the POST/PUT: 
+
+Content-Encoding: gzip
 
 ![Aggregate and Push to NHSN](aggregate-and-push-to-nhsn.png){:style="float: none;"}
 
