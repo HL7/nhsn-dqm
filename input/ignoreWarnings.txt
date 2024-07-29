@@ -20,12 +20,23 @@ Slice 'Bundle.entry:subject-list': a matching slice is required, but not found (
 
 INFORMATION: Bundle/submission-full-example1: Bundle.entry[3].resource.group[0].measureScore.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
+# Currently DEQM requires measure score for subject list measure reports, which was an error. This causes an error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
+
+INFORMATION: MeasureReport/measurereport-example-ach-subjectlist1: MeasureReport.group[0].measureScore.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # The following extensions were intentionally added by our Measure developer 
 
 INFORMATION: Measure/NHSNdQMAcuteCareHospitalInitialPopulation: Measure.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
 INFORMATION: Measure/NHSNdQMAcuteCareHospitalInitialPopulation: Measure.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+# The following issues are in the snapshot and are inherited from US Core
+
+INFORMATION: StructureDefinition/nhsn-submitting-organization: StructureDefinition.snapshot.element[10].pattern.ofType(Identifier): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+
+INFORMATION: StructureDefinition/nhsn-submitting-organization: StructureDefinition.snapshot.element[11].pattern.ofType(Identifier): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
+
+INFORMATION: StructureDefinition/nhsn-submitting-organization: StructureDefinition.snapshot.element[12].pattern.ofType(Identifier): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 
 # The Healthcare Capacity code system will be removed once LOINC codes have been assigned. The request is in process and is being managed by NHSN
 
