@@ -4,8 +4,8 @@ Title: "DiagnosticReport - Example ACH Pass2 Cardiopulmonary"
 Description: "DiagnosticReport - Example ACH Pass2 - Cardiovascular stress testing"
 Usage: #example
 * status = #final
-* category = $loinc#LP172861-9 "Cardiopulmonary"
-* category.text = "Cardiopulmonary"
+* category = $loinc#LP29708-2 "Cardiology"
+* category.text = "Cardiology"
 * code = $sct#76746007 "Cardiovascular stress testing"
 * code.text = "Cardiovascular stress testing"
 * subject = Reference(patient-example-ach-ach-pass2)
