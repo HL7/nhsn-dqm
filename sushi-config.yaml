@@ -9,7 +9,7 @@ name: NHSNdQM
 status: active
 date: 2024-03-28
 copyrightYear: 2024+
-version: 1.0.0
+version: 1.0.0-ballot
 releaseLabel: ballot
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 extension:
