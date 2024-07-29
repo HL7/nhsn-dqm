@@ -50,7 +50,7 @@ parameters:
   path-liquid: templates\liquid
   excludettl: 'true'
   excludemap: 'true'
-
+  auto-oid-root: '2.25.316204395913842452684237438142819890580'
   default-contact: true
   default-publisher: true
   #default-jurisdiction: true
