@@ -106,10 +106,6 @@ No measureScore when the scoring of the message is 'cohort'
 
 # Currently DEQM requires measure score for subject list measure reports, which was an error. This causes an error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
 
-Slice 'Bundle.entry:subject-list': a matching slice is required, but not found (from http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|1.0.0-ballot). Note that other slices are allowed in addition to this required slice
-
-# Currently DEQM requires measure score for subject list measure reports, which was an error. This causes an error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
-
 INFORMATION: Bundle/submission-full-example1: Bundle.entry[3].resource.group[0].measureScore.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/subjectlist-measurereport-deqm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # Currently DEQM requires measure score for subject list measure reports, which was an error. This causes an error in the MeasureReport and another in the Bundle that contains it since the MR does not match the slice unless error free. See https://jira.hl7.org/browse/FHIR-46239?filter=-2
