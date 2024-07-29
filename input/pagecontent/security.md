@@ -1,5 +1,6 @@
 ### Privacy and Security Considerations
 
-TBD
-
-The FHIR implementer’s [Safety Checklist](http://hl7.org/fhir/R4/safety.html) helps implementers be sure that they have considered all the parts of FHIR that impact their system design regarding privacy, security, provenance, and safety.
+Implementers **SHOULD** be familiar with and adhere primarily to any security and privacy guidelines defined below:
+* [Security & Privacy module](http://hl7.org/fhir/R4/secpriv-module.html)
+* [Security Principles](http://hl7.org/fhir/R4/security.html)
+* [Implementer's Checklist](http://hl7.org/fhir/R4/safety.html)
