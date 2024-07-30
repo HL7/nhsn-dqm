@@ -1,5 +1,9 @@
 == Suppressed Messages ==
 
+# JIRA spec pull request filed, waiting for someone with write access to merge: https://github.com/HL7/JIRA-Spec-Artifacts/pull/1035
+
+ERROR: There is no jira specification file defined with the expected name of FHIR-us-nhsn-dqm in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+
 # US Core Variance received: https://jira.hl7.org/browse/FHIR-46467
 
 US FHIR Usage rules require that all profiles on Device derive from the core US profile. See https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process
