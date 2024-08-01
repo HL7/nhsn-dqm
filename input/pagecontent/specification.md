@@ -32,7 +32,7 @@ Receiver:
 
 #### Profiles
 
-This specification makes significant use of [FHIR profiles]({{site.data.fhir.path}}profiling.html) and terminology artifacts to describe the content to be shared as part of AEOB requests and responses.
+This specification makes significant use of [FHIR profiles]({{site.data.fhir.path}}profiling.html) and terminology artifacts to describe the content to be shared as part of measure report submissions.
 
 The full set of profiles defined in this IG can be found by following the links on the [Artifacts](artifacts.html) page.
 
