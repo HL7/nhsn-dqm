@@ -1,10 +1,5 @@
 == Suppressed Messages ==
 
-
-# JIRA spec pull request filed, waiting for someone with write access to merge: https://github.com/HL7/JIRA-Spec-Artifacts/pull/1035
-
-ERROR: There is no jira specification file defined with the expected name of FHIR-us-nhsn-dqm in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-
 # US Core Variance received: https://jira.hl7.org/browse/FHIR-46467
 
 US FHIR Usage rules require that all profiles on Device derive from the core US profile. See https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process
@@ -14,7 +9,6 @@ US FHIR Usage rules require that all profiles on Device derive from the core US 
 WARNING: ImplementationGuide: The assigned auto-oid-root value '2.25.316204395913842452684237438142819890580' is not registered in https://github.com/FHIR/ig-registry/blob/master/oid-assignments.json so isn't known to be valid
 
 # This IG does not include Bundle slices for the clinical data returned in MeasureReport.evaluatedResources, because that could potentially contain any type of resource.
-
 
 INFORMATION: Bundle/submission-full-example1: Bundle.entry[3]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|1.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Bundle/submission-full-example1: Bundle.entry[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-dqm/StructureDefinition/nhsn-measurereport-bundle|1.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -147,7 +141,6 @@ Reference to experimental CodeSystem http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/
 
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/discharge-disposition|1.0.0
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
-Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/measure-scoring|3.0.0
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medication-admin-status|4.0.1
 Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1
