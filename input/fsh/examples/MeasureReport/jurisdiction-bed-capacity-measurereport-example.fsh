@@ -582,7 +582,7 @@ Description: "Example MeasureReport - Children's Hospital Bed Capacity Individua
 Usage: #example
 
 * extension[location].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-dataLocation"
-* extension[location].valueReference = Reference(hosp-location-example-bed-capacity)
+* extension[location].valueReference = Reference(chld-location-example-bed-capacity)
 * extension[1].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
 * extension[=].valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * contained[0] = chld-location-example-bed-capacity
