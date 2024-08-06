@@ -152,10 +152,7 @@ Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medication-a
 Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-ver-status|4.0.1
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|1.0.0
-Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/measure-scoring|3.0.0
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/medicationrequest-category|1.0.0
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|1.0.0
-Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/organization-type|2.0.0
-Reference to draft CodeSystem http://hl7.org/fhir/event-status|4.0.1
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/location-physical-type|2.0.0
