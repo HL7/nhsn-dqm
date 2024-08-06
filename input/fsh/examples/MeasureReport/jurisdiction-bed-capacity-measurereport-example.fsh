@@ -315,7 +315,7 @@ Description: "Example MeasureReport - Inpatient Psychiatric Facility Bed Capacit
 Usage: #example
 
 * extension[location].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-dataLocation"
-* extension[location].valueReference = Reference(hosp-location-example-bed-capacity)
+* extension[location].valueReference = Reference(ipf-location-example-bed-capacity)
 * extension[1].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
 * extension[=].valueCodeableConcept = $measure-scoring#cohort "Cohort"
 * contained[0] = ipf-location-example-bed-capacity
