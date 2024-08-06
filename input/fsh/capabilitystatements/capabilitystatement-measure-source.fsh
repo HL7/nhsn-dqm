@@ -20,7 +20,7 @@ Usage: #definition
 * format[+] = #xml
 * rest[+]
   * mode = #server
-  * security.description = "Implementations **SHOULD** consider the guidance included [[https://build.fhir.org/ig/HL7/nhsn-dqm/security.html|NHSN Security & Privacy Considerations]]."
+  * security.description = "Implementations **SHOULD** consider the guidance included [NHSN Security & Privacy Considerations](security.html)."
 
 // TODO, The CQFM meathod of getting the measure/ibrary bundle it through the Library/$cqfm.package operation
   * resource[+]

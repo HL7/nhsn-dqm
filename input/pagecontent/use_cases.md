@@ -28,7 +28,7 @@ The NHSN Acute Care Hospital (ACH) digital quality measure (dQM) allows faciliti
 
 ##### Patients of Interest
 
-The facility will work with NHSN to define a list of patients of interest(POI list). This is often the entire in-patient population at the facility. The data for the patients in the list are then extracted and evaluated against the measure criteria for the initial poulation (see below).
+The facility will work with NHSN to define a list of patients of interest(POI list). This is often the entire in-patient population at the facility. The data for the patients in the list are then extracted and evaluated against the measure criteria for the initial population (see below).
 
 ##### Initial Population
 
@@ -37,115 +37,115 @@ The initial population in the ACH dQM is defined as all encounters for patients 
 ##### Additional Use Case Information References
 For specific information on the individual NHSN protocols and metrics see: 
 [Acute Care / Critical Access Hospitals (ACH) | NHSN | CDC ](https://www.cdc.gov/nhsn/acute-care-hospital/index.html)
-[Example ACH Initial Population Library (CQL)](https://build.fhir.org/ig/HL7/nhsn-dqm/Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary.html)
-[Example ACH Measure Library ](https://build.fhir.org/ig/HL7/nhsn-dqm/Measure-NHSNdQMAcuteCareHospitalInitialPopulation.html)
+[Example ACH Initial Population Library (CQL)](Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary.html)
+[Example ACH Measure Library ](Measure-NHSNdQMAcuteCareHospitalInitialPopulation.html)
 
 ##### ACH Submission Examples
 
 ##### Bundle Submission Examples
 
-- [Full Submission Bundle](https://build.fhir.org/ig/HL7/nhsn-dqm/Bundle-submission-full-example1.html)
-- [Submitting Organization](https://build.fhir.org/ig/HL7/nhsn-dqm/Organization-organization-example-submitting-organization.html) 
-- [Submitting Device](https://build.fhir.org/ig/HL7/nhsn-dqm/Device-device-example-submitting-device.html) 
+- [Full Submission Bundle](Bundle-submission-full-example1.html)
+- [Submitting Organization](Organization-organization-example-submitting-organization.html) 
+- [Submitting Device](Device-device-example-submitting-device.html) 
 
 POI List
 
-- [ACH Patients Of Interest](https://build.fhir.org/ig/HL7/nhsn-dqm/List-list-example-ach-patients-of-interest.html)
+- [ACH Patients Of Interest](List-list-example-ach-patients-of-interest.html)
 
 Subject List Measure Report
 
-- [ACH Subject List](https://build.fhir.org/ig/HL7/nhsn-dqm/MeasureReport-measurereport-example-ach-subjectlist1.html)
+- [ACH Subject List](MeasureReport-measurereport-example-ach-subjectlist1.html)
 
 Individual Measure Report
 
-- [ACH Individual Measure Report List](https://build.fhir.org/ig/HL7/nhsn-dqm/List-list-example-ach-individual-measurereport-list.html)
+- [ACH Individual Measure Report List](List-list-example-ach-individual-measurereport-list.html)
 
 ##### Initial Population Examples
 
 Patient
 
-- [Patient - Example Sameresultdiffday](https://build.fhir.org/ig/HL7/nhsn-dqm/Patient-patient-example-sameresultdiffday.html)
+- [Patient - Example Sameresultdiffday](Patient-patient-example-sameresultdiffday.html)
 
 Encounter
 
-- [Encounter - Example ACH Pass2 - Inpatient](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass2-inpatient.html)
-- [Encounter - Example ACH Pass2 - Emergency](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass2-emergency.html)
-- [Encounter - Example ACH Pass3 - Short Stay](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass3-short-stay.html)
-- [Encounter - Example ACH Pass3 - Acute](https://build.fhir.org/ig/HL7/nhsn-dqm/Encounter-encounter-example-ach-ach-pass3-acute.html)
+- [Encounter - Example ACH Pass2 - Inpatient](Encounter-encounter-example-ach-ach-pass2-inpatient.html)
+- [Encounter - Example ACH Pass2 - Emergency](Encounter-encounter-example-ach-ach-pass2-emergency.html)
+- [Encounter - Example ACH Pass3 - Short Stay](Encounter-encounter-example-ach-ach-pass3-short-stay.html)
+- [Encounter - Example ACH Pass3 - Acute](Encounter-encounter-example-ach-ach-pass3-acute.html)
 
 ##### Line Level Data Examples
 
 Condition
 
-- [Condition - Example Diagnosis ACH Pass1 Encounter Diagnosis](https://build.fhir.org/ig/HL7/nhsn-dqm/Condition-condition-example-diagnosis-ach-pass1.html)
-- [Condition - Example Diagnosis ACH Pass2 Problem List](https://build.fhir.org/ig/HL7/nhsn-dqm/Condition-condition-example-diagnosis-ach-pass2-problem.html)
+- [Condition - Example Diagnosis ACH Pass1 Encounter Diagnosis](Condition-condition-example-diagnosis-ach-pass1.html)
+- [Condition - Example Diagnosis ACH Pass2 Problem List](Condition-condition-example-diagnosis-ach-pass2-problem.html)
 
 Coverage
 
-- [Coverage - Example ACH Pass1 Medicaid](https://build.fhir.org/ig/HL7/nhsn-dqm/Coverage-coverage-example-ach-pass1.html)
-- [Coverage - Example ACH Pass2 Commercial](https://build.fhir.org/ig/HL7/nhsn-dqm/Coverage-coverage-example-ach-pass2.html)
+- [Coverage - Example ACH Pass1 Medicaid](Coverage-coverage-example-ach-pass1.html)
+- [Coverage - Example ACH Pass2 Commercial](Coverage-coverage-example-ach-pass2.html)
 
 Device
 
-- [Device - Example ACH Pass1 Central Line](https://build.fhir.org/ig/HL7/nhsn-dqm/Device-device-example-ach-ach-pass1-central-line.html)
+- [Device - Example ACH Pass1 Central Line](Device-device-example-ach-ach-pass1-central-line.html)
 
 Diagnostic Report
 
-- [DiagnosticReport - Example ACH Pass2 Cardiopulmonary1](https://build.fhir.org/ig/HL7/nhsn-dqm/DiagnosticReport-diagnosticreport-example-ach-ach-pass2-cardiopulmonary.html)
-- [DiagnosticReport - Example ACH Pass2 Lab CBC](https://build.fhir.org/ig/HL7/nhsn-dqm/DiagnosticReport-diagnosticreport-example-ach-ach-pass2-lab-cbc.html)
+- [DiagnosticReport - Example ACH Pass2 Cardiopulmonary1](DiagnosticReport-diagnosticreport-example-ach-ach-pass2-cardiopulmonary.html)
+- [DiagnosticReport - Example ACH Pass2 Lab CBC](DiagnosticReport-diagnosticreport-example-ach-ach-pass2-lab-cbc.html)
 
 Location
 
-- [Location - Example ACH - Emergency](https://build.fhir.org/ig/HL7/nhsn-dqm/Location-location-example-ach-emergency.html)
-- [Location - Example ACH - Inpatient](https://build.fhir.org/ig/HL7/nhsn-dqm/Location-location-example-ach-inpatient.html)
-- [Location - Example ACH - Nicu](https://build.fhir.org/ig/HL7/nhsn-dqm/Location-location-example-ach-nicu-level-iii.html)
+- [Location - Example ACH - Emergency](Location-location-example-ach-emergency.html)
+- [Location - Example ACH - Inpatient](Location-location-example-ach-inpatient.html)
+- [Location - Example ACH - Nicu](Location-location-example-ach-nicu-level-iii.html)
 
 Medication
 
-- [Medication - Example Heparin](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-heparin.html)
-- [Medication - Example Metformin 1000](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-metformin-1000.html)
-- [Medication - Example Vancomycin 15](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-vancomycin-15.html)
-- [Medication - Example Insulin Lispro](https://build.fhir.org/ig/HL7/nhsn-dqm/Medication-medication-example-insulin-lispro.html)
+- [Medication - Example Heparin](Medication-medication-example-heparin.html)
+- [Medication - Example Metformin 1000](Medication-medication-example-metformin-1000.html)
+- [Medication - Example Vancomycin 15](Medication-medication-example-vancomycin-15.html)
+- [Medication - Example Insulin Lispro](Medication-medication-example-insulin-lispro.html)
 
 Medication Administration
 
-- [MedicationAdministration - Example ACH Pass2 Heparin 1](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-heparin-1.html)
-- [MedicationAdministration - Example ACH Pass2 Heparin 2](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-heparin-2.html)
-- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 1](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-1.html)
-- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 2](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-2.html)
+- [MedicationAdministration - Example ACH Pass2 Heparin 1](MedicationAdministration-medicationadministration-example-ach-pass2-heparin-1.html)
+- [MedicationAdministration - Example ACH Pass2 Heparin 2](MedicationAdministration-medicationadministration-example-ach-pass2-heparin-2.html)
+- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 1](MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-1.html)
+- [MedicationAdministration - Example ACH Pass2 Insulin Lispro 2](MedicationAdministration-medicationadministration-example-ach-pass2-insulin-lispro-2.html)
 
 Medication Request
 
-- [MedicationRequest - Example ACH Pass1 Vancomycin](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationRequest-medicationrequest-example-ach-pass1-vancomycin.html)
-- [MedicationRequest - Example ACH Pass2 Metformin](https://build.fhir.org/ig/HL7/nhsn-dqm/MedicationRequest-medicationrequest-example-ach-pass2-metformin.html)
+- [MedicationRequest - Example ACH Pass1 Vancomycin](MedicationRequest-medicationrequest-example-ach-pass1-vancomycin.html)
+- [MedicationRequest - Example ACH Pass2 Metformin](MedicationRequest-medicationrequest-example-ach-pass2-metformin.html)
 
 Observation
 
-- [Observation - Example ACH Pass1 Blood](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-blood.html)
-- [Observation - Example ACH Pass1 Csf](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-csf.html)
-- [Observation - Example ACH Pass1 Gestational Age](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-gestational-age.html)
-- [Observation - Example ACH Pass1 Vitals Weight](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass1-vitals-weight.html)
-- [Observation - Example ACH Pass2 Hemo A1C](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass2-hemo-a1c.html)
-- [Observation - Example ACH Pass3 C. diff](https://build.fhir.org/ig/HL7/nhsn-dqm/Observation-observation-example-ach-pass3-cdiff.html)
+- [Observation - Example ACH Pass1 Blood](Observation-observation-example-ach-pass1-blood.html)
+- [Observation - Example ACH Pass1 Csf](Observation-observation-example-ach-pass1-csf.html)
+- [Observation - Example ACH Pass1 Gestational Age](Observation-observation-example-ach-pass1-gestational-age.html)
+- [Observation - Example ACH Pass1 Vitals Weight](Observation-observation-example-ach-pass1-vitals-weight.html)
+- [Observation - Example ACH Pass2 Hemo A1C](Observation-observation-example-ach-pass2-hemo-a1c.html)
+- [Observation - Example ACH Pass3 C. diff](Observation-observation-example-ach-pass3-cdiff.html)
 
 Procedure
 
-- [Procedure - Example ACH Pass1 Central Line](https://build.fhir.org/ig/HL7/nhsn-dqm/Procedure-procedure-example-ach-ach-pass1-central-line.html)
-- [Procedure - Example ACH Pass1 Lumbar](https://build.fhir.org/ig/HL7/nhsn-dqm/Procedure-procedure-example-ach-ach-pass1-lumbar.html)
+- [Procedure - Example ACH Pass1 Central Line](Procedure-procedure-example-ach-ach-pass1-central-line.html)
+- [Procedure - Example ACH Pass1 Lumbar](Procedure-procedure-example-ach-ach-pass1-lumbar.html)
 
 Service Request
 
-- [ServiceRequest - Example ACH Pass1 Blood](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass1-blood.html)
-- [ServiceRequest - Example ACH Pass1 CSF](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass1-csf.html)
-- [ServiceRequest - Example ACH Pass2 Glucose](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass2-glucose.html)
-- [ServiceRequest - Example ACH Pass2 Hemo A1C](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass2-hemo-a1c.html)
-- [ServiceRequest - Example ACH Pass3 Cdiff](https://build.fhir.org/ig/HL7/nhsn-dqm/ServiceRequest-servicerequest-example-ach-ach-pass3-cdiff.html)
+- [ServiceRequest - Example ACH Pass1 Blood](ServiceRequest-servicerequest-example-ach-ach-pass1-blood.html)
+- [ServiceRequest - Example ACH Pass1 CSF](ServiceRequest-servicerequest-example-ach-ach-pass1-csf.html)
+- [ServiceRequest - Example ACH Pass2 Glucose](ServiceRequest-servicerequest-example-ach-ach-pass2-glucose.html)
+- [ServiceRequest - Example ACH Pass2 Hemo A1C](ServiceRequest-servicerequest-example-ach-ach-pass2-hemo-a1c.html)
+- [ServiceRequest - Example ACH Pass3 Cdiff](ServiceRequest-servicerequest-example-ach-ach-pass3-cdiff.html)
 
 Specimen
 
-- [Specimen - Example ACH Pass1 Blood](https://build.fhir.org/ig/HL7/nhsn-dqm/Specimen-specimen-example-ach-ach-pass1-blood.html)
-- [Specimen - Example ACH Pass1 CSF](https://build.fhir.org/ig/HL7/nhsn-dqm/Specimen-specimen-example-ach-ach-pass1-csf.html)
-- [Specimen - Example ACH Pass3 Stool](https://build.fhir.org/ig/HL7/nhsn-dqm/Specimen-specimen-example-ach-ach-pass3-stool.html)
+- [Specimen - Example ACH Pass1 Blood](Specimen-specimen-example-ach-ach-pass1-blood.html)
+- [Specimen - Example ACH Pass1 CSF](Specimen-specimen-example-ach-ach-pass1-csf.html)
+- [Specimen - Example ACH Pass3 Stool](Specimen-specimen-example-ach-ach-pass3-stool.html)
 
 #### Use Case 2: Bed Capacity Reporting
 

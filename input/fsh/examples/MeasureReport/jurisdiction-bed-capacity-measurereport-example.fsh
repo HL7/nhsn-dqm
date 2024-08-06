@@ -4,14 +4,36 @@ Alias: $bed-capacity-code-system = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/he
 
 Instance: hosp-location-example-bed-capacity
 InstanceOf: QICoreLocation
-Title: "Location - Example ACH - Crit"
-Description: "Location - Example ACH - Medical Critical Care"
+Title: "Location - Entire Hospital"
+Description: "Hospital-wide"
 Usage: #inline
 * identifier.system = "http://www.example.org/location"
 * identifier.value = "123"
 * status = #active
 * name = "XYZ Hospital"
 * type = $bed-capacity-code-system#HOSP "Hospital"
+
+Instance: ipf-location-example-bed-capacity
+InstanceOf: QICoreLocation
+Title: "Location - Inpatient Psychiatric"
+Description: "Inpatient Psych (IPF)"
+Usage: #inline
+* identifier.system = "http://www.example.org/location"
+* identifier.value = "456"
+* status = #active
+* name = "Inpatient Psych at XYZ Hospital"
+* type = $bed-capacity-code-system#IPF "Inpatient Psychiatric"
+
+Instance: chld-location-example-bed-capacity
+InstanceOf: QICoreLocation
+Title: "Location - Children's or Pediatrics Dept."
+Description: "Pediatric (CHLD)"
+Usage: #inline
+* identifier.system = "http://www.example.org/location"
+* identifier.value = "789"
+* status = #active
+* name = "Children's/Pediatrics at XYZ Hospital"
+* type = $bed-capacity-code-system#CHLD "Children's or Pediatric"
 
 
 Instance: bed-capacity-measurereport-example-hosp
@@ -296,7 +318,7 @@ Usage: #example
 * extension[location].valueReference = Reference(hosp-location-example-bed-capacity)
 * extension[1].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
 * extension[=].valueCodeableConcept = $measure-scoring#cohort "Cohort"
-* contained[0] = hosp-location-example-bed-capacity
+* contained[0] = ipf-location-example-bed-capacity
 * status = #complete
 * type = #individual
 * measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
@@ -563,7 +585,7 @@ Usage: #example
 * extension[location].valueReference = Reference(hosp-location-example-bed-capacity)
 * extension[1].url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
 * extension[=].valueCodeableConcept = $measure-scoring#cohort "Cohort"
-* contained[0] = hosp-location-example-bed-capacity
+* contained[0] = chld-location-example-bed-capacity
 * status = #complete
 * type = #individual
 * measure = "http://hl7.org/fhir/us/nhsn-dqm/Measure/BedCapacityMeasure"
