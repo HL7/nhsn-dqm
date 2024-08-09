@@ -1,4 +1,4 @@
-== Suppressed Messages ==
+== Suppressed Messages == 
 
 # US Core Variance received: https://jira.hl7.org/browse/FHIR-46467
 
