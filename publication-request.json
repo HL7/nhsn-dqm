@@ -9,6 +9,6 @@
     "desc": "National Healthcare Safety Network (NHSN) using digital quality measures (dQMs), 1.0.0 Ballot - US Realm STU",
 	"category": "Public Health",
 	"title": "National Healthcare Safety Network (NHSN) Digital Quality Measure (dQM) Reporting Implementation Guide",
-	"ci-build": "https://build.fhir.org/ig/HL7/nhsn-dqm",
+	"ci-build": "http://build.fhir.org/ig/HL7/nhsn-dqm",
 	"introduction": "This implementation guide creates a framework for reporting to the National Healthcare Safety Network (NHSN) using digital quality measures (dQMs). NHSN will create FHIR Measure resources that comply with this framework and receive the resulting MeasureReport and related resources. The Measure resources will be processed by a measure evaluation engine, which can either pull data from an EHR FHIR API for evaluation or be implemented inside an EHR directly.  This implementation guide leverages existing quality reporting specifications such as the Quality Measure Implementation Guide and the Data Exchange for Quality Measures Implementation Guide, as well as US Core data currently available from EHR FHIR APIs. This approach is different from previous NHSN implementation guides, in that it sets up a framework for dynamically pulling EHR data and evaluating against fully computable digital quality measures in near real time, vs. creating an implementation guide with static data requirements that are often out of date by the time the IG is balloted, published, and implemented."
 }
