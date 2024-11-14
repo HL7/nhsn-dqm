@@ -81,6 +81,7 @@
 <artifact id="CapabilityStatement/NHSNCapabilityStatementDataAggregator" key="CapabilityStatement-NHSNCapabilityStatementDataAggregator" name="NHSN Data Aggregator CapabilityStatement"/>
 <artifact id="CapabilityStatement/NHSNCapabilityStatementEvaluationEngine" key="CapabilityStatement-NHSNCapabilityStatementEvaluationEngine" name="NHSN Data Evaluation Engine CapabilityStatement"/>
 <artifact id="CapabilityStatement/NHSNCapabilityStatementDataSource" key="CapabilityStatement-NHSNCapabilityStatementDataSource" name="NHSN Data Source CapabilityStatement"/>
+<artifact id="StructureDefinition/nhsn-measure-bundle" key="StructureDefinition-nhsn-measure-bundle" name="NHSN Measure Bundle"/>
 <artifact id="CapabilityStatement/NHSNCapabilityStatementMeasureSource" key="CapabilityStatement-NHSNCapabilityStatementMeasureSource" name="NHSN Measure Source CapabilityStatement"/>
 <artifact id="StructureDefinition/nhsn-measurereport-bundle" key="StructureDefinition-nhsn-measurereport-bundle" name="NHSN MeasureReport Bundle"/>
 <artifact id="CapabilityStatement/NHSNCapabilityStatementMeasureReportRecipient" key="CapabilityStatement-NHSNCapabilityStatementMeasureReportRecipient" name="NHSN MeasureReport Recipient CapabilityStatement"/>
