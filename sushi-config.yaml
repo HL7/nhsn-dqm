@@ -36,7 +36,7 @@ dependencies:
     version: 1.0.0
     id: crmi
   hl7.fhir.us.cqfmeasures:
-    version: 5.0.0
+    version: 4.0.0
     id: cqfm
   hl7.fhir.us.davinci-deqm:
     version: 5.0.0-ballot
