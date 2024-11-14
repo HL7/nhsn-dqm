@@ -16,8 +16,8 @@ Usage: #example
 * group.population.code = $measure-population#initial-population "Initial Population"
 * group.population.count = 3
 * group.population.subjectResults = Reference(list-example-ach-individual-measurereport-list)
-* group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
-* group.measureScore.extension.valueCode = #unknown
+// * group.measureScore.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+// * group.measureScore.extension.valueCode = #unknown
 
 
 Instance: list-example-ach-individual-measurereport-list

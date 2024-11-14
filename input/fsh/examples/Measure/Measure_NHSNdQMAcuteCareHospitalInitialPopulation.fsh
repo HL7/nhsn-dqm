@@ -1,7 +1,7 @@
 Instance: NHSNdQMAcuteCareHospitalInitialPopulation
 Title: "Acute Care Hospital Initial Population Measure"
 Description: "The Acute Care Hospital (ACH) Initial Population includes all encounters for patients of any age in an ED, observation, or inpatient location or all encounters for patients of any age with an ED, observation, inpatient, or short stay status during the measurement period."
-InstanceOf: CQFMCohortMeasure
+InstanceOf: CRMIShareableMeasure
 Usage: #example
 * contained = effective-data-requirements
 * extension[0].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis"
@@ -28,11 +28,11 @@ Usage: #example
 * scoring = $measure-scoring#cohort "Cohort"
 * type = $measure-type#outcome "Outcome"
 * rationale = "The NHSN Acute Care Hospital dQM allows for facilities to report line level patient data electronically to NHSN for the following modules that are reported monthly: Glycemic Control, Hypoglycemia; Healthcare facility-onset, antibiotic-Treated Clostridioides difficile (C. difficile) Infection (HT-CDI); Hospital-Onset Bacteremia & Fungemia (HOB); Venous Thromboembolism (VTE); Late Onset Sepsis / Meningitis. *Please see [Acute Care / Critical Access Hospitals (ACH) | NHSN | CDC](https://www.cdc.gov/nhsn/acute-care-hospital/index.html) for the individual measure protocols."
-* group.population[initialPopulation].id = "initial-population"
-* group.population[initialPopulation].code = $measure-population#initial-population "Initial Population"
-* group.population[initialPopulation].description = "All encounters for patients of any age in an ED, observation, or inpatient location or all encounters for patients of any age with an ED, observation, inpatient, or short stay status during the measurement period."
-* group.population[initialPopulation].criteria.language = #text/cql-identifier
-* group.population[initialPopulation].criteria.expression = "Initial Population"
+* group.population[+].id = "initial-population"
+* group.population[=].code = $measure-population#initial-population "Initial Population"
+* group.population[=].description = "All encounters for patients of any age in an ED, observation, or inpatient location or all encounters for patients of any age with an ED, observation, inpatient, or short stay status during the measurement period."
+* group.population[=].criteria.language = #text/cql-identifier
+* group.population[=].criteria.expression = "Initial Population"
 * supplementalData[0].id = "sde-condition"
 * supplementalData[=].usage = $measure-data-usage#supplemental-data
 * supplementalData[=].description = "SDE Condition"
