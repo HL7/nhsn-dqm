@@ -193,8 +193,8 @@ Usage: #example
 * entry[=].resource = location-example-ach-emergency
 * entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-inpatient"
 * entry[=].resource = location-example-ach-inpatient
-* entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-crit"
-* entry[=].resource = location-example-ach-crit
+* entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-critical-care"
+* entry[=].resource = location-example-ach-critical-care
 * entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-medsurg"
 * entry[=].resource = location-example-ach-medsurg
 * entry[+].fullUrl = "http://example.com/fhir/List/list-example-ach-individual-measurereport-list"
