@@ -2,7 +2,7 @@
 
 ### Actors ###
 
-This implementation guide defines the following actors. Note, it is possible for a given system to play the role of multiple actors. For example, and EHR could be both the Data Source and dQM Evaluation Engine when calculating a measure internally. Likewise a system residing at NHSN that queries the Data Source remotely, evaluates those data, produces MeasureReport bundles, and validates the result may be both the dQM Evaluation Engine and MeasureReport Recipient. 
+This implementation guide defines the following actors. Note, it is possible for a given system to play the role of multiple actors. For example, an EHR could be both the Data Source and dQM Evaluation Engine when calculating a measure internally. Likewise a system residing at NHSN that queries the Data Source remotely, evaluates those data, produces MeasureReport bundles, and validates the result may be both the dQM Evaluation Engine and MeasureReport Recipient. 
 
 The actors defined here are used in the [Reporting Scenarios section of the Specification](specification.html#reporting-scenarios) page in this IG.
 
