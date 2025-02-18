@@ -98,7 +98,7 @@ Location
 
 - [Location - Example ACH - Emergency](Location-location-example-ach-emergency.html)
 - [Location - Example ACH - Inpatient](Location-location-example-ach-inpatient.html)
-- [Location - Example ACH - Nicu](Location-location-example-ach-nicu-level-iii.html)
+- [Location - Example ACH - NICU](Location-location-example-ach-nicu-level-iii.html)
 
 Medication
 

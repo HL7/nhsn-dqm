@@ -1,6 +1,6 @@
 Instance: location-example-ach-nicu-level-iii
 InstanceOf: QICoreLocation
-Title: "Location - Example ACH - Nicu"
+Title: "Location - Example ACH - NICU"
 Description: "Location - Example ACH - Neonatal Critical Care (Level III)"
 Usage: #example
 * identifier.system = "http://www.example.org/location"
