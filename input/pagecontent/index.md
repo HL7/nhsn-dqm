@@ -6,7 +6,7 @@ Note that reporting dQM data to NHSN requires enrollment in NHSN, signing of NHS
 
 ### Purpose ###
 
-This specification defines the general requirements for submissions to NHSN directly from a facility or through an external dQM-evaluation engine. 
+This specification defines the general requirements for submissions to NHSN directly from a facility or through an external dQM Evaluation Engine. 
 
 ### Background ###
 
