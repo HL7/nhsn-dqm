@@ -38,11 +38,12 @@
 <artifact id="List/list-example-ach-individual-measurereport-list" key="List-list-example-ach-individual-measurereport-list" name="List - Example ACH Individual Measure Report List"/>
 <artifact id="List/list-example-ach-patients-of-interest" key="List-list-example-ach-patients-of-interest" name="List - Example ACH Patients Of Interest"/>
 <artifact id="List/list-example-patients-of-interest" key="List-list-example-patients-of-interest" name="List - Example Patients of Interest List 1"/>
-<artifact id="Location/location-example-ach-crit" key="Location-location-example-ach-crit" name="Location - Example ACH - Crit"/>
+<artifact deprecated="true" id="Location/location-example-ach-crit" key="Location-location-example-ach-crit" name="Location - Example ACH - Crit"/>
 <artifact id="Location/location-example-ach-emergency" key="Location-location-example-ach-emergency" name="Location - Example ACH - Emergency"/>
 <artifact id="Location/location-example-ach-inpatient" key="Location-location-example-ach-inpatient" name="Location - Example ACH - Inpatient"/>
+<artifact id="Location/location-example-ach-critical-care" key="Location-location-example-ach-critical-care" name="Location - Example ACH - Medical Critical Care"/>
 <artifact id="Location/location-example-ach-medsurg" key="Location-location-example-ach-medsurg" name="Location - Example ACH - Medsurg"/>
-<artifact id="Location/location-example-ach-nicu-level-iii" key="Location-location-example-ach-nicu-level-iii" name="Location - Example ACH - Nicu"/>
+<artifact id="Location/location-example-ach-nicu-level-iii" key="Location-location-example-ach-nicu-level-iii" name="Location - Example ACH - NICU"/>
 <artifact id="MeasureReport/bed-capacity-measurereport-example-chld" key="MeasureReport-bed-capacity-measurereport-example-chld" name="MeasureReport - Children's Hospital Bed Capacity Individual Measure Report"/>
 <artifact id="MeasureReport/measurereport-example-ach-subjectlist1" key="MeasureReport-measurereport-example-ach-subjectlist1" name="MeasureReport - Example ACH Subject List 1"/>
 <artifact id="MeasureReport/measurereport-example-individual-ach-ach-pass1" key="MeasureReport-measurereport-example-individual-ach-ach-pass1" name="MeasureReport - Example Individual ACH Pass1 - LOS/MEN"/>
