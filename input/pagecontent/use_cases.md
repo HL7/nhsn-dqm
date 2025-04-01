@@ -10,7 +10,7 @@ The actors defined here are used in the [Reporting Scenarios section of the Spec
 
 * **Data Source** A system containing data (typically patient data, but could be situational awareness data) that will be evaluated against one or more measures. This may be a FHIR server, an EHR with a FHIR endpoint (facade), an internal data store when the Data Source and dQM Evaluation Engine actors are played by the same system such as an EHR that does it's own measure evaluation, or it may be a system containing other data such as situational awareness data that is reporting via CSV or other format. When FHIR enabled, the Data Source acts as a [US Core Server](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-server.html)
 
-* **Data Aggregator** For some example use cases, such as bed capacity reporting, data from multiple Data Source actors may be aggregated by a single system before measure evaluation. A Data Aggregator also plays the role of a Data Source once aggregation is complete. An example would be a state public health agency aggregating data from all facilities in the state before using those data to produce a MeasureReport containing bed capacity data for the entire state. When FHIR enabled, a Data Aggregator acts as a [US Core Server](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-server.html) when playing the role of a Data Source after aggregation. During aggregation, the Data Aggregator acts similar to the SANER options for aggregation, but implements its own CapabilityStatement due to the incompatibilities between DEQM and SANER.
+* **Data Aggregator** For some example use cases,<!-- such as bed capacity reporting,--> data from multiple Data Source actors may be aggregated by a single system before measure evaluation. A Data Aggregator also plays the role of a Data Source once aggregation is complete. An example would be a state public health agency aggregating data from all facilities in the state before using those data to produce a MeasureReport containing <!--bed capacity -->specified data for the entire state. When FHIR enabled, a Data Aggregator acts as a [US Core Server](https://www.hl7.org/fhir/us/core/CapabilityStatement-us-core-server.html) when playing the role of a Data Source after aggregation. During aggregation, the Data Aggregator acts similar to the SANER options for aggregation, but implements its own CapabilityStatement due to the incompatibilities between DEQM and SANER.
 
 * **Measure Source** A system at NHSN that stores FHIR resources such as Measure, Library, ValueSet, etc. that are used for dQM Reporting. The dQM Evaluation Engine queries the Measure Source for the latest Measure content before querying the Patient Data Source and performing measure evaluation. The Measure Source acts as a [QMIG Publishable Measure Repository](https://hl7.org/fhir/us/cqfmeasures/measure-repository-service.html#publishable-measure-repository) 
 
@@ -147,7 +147,7 @@ Specimen
 - [Specimen - Example ACH Pass1 CSF](Specimen-specimen-example-ach-ach-pass1-csf.html)
 - [Specimen - Example ACH Pass3 Stool](Specimen-specimen-example-ach-ach-pass3-stool.html)
 
-#### Use Case 2: Bed Capacity Reporting
+<!-- #### Use Case 2: Bed Capacity Reporting
 
 ##### Description
 
@@ -195,4 +195,4 @@ For all bed censuses and counts, the following bed types should be <u>excluded</
 - [MeasureReport - Children's Hospital Bed Capacity Individual Measure Report](MeasureReport-bed-capacity-measurereport-example-chld.html)
 - [MeasureReport - Hospital Bed Capacity Individual Measure Report](MeasureReport-bed-capacity-measurereport-example-hosp.html)
 - [MeasureReport - Inpatient Psychiatric Facility Bed Capacity Individual Measure Report](MeasureReport-bed-capacity-measurereport-example-ipf.html)
-
+ -->
