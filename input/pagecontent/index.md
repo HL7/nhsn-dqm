@@ -10,7 +10,7 @@ This specification defines the general requirements for submissions to NHSN dire
 
 ### Background ###
 
-In alignment with CDC’s Data Modernization Initiative, NHSN is implementing automated measures for public health surveillance via digital quality measures (dQMs). These dQMs were created to minimize the burden of reporting; improve the accuracy, quality, and validity of data collected by NHSN; and increase speed and efficiency of public health surveillance. 
+In alignment with CDC’s [Data Modernization Initiative](https://www.cdc.gov/surveillance/data-modernization/index.html), NHSN is implementing automated measures for public health surveillance via digital quality measures (dQMs). These dQMs were created to minimize the burden of reporting; improve the accuracy, quality, and validity of data collected by NHSN; and increase speed and efficiency of public health surveillance. 
 
 Specifications in this IG are a transition from static IGs for specific purposes, and onto a quality measure-driven approach. Specifications in this IG define the overarching framework based on the existing Quality Measure (QM) and Data Exchange for Quality Measures (DEQM) implementation guides and some baseline profiles, and value sets for NHSN. Once established, NSHN can then create dQMs with related value sets, Clinical Quality Language (CQL) libraries, and other artifacts that comply with this framework for specific use cases.
 
