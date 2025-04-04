@@ -57,6 +57,8 @@ parameters:
   default-publisher: true
   #default-jurisdiction: true
   default-copyright: true
+  pin-canonicals: pin-multiples
+  
 
   path-resource: 
   - input/resources/device
