@@ -3,6 +3,7 @@ InstanceOf: QICorePatient
 Title: "Patient - Example Sameresultdiffday"
 Description: "Patient - Example Sameresultdiffday - Hypoglycemia"
 Usage: #example
+* meta.profile = Canonical(QICorePatient|6.0.0)
 * extension[0].url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
 * extension[=].extension[0].url = "ombCategory"
 * extension[=].extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2106-3 "White"
