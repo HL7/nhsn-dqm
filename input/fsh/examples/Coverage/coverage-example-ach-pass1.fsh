@@ -3,6 +3,7 @@ InstanceOf: QICoreCoverage
 Title: "Coverage - Example ACH Pass1"
 Description: "Coverage - Example ACH Pass1 - Medicaid: Child Beneficiary"
 Usage: #example
+* meta.profile = Canonical(QICoreCoverage|6.0.0)
 * identifier.type = $v2-0203#MB "Member Number"
 * identifier.system = "http://example.org/fhir/memberidentifier"
 * identifier.value = "084536836"

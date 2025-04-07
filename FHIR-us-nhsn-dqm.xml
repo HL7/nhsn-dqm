@@ -9,7 +9,7 @@
 <artifact id="ValueSet/ach-encounter-status" key="ValueSet-ach-encounter-status" name="Acute Care Hospital Encounter Status ValueSet"/>
 <artifact id="Library/NHSNdQMAcuteCareHospitalInitialPopulationLibrary" key="Library-NHSNdQMAcuteCareHospitalInitialPopulationLibrary" name="Acute Care Hospital Initial Population Library"/>
 <artifact id="Measure/NHSNdQMAcuteCareHospitalInitialPopulation" key="Measure-NHSNdQMAcuteCareHospitalInitialPopulation" name="Acute Care Hospital Initial Population Measure"/>
-<artifact id="Library/BedCapacityMeasureLibrary" key="Library-BedCapacityMeasureLibrary" name="BedCapacityMeasureLibrary"/>
+<artifact deprecated="true" id="Library/BedCapacityMeasureLibrary" key="Library-BedCapacityMeasureLibrary" name="BedCapacityMeasureLibrary"/>
 <artifact id="Device/cqf-tooling" key="Device-cqf-tooling" name="CQF Tooling Device"/>
 <artifact id="Condition/condition-example-diagnosis-ach-pass1" key="Condition-condition-example-diagnosis-ach-pass1" name="Condition - Example Diagnosis ACH Pass1"/>
 <artifact id="Condition/condition-example-diagnosis-ach-pass2" key="Condition-condition-example-diagnosis-ach-pass2" name="Condition - Example Diagnosis ACH Pass2"/>
