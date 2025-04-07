@@ -4,6 +4,7 @@ Title: "Observation - Example ACH Pass1 Gestational Age"
 Description: "Observation - Example ACH Pass1 - Lab: Gestational age at birth"
 Usage: #example
 //https://build.fhir.org/ig/HL7/fhir-qi-core/Observation-example-gestation.json.html
+* meta.profile = Canonical(QICoreLaboratoryResultObservation|6.0.0)
 * status = #final
 * category[us-core] = $observation-category#laboratory "Laboratory"
 * code = $loinc#76516-4 "Gestational age--at birth"

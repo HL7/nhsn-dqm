@@ -3,6 +3,7 @@ InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass2 Poc 1"
 Description: "Observation - Example ACH Pass2 Lab: Glucose in Capillary blood by Glucometer - First Encounter Observation"
 Usage: #example
+* meta.profile = Canonical(QICoreLaboratoryResultObservation|6.0.0)
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass2-glucose)
 * category[us-core] = $observation-category#laboratory "Laboratory"
@@ -24,6 +25,7 @@ InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass2 Poc 2"
 Description: "Observation - Example ACH Pass2 Lab: Glucose in Capillary blood by Glucometer - Second Encounter Observation"
 Usage: #example
+* meta.profile = Canonical(QICoreLaboratoryResultObservation|6.0.0)
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass2-glucose)
 * category[us-core] = $observation-category#laboratory "Laboratory"

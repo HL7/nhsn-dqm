@@ -3,6 +3,7 @@ InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass3 C. diff"
 Description: "Observation - Example ACH Pass3 - Lab: Clostridioides difficile (C. diff)"
 Usage: #example
+* meta.profile = Canonical(QICoreLaboratoryResultObservation|6.0.0)
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass3-cdiff)
 * category[us-core] = $observation-category#laboratory "Laboratory"

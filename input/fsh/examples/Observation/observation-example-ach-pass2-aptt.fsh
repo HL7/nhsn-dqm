@@ -3,6 +3,7 @@ InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass2 aPTT"
 Description: "Observation - Example ACH Pass2 Lab: aPTT in Blood by Coagulation assay"
 Usage: #example
+* meta.profile = Canonical(QICoreLaboratoryResultObservation|6.0.0)
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass2-aptt)
 * category[us-core] = $observation-category#laboratory "Laboratory"

@@ -3,6 +3,7 @@ InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass3 Cdiff"
 Description: "ServiceRequest - Example ACH Pass3 - Clostridioides difficile toxin A in Stool by Immunoassay"
 Usage: #example
+* meta.profile = Canonical(QICoreServiceRequest|6.0.0)
 * identifier.use = #usual
 * identifier.type = $v2-0203#PLAC "Placer Identifier"
 * identifier.type.text = "Placer Identifier"

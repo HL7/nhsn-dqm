@@ -3,6 +3,7 @@ InstanceOf: USCoreVitalSignsProfile
 Title: "Observation - Example ACH Pass2 Vitals Weight"
 Description: "Observation - Example ACH Pass2 Vitals Signs: Body weight"
 Usage: #example
+* meta.profile = Canonical(USCoreVitalSignsProfile|6.1.0)
 * status = #final
 * category[VSCat] = $observation-category#vital-signs "Vital Signs"
 * category[VSCat].text = "Vital Signs"

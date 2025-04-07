@@ -3,6 +3,7 @@ InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass2 Hemo A1C"
 Description: "Observation - Example ACH Pass2 Hemo - Lab: Glucose in Capillary blood by Glucometer"
 Usage: #example
+* meta.profile = Canonical(QICoreLaboratoryResultObservation|6.0.0)
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass2-hemo-a1c)
 * category[us-core] = $observation-category#laboratory "Laboratory"

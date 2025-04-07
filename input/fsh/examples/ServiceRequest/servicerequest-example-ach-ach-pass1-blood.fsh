@@ -3,6 +3,7 @@ InstanceOf: QICoreServiceRequest
 Title: "ServiceRequest - Example ACH Pass1 Blood"
 Description: "ServiceRequest - Example ACH Pass1 Blood"
 Usage: #example
+* meta.profile = Canonical(QICoreServiceRequest|6.0.0)
 * identifier.use = #usual
 * identifier.type = $v2-0203#PLAC "Placer Identifier"
 * identifier.type.text = "Placer Identifier"

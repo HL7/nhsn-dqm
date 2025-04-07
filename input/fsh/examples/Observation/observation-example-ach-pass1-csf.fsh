@@ -3,6 +3,7 @@ InstanceOf: QICoreLaboratoryResultObservation
 Title: "Observation - Example ACH Pass1 Csf"
 Description: "Observation - Example ACH Pass1 - Lab: Serratia marcescens DNA in Specimen by NAA with probe detection"
 Usage: #example
+* meta.profile = Canonical(QICoreLaboratoryResultObservation|6.0.0)
 * status = #final
 * basedOn = Reference(servicerequest-example-ach-ach-pass1-csf)
 * category[us-core] = $observation-category#laboratory "Laboratory"

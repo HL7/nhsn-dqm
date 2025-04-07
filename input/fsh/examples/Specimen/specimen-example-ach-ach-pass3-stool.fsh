@@ -3,6 +3,7 @@ InstanceOf: USCoreSpecimenProfile
 Title: "Specimen - Example ACH Pass3 Stool"
 Description: "Specimen - Example ACH Pass3 - Bloody stool"
 Usage: #example
+* meta.profile = Canonical(USCoreSpecimenProfile|6.1.0)
 * identifier[0].system = "urn:oid:2.16.840.1.113883.19.5.1.798.32"
 * identifier[=].value = "C104082905"
 * identifier[=].assigner.display = "LIS"

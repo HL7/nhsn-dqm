@@ -3,6 +3,7 @@ InstanceOf: QICoreLocation
 Title: "Location - Example ACH - Medical Critical Care"
 Description: "Location - Example ACH - Medical Critical Care"
 Usage: #example
+* meta.profile = Canonical(QICoreLocation|6.0.0)
 * identifier.system = "http://www.example.org/location"
 * identifier.value = "2936"
 * status = #active
