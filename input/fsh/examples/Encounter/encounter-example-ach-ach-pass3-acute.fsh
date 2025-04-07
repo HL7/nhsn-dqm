@@ -44,7 +44,7 @@ Usage: #example
 
 
 * location[0].location.display = "ACH Medical Critical Care"
-* location[=].location = Reference(location-example-ach-crit)
+* location[=].location = Reference(location-example-ach-critical-care)
 * location[=].physicalType = http://terminology.hl7.org/CodeSystem/location-physical-type#wa "Ward"
 * location[=].period.start = "2024-02-02T16:43:00-05:00"
 * location[=].period.end = "2024-03-02T19:58:00-05:00"

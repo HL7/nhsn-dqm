@@ -3,6 +3,7 @@ InstanceOf: USCoreConditionProblemsHealthConcernsProfile
 Title: "Condition - Example Diagnosis ACH Pass2 Problem"
 Description: "Condition - Example Diagnosis ACH Pass2 - Problem List: Type 2 diabetes mellitus without complications"
 Usage: #example
+* meta.profile = Canonical(USCoreConditionProblemsHealthConcernsProfile|6.1.0)
 * verificationStatus.coding.version = "4.0.0"
 * verificationStatus.coding = $condition-ver-status#confirmed "Confirmed"
 * verificationStatus.text = "Confirmed"
