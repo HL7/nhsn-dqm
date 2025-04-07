@@ -3,6 +3,7 @@ InstanceOf: QICoreDiagnosticReportLab
 Title: "DiagnosticReport - Example ACH Pass2 Lab CBC"
 Description: "DiagnosticReport - Example ACH Pass2 - CBC panel - Blood by Automated count"
 Usage: #example
+* meta.profile = Canonical(QICoreDiagnosticReportLab|6.0.0)
 * status = #final
 * category[LaboratorySlice] = http://terminology.hl7.org/CodeSystem/v2-0074#LAB "Laboratory"
 * category[LaboratorySlice].text = "Laboratory"

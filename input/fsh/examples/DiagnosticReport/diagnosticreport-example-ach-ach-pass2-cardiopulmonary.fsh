@@ -3,6 +3,7 @@ InstanceOf: QICoreDiagnosticReportNote
 Title: "DiagnosticReport - Example ACH Pass2 Cardiopulmonary"
 Description: "DiagnosticReport - Example ACH Pass2 - Cardiovascular stress testing"
 Usage: #example
+* meta.profile = Canonical(QICoreDiagnosticReportNote|6.0.0)
 * status = #final
 * category = $loinc#LP29708-2 "Cardiology"
 * category.text = "Cardiology"

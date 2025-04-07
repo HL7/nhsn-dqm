@@ -3,6 +3,7 @@ InstanceOf: QICoreDiagnosticReportNote
 Title: "DiagnosticReport - Example ACH Pass2 Radiology"
 Description: "DiagnosticReport - Example ACH Pass2 - Ultrasonography of right lower limb"
 Usage: #example
+* meta.profile = Canonical(QICoreDiagnosticReportNote|6.0.0)
 * status = #final
 * category = $loinc#LP29684-5 "Radiology"
 * category.text = "Radiology"
