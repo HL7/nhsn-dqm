@@ -3,7 +3,7 @@ InstanceOf: QICoreMedicationAdministrationNotDone
 Title: "MedicationAdministration - Example ACH Pass3 Enoxaparin"
 Description: "MedicationAdministration - Example ACH Pass3 - Enoxaparin sodium, 0.4 ML, 100 MG/ML Prefilled Syringe"
 Usage: #example
-
+* meta.profile = Canonical(QICoreMedicationAdministrationNotDone|6.0.0)
 * extension[0].url = "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-recorded"
 * extension[=].valueDateTime = "2024-02-02T21:04:00-05:00"
 * identifier.use = #usual

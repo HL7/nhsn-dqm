@@ -3,6 +3,7 @@ InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass3 Metronidazole 1"
 Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 MG - First Encounter Administration"
 Usage: #example
+* meta.profile = Canonical(QICoreMedicationAdministration|6.0.0)
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
 * identifier.value = "1018888321"
@@ -30,6 +31,7 @@ InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass3 Metronidazole 2"
 Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 MG - Second Encounter Administration"
 Usage: #example
+* meta.profile = Canonical(QICoreMedicationAdministration|6.0.0)
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
 * identifier.value = "1018888322"
@@ -57,6 +59,7 @@ InstanceOf: QICoreMedicationAdministration
 Title: "MedicationAdministration - Example ACH Pass3 Metronidazole 3"
 Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 MG - Third Encounter Administration"
 Usage: #example
+* meta.profile = Canonical(QICoreMedicationAdministration|6.0.0)
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
 * identifier.value = "1018888323"

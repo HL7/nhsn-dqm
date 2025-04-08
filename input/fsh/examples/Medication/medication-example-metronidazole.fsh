@@ -3,7 +3,7 @@ InstanceOf: QICoreMedication
 Title: "Medication - Example Metronidazole"
 Description: "Medication - Example - Metronidazole 500 MG"
 Usage: #example
-
+* meta.profile = Canonical(QICoreMedication|6.0.0)
 * code.coding[+] = $rxnorm#317428 "metroNIDAZOLE 500 MG"
 * code.text = "Metronidazole 500 MG"
 * status = #active

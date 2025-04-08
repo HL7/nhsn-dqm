@@ -4,6 +4,7 @@ Title: "Medication - Example Cipro 500"
 Description: "Medication - Example - Ciprofloxacin 500 MG"
 Usage: #example
 
+* meta.profile = Canonical(QICoreMedication|6.0.0)
 * code.coding[+] = $rxnorm#328287 "ciprofloxacin 500 MG"
 * code.text = "Ciprofloxacin 500 MG"
 * status = #active

@@ -3,6 +3,7 @@ InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass3 Cipro"
 Description: "MedicationRequest - Example ACH Pass3 - Ciprofloxacin 500 MG"
 Usage: #example
+* meta.profile = Canonical(QICoreMedicationRequest|6.0.0)
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
 * identifier.value = "101888892"

@@ -3,6 +3,7 @@ InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass2 Insulin Lispro"
 Description: "MedicationRequest - Example ACH Pass2 - Insulin Lispro"
 Usage: #example
+* meta.profile = Canonical(QICoreMedicationRequest|6.0.0)
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
 * identifier.value = "101888894"
@@ -32,7 +33,6 @@ Usage: #example
 //* dosageInstruction[=].doseAndRate[0].type = $dose-rate-type#calculated "Calculated"
 //* dosageInstruction[=].doseAndRate[=].type.text = "calculated"
 * dosageInstruction[=].doseAndRate[+].doseQuantity.value = 5
-
 * dosageInstruction[+].text = "Give 4 units before dinner"
 * dosageInstruction[=].site = $sct#1255295007 "Structure of blood vessel of left upper arm (body structure)"
 * dosageInstruction[=].timing.repeat.frequency = 1

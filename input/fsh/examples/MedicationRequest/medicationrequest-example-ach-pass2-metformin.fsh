@@ -3,6 +3,7 @@ InstanceOf: QICoreMedicationRequest
 Title: "MedicationRequest - Example ACH Pass2 Metformin"
 Description: "MedicationRequest - Example ACH Pass2 - Metformin hydrochloride 1000 MG"
 Usage: #example
+* meta.profile = Canonical(QICoreMedicationRequest|6.0.0)
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
 * identifier.value = "101888892"
