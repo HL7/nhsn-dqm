@@ -11,12 +11,12 @@ Description: "This profile defines a valid Submission Bundle to NHSN with all re
 
 // FHIR-48278
 * type = #collection (exactly)
-
-* entry ^slicing.discriminator.type = #profile
-  * ^slicing.discriminator.path = "resource"
-  //* ^slicing.discriminator.fhir_comments = "<discriminator>\r\n                    <type value=\"type\"/>\r\n                    <path value=\"resource\"/>\r\n                </discriminator>"
-  * ^slicing.rules = #open
-  * ^short = "An entry in the Bundle; will have a Resource or information"
+* entry 1..*
+* entry ^slicing.discriminator[0].type = #type
+* entry ^slicing.discriminator[=].path = "resource"
+* entry ^slicing.discriminator[+].type = #profile
+* entry ^slicing.discriminator[=].path = "resource"                  
+* entry ^slicing.rules = #open
 * entry contains
     submitting-organization 1..1 MS and
     submitting-device 0..1 MS and
@@ -25,26 +25,26 @@ Description: "This profile defines a valid Submission Bundle to NHSN with all re
     individual-measurereport 0..* MS and
     patient 0..* MS
 * entry[submitting-organization] ^short = "The Submitting Organization: the organization that is the source of the data"
-  * resource 1.. MS
-  * resource only NHSNSubmittingOrganization
-    * ^short = "Bundle entry for submitting organization"
+* entry[submitting-organization].resource 1.. MS
+* entry[submitting-organization].resource only NHSNSubmittingOrganization
+* entry[submitting-organization].resource ^short = "Bundle entry for submitting organization"
 * entry[submitting-device] ^short = "The Submitting Device: the device or software that is submitting the data"
-  * resource 1.. MS
-  * resource only NHSNSubmittingDevice
-    * ^short = "Bundle entry for submitting device"
+* entry[submitting-device].resource 1.. MS
+* entry[submitting-device].resource only NHSNSubmittingDevice
+* entry[submitting-device].resource ^short = "Bundle entry for submitting device"
 * entry[poi-list] ^short = "The Patients of Interest List: a List containing Patient FHIR IDs that may be included in the Initial Population across all measures"
-  * resource 1.. MS
-  * resource only PatientsOfInterestList
-    * ^short = "The Bundle entry for Patients of Interest List"
+* entry[poi-list].resource 1.. MS
+* entry[poi-list].resource only PatientsOfInterestList
+* entry[poi-list].resource ^short = "The Bundle entry for Patients of Interest List"
 * entry[subject-list] ^short = "Subject List MeasureReport: For each measure, there is one Summary MeasureReport. The Summary MeasureReport includes the population count and a link to the List of Individual MeasureReports that are included in the summary"
-  * resource MS
-  * resource only DEQMSubjectListMeasureReport
-    * ^short = "The Bundle entry for a Subject List MeasureReport"
+* entry[subject-list].resource 1.. MS
+* entry[subject-list].resource only DEQMSubjectListMeasureReport|5.0.0-ballot
+* entry[subject-list].resource ^short = "The Bundle entry for a Subject List MeasureReport"
 * entry[individual-measurereport] ^short = "Individual Measure Report: each Individual MeasureReport refers to one Patient and one measure included in the Individual Measure Report List"
-  * resource 1.. MS
-  * resource only DEQMIndividualMeasureReportProfile
-    * ^short = "The Bundle entry for an Individual Measure Report"
+* entry[individual-measurereport].resource 1.. MS
+* entry[individual-measurereport].resource only DEQMIndividualMeasureReportProfile|5.0.0-ballot
+* entry[individual-measurereport].resource ^short = "The Bundle entry for an Individual Measure Report"
 * entry[patient] ^short = "The Patients associated with an Individual MeasureReport"
-  * resource 1.. MS
-  * resource only QICorePatient
-    * ^short = "The Bundle entry for a Patient associated with an Individual Measure Report"
+* entry[patient].resource 1.. MS
+* entry[patient].resource only QICorePatient
+* entry[patient].resource ^short = "The Bundle entry for a Patient associated with an Individual Measure Report"

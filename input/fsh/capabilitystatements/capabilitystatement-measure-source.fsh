@@ -28,7 +28,7 @@ Usage: #definition
     * extension[+]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHOULD
-    * supportedProfile = Canonical(CQFMLibrary)
+    * supportedProfile = Canonical(CRMIShareableLibrary)
     * supportedProfile.extension[+]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL
@@ -49,7 +49,7 @@ Usage: #definition
     * extension[+]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHOULD
-    * supportedProfile = Canonical(CQFMMeasure)
+    * supportedProfile = Canonical(CRMIShareableMeasure)
     * supportedProfile.extension[+]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #SHALL

@@ -15,14 +15,23 @@ Usage: #example
 * entry[=].resource = list-example-patients-of-interest
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-ach-subjectlist1"
 * entry[=].resource = measurereport-example-ach-subjectlist1
-* entry[+].fullUrl = "http://example.com/fhir/Patient/patient-example-sameresultdiffday"
-* entry[=].resource = patient-example-sameresultdiffday
-
-
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass1"
 * entry[=].resource = measurereport-example-individual-ach-ach-pass1
+* entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass2"
+* entry[=].resource = measurereport-example-individual-ach-ach-pass2
+* entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass3"
+* entry[=].resource = measurereport-example-individual-ach-ach-pass3
+
+* entry[+].fullUrl = "http://example.com/fhir/Patient/patient-example-sameresultdiffday"
+* entry[=].resource = patient-example-sameresultdiffday
 * entry[+].fullUrl = "http://example.com/fhir/Patient/patient-example-ach-ach-pass1"
 * entry[=].resource = patient-example-ach-ach-pass1
+* entry[+].fullUrl = "http://example.com/fhir/Patient/patient-example-ach-ach-pass2"
+* entry[=].resource = patient-example-ach-ach-pass2
+* entry[+].fullUrl = "http://example.com/fhir/Patient/patient-example-ach-ach-pass3"
+* entry[=].resource = patient-example-ach-ach-pass3
+
+
 * entry[+].fullUrl = "http://example.com/fhir/Encounter/encounter-example-ach-ach-pass1"
 * entry[=].resource = encounter-example-ach-ach-pass1
 * entry[+].fullUrl = "http://example.com/fhir/Coverage/coverage-example-ach-pass1"
@@ -57,10 +66,7 @@ Usage: #example
 * entry[=].resource = specimen-example-ach-ach-pass1-csf
 
 
-* entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass2"
-* entry[=].resource = measurereport-example-individual-ach-ach-pass2
-* entry[+].fullUrl = "http://example.com/fhir/Patient/patient-example-ach-ach-pass2"
-* entry[=].resource = patient-example-ach-ach-pass2
+
 * entry[+].fullUrl = "http://example.com/fhir/Encounter/encounter-example-ach-ach-pass2-emergency"
 * entry[=].resource = encounter-example-ach-ach-pass2-emergency
 * entry[+].fullUrl = "http://example.com/fhir/Encounter/encounter-example-ach-ach-pass2-inpatient"
@@ -125,10 +131,7 @@ Usage: #example
 * entry[=].resource = specimen-example-ach-ach-pass2-blood-2
 
 
-* entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass3"
-* entry[=].resource = measurereport-example-individual-ach-ach-pass3
-* entry[+].fullUrl = "http://example.com/fhir/Patient/patient-example-ach-ach-pass3"
-* entry[=].resource = patient-example-ach-ach-pass3
+
 * entry[+].fullUrl = "http://example.com/fhir/Encounter/encounter-example-ach-ach-pass3-acute"
 * entry[=].resource = encounter-example-ach-ach-pass3-acute
 * entry[+].fullUrl = "http://example.com/fhir/Encounter/encounter-example-ach-ach-pass3-short-stay"
