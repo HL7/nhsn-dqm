@@ -9,12 +9,16 @@ Usage: #example
 * timestamp = "2022-11-15T21:04:29.481+00:00"
 * entry[+].fullUrl = "http://example.com/fhir/Organization/organization-example-submitting-organization"
 * entry[=].resource = organization-example-submitting-organization
+
 * entry[+].fullUrl = "http://example.com/fhir/Device/device-example-submitting-device"
 * entry[=].resource = device-example-submitting-device
+
 * entry[+].fullUrl = "http://example.com/fhir/List/list-example-patients-of-interest"
 * entry[=].resource = list-example-patients-of-interest
+
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-ach-subjectlist1"
 * entry[=].resource = measurereport-example-ach-subjectlist1
+
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass1"
 * entry[=].resource = measurereport-example-individual-ach-ach-pass1
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass2"

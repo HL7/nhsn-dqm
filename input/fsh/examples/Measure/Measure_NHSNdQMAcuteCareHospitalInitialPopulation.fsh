@@ -8,7 +8,7 @@ Usage: #example
 * extension[=].valueCode = #Encounter
 * extension[+].id = "effective-data-requirements"
 * extension[=].url = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-effectiveDataRequirements"
-* extension[=].valueReference = Reference(effective-data-requirements)
+* extension[=].valueCanonical = Canonical(effective-data-requirements)
 * url = "http://hl7.org/fhir/us/nhsn-dqm/Measure/NHSNdQMAcuteCareHospitalInitialPopulation"
 * version = "1.0.0-cibuild"
 * name = "NHSNdQMAcuteCareHospitalInitialPopulation"
