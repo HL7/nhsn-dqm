@@ -44,7 +44,7 @@ The following reporting scenarios use the Actors defined on the [Actors and Use 
 
 In this scenario, both the dQM Evaluation Engine and the Measure Report Recipient reside within an NHSN controlled environment, and may be the same system. The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure. The dQM Evaluation Engine queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, and then optionally performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems.
 
-In this scenario the Data Source **SHALL** have a FHIR API that at a minimum provides read access to all resources required by the measure(s).
+In this scenario the Data Source **SHALL** have a FHIR API that at a minimum provides read access to all resources required by US Core 6.1.0, and **SHOULD** provide read access to resources conformant with QI Core 6.0.0. Measures compliant with this IG and scenario must be developed with these requirements in mind.
 
 ![Pull from NHSN](pull-from-nhsn.png){:style="float: none;"}
 
