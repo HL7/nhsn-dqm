@@ -1,17 +1,17 @@
 Instance: measurereport-example-individual-ach-ach-pass3
-InstanceOf: MeasureReport
+InstanceOf: DEQMIndividualMeasureReportProfile
 Title: "MeasureReport - Example Individual ACH Pass3 - C. diff"
 Description: "MeasureReport - Example Individual ACH Pass3 - Healthcare facility-onset, antibiotic-treated Clostridioides difficile infection / Hospital-onset bacteremia and fungemia (CDI/HOB)"
 Usage: #example
 // TODO, determine if this is actually necessary. DEQM Invariant deqm-3 seems to be incorrectly written
 * extension.url = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/extension-measureScoring"
 * extension.valueCodeableConcept = $measure-scoring#cohort "Cohort"
-* meta.profile = "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm"
+* meta.profile = Canonical(DEQMIndividualMeasureReportProfile|5.0.0)
 * identifier[+].system = "http://example.org/fhir/measurereport/id"
 * identifier[=].value = "123456789-pass3"
 * status = #complete
 * type = #individual
-* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation)
+* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation|1.0.0)
 * subject = Reference(patient-example-ach-ach-pass1)
 * date = "2024-02-05T21:04:29.481+00:00"
 * reporter = Reference(organization-example-submitting-organization)

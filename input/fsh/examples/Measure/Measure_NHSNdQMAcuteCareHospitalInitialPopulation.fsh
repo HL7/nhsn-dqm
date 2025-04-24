@@ -4,13 +4,13 @@ Description: "The Acute Care Hospital (ACH) Initial Population includes all enco
 InstanceOf: CRMIShareableMeasure
 Usage: #example
 // * contained = effective-data-requirements
-* extension[0].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis"
+* extension[+].url = "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cqfm-populationBasis"
 * extension[=].valueCode = #Encounter
 * extension[+].id = "effective-data-requirements"
 * extension[=].url = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-effectiveDataRequirements"
 * extension[=].valueCanonical = Canonical(effective-data-requirements)
 * url = "http://hl7.org/fhir/us/nhsn-dqm/Measure/NHSNdQMAcuteCareHospitalInitialPopulation"
-* version = "1.0.0-cibuild"
+* version = "1.0.0"
 * name = "NHSNdQMAcuteCareHospitalInitialPopulation"
 * title = "NHSN dQM Acute Care Hospital Initial Population"
 * status = #draft

@@ -10,7 +10,7 @@ Usage: #example
 * identifier[=].value = "123456789-pass1"
 * status = #complete
 * type = #individual
-* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation)
+* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation|1.0.0)
 * subject = Reference(patient-example-ach-ach-pass1)
 * date = "2024-02-05T21:04:29.481+00:00"
 * reporter = Reference(organization-example-submitting-organization)

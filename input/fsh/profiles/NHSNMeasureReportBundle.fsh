@@ -24,6 +24,8 @@ Description: "This profile defines a valid Submission Bundle to NHSN with all re
     subject-list 0..* MS and
     individual-measurereport 0..* MS and
     patient 0..* MS
+* entry.fullUrl 1.. MS
+* entry.resource 1.. MS
 * entry[submitting-organization] ^short = "The Submitting Organization: the organization that is the source of the data"
 * entry[submitting-organization].resource 1.. MS
 * entry[submitting-organization].resource only NHSNSubmittingOrganization
@@ -35,16 +37,12 @@ Description: "This profile defines a valid Submission Bundle to NHSN with all re
 * entry[poi-list] ^short = "The Patients of Interest List: a List containing Patient FHIR IDs that may be included in the Initial Population across all measures"
 * entry[poi-list].resource 1.. MS
 * entry[poi-list].resource only PatientsOfInterestList
-* entry[poi-list].resource ^short = "The Bundle entry for Patients of Interest List"
 * entry[subject-list] ^short = "Subject List MeasureReport: For each measure, there is one Summary MeasureReport. The Summary MeasureReport includes the population count and a link to the List of Individual MeasureReports that are included in the summary"
 * entry[subject-list].resource 1.. MS
-* entry[subject-list].resource only DEQMSubjectListMeasureReport|5.0.0-ballot
-* entry[subject-list].resource ^short = "The Bundle entry for a Subject List MeasureReport"
+* entry[subject-list].resource only DEQMSubjectListMeasureReport
 * entry[individual-measurereport] ^short = "Individual Measure Report: each Individual MeasureReport refers to one Patient and one measure included in the Individual Measure Report List"
 * entry[individual-measurereport].resource 1.. MS
-* entry[individual-measurereport].resource only DEQMIndividualMeasureReportProfile|5.0.0-ballot
-* entry[individual-measurereport].resource ^short = "The Bundle entry for an Individual Measure Report"
+* entry[individual-measurereport].resource only DEQMIndividualMeasureReportProfile
 * entry[patient] ^short = "The Patients associated with an Individual MeasureReport"
 * entry[patient].resource 1.. MS
 * entry[patient].resource only QICorePatient
-* entry[patient].resource ^short = "The Bundle entry for a Patient associated with an Individual Measure Report"

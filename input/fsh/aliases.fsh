@@ -1,5 +1,5 @@
 Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
-Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
 Alias: $sct = http://snomed.info/sct

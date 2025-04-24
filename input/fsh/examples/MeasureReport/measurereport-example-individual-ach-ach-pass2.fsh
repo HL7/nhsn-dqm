@@ -1,5 +1,5 @@
 Instance: measurereport-example-individual-ach-ach-pass2
-InstanceOf: MeasureReport
+InstanceOf: DEQMIndividualMeasureReportProfile
 Title: "MeasureReport - Example Individual ACH Pass2 - Hypo"
 Description: "MeasureReport - Example Individual ACH Pass2 - Hypoglycemia"
 Usage: #example
@@ -11,7 +11,7 @@ Usage: #example
 * identifier[=].value = "123456789-pass2"
 * status = #complete
 * type = #individual
-* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation)
+* measure = Canonical(NHSNdQMAcuteCareHospitalInitialPopulation|1.0.0)
 * subject = Reference(patient-example-ach-ach-pass1)
 * date = "2024-02-05T21:04:29.481+00:00"
 * reporter = Reference(organization-example-submitting-organization)
