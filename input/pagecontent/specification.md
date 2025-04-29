@@ -18,7 +18,7 @@ This implementation guide (IG) uses specific terminology to flag statements that
 
 #### Must Support ###
 
-The following rules regarding Must Support elements apply to all Profiles in this guide. Profiles in this guide that are derived from US Core 6.1.0 **SHALL** follow Must Support requirements from US Core in addittion to the rules below.<!--The Must Support definitions are not inherited from other IGs, even for profiles in this guide derived from another guide.-->
+The following rules regarding Must Support elements apply to all Profiles in this guide. Profiles in this guide that are derived from US Core 6.1.0 **SHALL** follow Must Support requirements from US Core in addittion to the rules below.
 
 Sender:
 
@@ -29,6 +29,9 @@ Receiver:
 
 * The receiver **SHALL** be capable of processing resource instances containing must-support data elements without generating an error or causing the application to fail.
 * The receiver **SHALL** be able to process resource instances containing must-support data elements asserting missing information (data absent reason extension).
+
+Note: This implementation guide also leverages QI Core, but the latest QI Core does not add Must Support requirements beyond what is in US Core.
+
 
 #### Profiles
 
