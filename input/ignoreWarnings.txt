@@ -58,9 +58,6 @@ Most code systems defined in HL7 IGs will need to move to THO later during the p
 
 The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
 
-# We expect to replace the healthcare-capacity-codes CodeSystem with LOINC codes before publication (request in progress)
-
-Reference to experimental CodeSystem http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes|1.0.0-ballot
 
 # CodeSystems that are draft in THO, will need to be changed in future versions of THO
 

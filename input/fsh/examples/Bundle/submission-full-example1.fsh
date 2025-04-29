@@ -19,6 +19,9 @@ Usage: #example
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-ach-subjectlist1"
 * entry[=].resource = measurereport-example-ach-subjectlist1
 
+* entry[+].fullUrl = "http://example.com/fhir/List/list-example-ach-individual-measurereport-list"
+* entry[=].resource = list-example-ach-individual-measurereport-list
+
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass1"
 * entry[=].resource = measurereport-example-individual-ach-ach-pass1
 * entry[+].fullUrl = "http://example.com/fhir/MeasureReport/measurereport-example-individual-ach-ach-pass2"
@@ -204,8 +207,6 @@ Usage: #example
 * entry[=].resource = location-example-ach-critical-care
 * entry[+].fullUrl = "http://example.com/fhir/Location/location-example-ach-medsurg"
 * entry[=].resource = location-example-ach-medsurg
-* entry[+].fullUrl = "http://example.com/fhir/List/list-example-ach-individual-measurereport-list"
-* entry[=].resource = list-example-ach-individual-measurereport-list
 * entry[+].fullUrl = "http://example.com/fhir/Practitioner/practitioner-example"
 * entry[=].resource = practitioner-example
 
