@@ -45,7 +45,7 @@ The following reporting scenarios use the Actors defined on the [Actors and Use 
 
 ##### Pull from NHSN
 
-In this scenario, both the dQM Evaluation Engine and the Measure Report Recipient reside within an NHSN controlled environment, and may be the same system. The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure. The dQM Evaluation Engine queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, and then optionally performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems.
+In this scenario, both the dQM Evaluation Engine and the MeasureReport Recipient reside within an NHSN controlled environment, and may be the same system. The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure. The dQM Evaluation Engine queries the Data Source for data that it will evaluate against a measure and prepares Bundle containing MeasureReport and supporting resources, and then optionally performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems.
 
 In this scenario the Data Source **SHALL** have a FHIR API that at a minimum provides read access to all resources required by US Core 6.1.0, and **SHOULD** provide read access to resources conformant with QI Core 6.0.0. Measures compliant with this IG and scenario must be developed with these requirements in mind.
 
@@ -57,13 +57,12 @@ In this scenario the Data Source **SHALL** have a FHIR API that at a minimum pro
 
 ##### Push to NHSN
 
-In this scenario both the Data Source and dQM Evaluation Engine reside at the reporting facility, and may be the same system (i.e. an EHR that performs it's own internal measure evaluation). The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure.  The dQM Evaluation Engine and queries the Data Source for data that it will evaluate against a measure and prepares a Bundle containing MeasureReport and supporting resources, then sends it to the Measure Report Recipient at NHSN. The Measure Report Recipient then optionally performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems. 
+In this scenario both the Data Source and dQM Evaluation Engine reside at the reporting facility, and may be the same system (i.e. an EHR that performs it's own internal measure evaluation). The dQM Evaluation Engine first retrieves the latest FHIR measures and related resources from the Measure Source and extracts the data requirements for each measure.  The dQM Evaluation Engine and queries the Data Source for data that it will evaluate against a measure and prepares a Bundle containing MeasureReport and supporting resources, then sends it to the MeasureReport Recipient at NHSN. The MeasureReport Recipient then optionally performs pre-qualification (additional FHIR validation checks against measure-specific profiles) before making the data available to NHSN back end systems. 
 
-In this scenario the dQM Evaluation Engine **SHALL** perform a FHIR POST to push the measure report bundle to the Measure Report Recipient.
+In this scenario the dQM Evaluation Engine **SHALL** perform a FHIR POST to push the measure report bundle to the MeasureReport Recipient.
 
-Since the submission bundles can be quite large, the Measure Report Recipient **SHOULD** support compression and accept the following header in the POST: 
+Since the submission bundles can be quite large, the MeasureReport Recipient **SHOULD** support gzip compression and **SHOULD** accept the HTTP "Content-Encoding: gzip" header in the POST. 
 
-Content-Encoding: gzip
 
 ![Push to NHSN](push-to-nhsn.png){:style="float: none;"}
 
@@ -77,11 +76,9 @@ Content-Encoding: gzip
 
 In this scenario data for reporting is spread across multiple facilities, and those data must be aggregated before measure evaluation. Participating facilities send their data to the Data Aggregator using whatever format they negotiate (may be FHIR, CVS, or other format), which then acts as the Data Source and dQM Evaluation Engine. The rest of this scenario follows the Push to NHSN scenario described above. Note that as measure data requirements change, facilities reporting to the Data Aggregator may need to update their submissions; this process is a negotiation between the Data Aggregator and other facilities, and the details of this process is out of scope for this specification. 
 
-In this scenario the dQM Evaluation Engine **SHALL** perform a FHIR POST to push the measure report bundle to the Measure Report Recipient.
+In this scenario the dQM Evaluation Engine **SHALL** perform a FHIR POST to push the measure report bundle to the MeasureReport Recipient.
 
-Since the submission bundles can be quite large, the Measure Report Recipient **SHOULD** support compression and accept the following header in the POST: 
-
-Content-Encoding: gzip
+Since the submission bundles can be quite large, the MeasureReport Recipient **SHOULD** support gzip compression and **SHOULD** accept the HTTP "Content-Encoding: gzip" header in the POST. 
 
 ![Aggregate and Push to NHSN](aggregate-and-push-to-nhsn.png){:style="float: none;"}
 
