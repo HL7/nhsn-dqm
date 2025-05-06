@@ -51,7 +51,8 @@ parameters:
   path-expansion-params: '../../exp-params.json'  #Support for US SNOMED CT - path is relative to [base]/fsh-generated/resources
   apply-jurisdiction: true
   apply-publisher: true
-  path-liquid: templates\liquid
+  # path-liquid: templates\liquid
+  path-liquid: liquid
   excludettl: 'true'
   excludemap: 'true'
   auto-oid-root: '2.25.316204395913842452684237438142819890580'

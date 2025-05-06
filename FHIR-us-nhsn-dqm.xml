@@ -126,6 +126,7 @@
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-1" key="Specimen-specimen-example-ach-ach-pass2-blood-1" name="Specimen - Example ACH Pass2 Blood 1"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass2-blood-2" key="Specimen-specimen-example-ach-ach-pass2-blood-2" name="Specimen - Example ACH Pass2 Blood 2"/>
 <artifact id="Specimen/specimen-example-ach-ach-pass3-stool" key="Specimen-specimen-example-ach-ach-pass3-stool" name="Specimen - Example ACH Pass3 Stool"/>
+<artifact id="MeasureReport/indv-measurereport01" key="MeasureReport-indv-measurereport01" name="indv-measurereport01"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="use_cases" name="Actors and Use Cases"/>
