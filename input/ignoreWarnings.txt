@@ -1,5 +1,9 @@
 == Suppressed Messages ==
 
+# Error do to cross version extension slicing issue in tooling. See https://chat.fhir.org/#narrow/channel/179252-IG-creation/topic/Cross-Version.20Extension.20Slicing.20issue.20in.20dependent.20IGs/with/516557595
+
+Slicing cannot be evaluated: Unable to resolve profile CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.supplementalData]
+
 # US Core Variance received: https://jira.hl7.org/browse/FHIR-46467
 
 US FHIR Usage rules require that all profiles on Device derive from the core US profile. See https://confluence.hl7.org/display/CGP/US+Core+Variance+Request+Process
