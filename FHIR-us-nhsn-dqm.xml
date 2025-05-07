@@ -80,7 +80,7 @@
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-cipro" key="MedicationRequest-medicationrequest-example-ach-pass3-cipro" name="MedicationRequest - Example ACH Pass3 Cipro"/>
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-enoxaparin" key="MedicationRequest-medicationrequest-example-ach-pass3-enoxaparin" name="MedicationRequest - Example ACH Pass3 Enoxaparin"/>
 <artifact id="MedicationRequest/medicationrequest-example-ach-pass3-metronidazole" key="MedicationRequest-medicationrequest-example-ach-pass3-metronidazole" name="MedicationRequest - Example ACH Pass3 Metronidazole"/>
-<artifact id="CapabilityStatement/NHSNCapabilityStatementDataAggregator" key="CapabilityStatement-NHSNCapabilityStatementDataAggregator" name="NHSN Data Aggregator CapabilityStatement"/>
+<artifact deprecated="true" id="CapabilityStatement/NHSNCapabilityStatementDataAggregator" key="CapabilityStatement-NHSNCapabilityStatementDataAggregator" name="NHSN Data Aggregator CapabilityStatement"/>
 <artifact id="CapabilityStatement/NHSNCapabilityStatementEvaluationEngine" key="CapabilityStatement-NHSNCapabilityStatementEvaluationEngine" name="NHSN Data Evaluation Engine CapabilityStatement"/>
 <artifact id="CapabilityStatement/NHSNCapabilityStatementDataSource" key="CapabilityStatement-NHSNCapabilityStatementDataSource" name="NHSN Data Source CapabilityStatement"/>
 <artifact id="StructureDefinition/nhsn-measure-bundle" key="StructureDefinition-nhsn-measure-bundle" name="NHSN Measure Bundle"/>
