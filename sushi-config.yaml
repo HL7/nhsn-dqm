@@ -74,7 +74,9 @@ menu:
   Actors and Use Cases: use_cases.html
   Specification: specification.html
   Security: security.html
-  Artifact Index: artifacts.html
+  FHIR Artifacts:
+    Examples (Grouped): use_cases.html#ach-submission-examples
+    Artifact Index: artifacts.html
   Downloads: downloads.html
   Support:
     FHIR Spec: http://hl7.org/fhir/R4/index.html

@@ -42,7 +42,7 @@ For specific information on the individual NHSN protocols and metrics see:
 
 ##### ACH Submission Examples
 
-##### Bundle Submission Examples
+###### Bundle Submission Examples
 
 - [Full Submission Bundle](Bundle-submission-full-example1.html)
 - [Submitting Organization](Organization-organization-example-submitting-organization.html) 
@@ -60,7 +60,7 @@ Individual Measure Report
 
 - [ACH Individual Measure Report List](List-list-example-ach-individual-measurereport-list.html)
 
-##### Initial Population Examples
+###### Initial Population Examples
 
 Patient
 
@@ -73,7 +73,7 @@ Encounter
 - [Encounter - Example ACH Pass3 - Short Stay](Encounter-encounter-example-ach-ach-pass3-short-stay.html)
 - [Encounter - Example ACH Pass3 - Acute](Encounter-encounter-example-ach-ach-pass3-acute.html)
 
-##### Line Level Data Examples
+###### Line Level Data Examples
 
 Condition
 
