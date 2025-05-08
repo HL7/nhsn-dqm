@@ -21,7 +21,7 @@ Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $medicationrequest-category = http://terminology.hl7.org/CodeSystem/medicationrequest-category
 Alias: $medicationrequest-course-of-therapy = http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy
 Alias: $dose-rate-type = http://terminology.hl7.org/CodeSystem/dose-rate-type
-Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category|1.0.0
 Alias: $loinc = http://loinc.org
 Alias: $organization-type = http://terminology.hl7.org/CodeSystem/organization-type
 Alias: $v2-0487 = http://terminology.hl7.org/CodeSystem/v2-0487
@@ -51,6 +51,6 @@ Alias: $shareablevalueset = http://hl7.org/fhir/StructureDefinition/shareableval
 Alias: $procedure-code = http://hl7.org/fhir/ValueSet/procedure-code
 Alias: $vital-sign-profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
 
-Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074
+Alias: $v2-0074 = http://terminology.hl7.org/CodeSystem/v2-0074|2.5.0
 
 Alias: $healthcare-capacity-codes = http://hl7.org/fhir/us/nhsn-dqm/CodeSystem/healthcare-capacity-codes

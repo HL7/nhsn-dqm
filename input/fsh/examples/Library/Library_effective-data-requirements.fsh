@@ -935,16 +935,16 @@ Usage: #example
 * relatedArtifact[=].resource = "http://hl7.org/fhir/us/cqfmeasures/Library/MATGlobalCommonFunctions"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Code system ActCode"
-* relatedArtifact[=].resource = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
+* relatedArtifact[=].resource = "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Code system Observation Category"
-* relatedArtifact[=].resource = "http://terminology.hl7.org/CodeSystem/observation-category"
+* relatedArtifact[=].resource = "http://terminology.hl7.org/CodeSystem/observation-category|1.0.0"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Code system LOINC"
 * relatedArtifact[=].resource = "http://loinc.org"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Code system V2-0074"
-* relatedArtifact[=].resource = "http://terminology.hl7.org/CodeSystem/v2-0074"
+* relatedArtifact[=].resource = "http://terminology.hl7.org/CodeSystem/v2-0074|2.5.0"
 * relatedArtifact[+].type = #depends-on
 * relatedArtifact[=].display = "Value set Encounter Inpatient"
 * relatedArtifact[=].resource = "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.666.5.307"
