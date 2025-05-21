@@ -39,8 +39,7 @@ dependencies:
     version: 5.0.0
     id: cqfm
   hl7.fhir.us.davinci-deqm:
-    # version: 5.0.0-ballot
-    version: current
+    version: 5.0.0
     id: deqm
   hl7.fhir.us.qicore: 6.0.0
   hl7.fhir.uv.extensions.r4: 5.2.0
