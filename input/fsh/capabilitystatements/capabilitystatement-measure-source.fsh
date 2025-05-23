@@ -20,7 +20,7 @@ Usage: #definition
 * format[+] = #xml
 * rest[+]
   * mode = #server
-  * security.description = "Implementations **SHOULD** consider the guidance included [NHSN Security & Privacy Considerations](security.html)."
+  * security.description = "Implementations **SHOULD** consider the guidance included [Security & Privacy](security.html) section."
 
 // TODO, The CQFM meathod of getting the measure/ibrary bundle it through the Library/$cqfm.package operation
   * resource[+]

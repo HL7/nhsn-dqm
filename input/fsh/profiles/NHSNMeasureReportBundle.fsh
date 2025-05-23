@@ -2,7 +2,7 @@ Profile: NHSNMeasureReportBundle
 Parent: Bundle
 Id: nhsn-measurereport-bundle
 Title: "NHSN MeasureReport Bundle"
-Description: "This profile defines a valid Submission Bundle to NHSN with all resources contained within. The Bundle is comprised of entry slices representing the data source Organization, a Patients of Interest (POI) List, one Subject List MeasureReport per reportable measure, an Individual MeasureReport List, individual MeasureReports, and the underlying patient-centric clinical information. 
+Description: "This profile defines a valid Submission Bundle to NHSN with all resources contained within. The Bundle is comprised of entry slices representing the data source Organization, a POI List, one Subject List MeasureReport per reportable measure, an Individual MeasureReport List, individual MeasureReports, and the underlying patient-centric clinical information.
 
 All resources referenced in the Bundle SHALL be present, per invariant bundle-contain-all-references. If an instance fails to validate against that invariant, the following FHIRPath statement can be used to locate the missing reference(s): 
 
