@@ -22,7 +22,7 @@ Unable to find a profile match for MeasureReport/measurereport-example-individua
 
 Unable to find a profile match for MeasureReport/measurereport-example-individual-ach-ach-pass3 among choices: http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm
 
-# The measureScoring extension is set to cohort, not proportion. Same is true of the measure itself. This seems to be an error in the FHIRPath of the invariant or the publisher itself.
+# The measureScoring extension is set to cohort, not proportion. Same is true of the measure itself. This invariant is defined in DEQM, and the current build shows the same error in that IG. This seems to be an error in the FHIRPath of the invariant or the latest version of the IG Publisher itself.
 
 Constraint failed: deqm-6: 'If the measure scoring type is 'proportion' then the measureScore SHALL be a numerical value between 0 and 1'
 
@@ -37,11 +37,6 @@ INFORMATION: Bundle/submission-full-example1: Bundle.entry[4].resource.entry[0].
 INFORMATION: Bundle/submission-full-example1: Bundle.entry[4].resource.entry[1].item: Details for MeasureReport/measurereport-example-individual-ach-ach-pass2 matching against profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm|5.0.0
 
 INFORMATION: Bundle/submission-full-example1: Bundle.entry[4].resource.entry[2].item: Details for MeasureReport/measurereport-example-individual-ach-ach-pass3 matching against profile http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/indv-measurereport-deqm|5.0.0
-
-
-# We are dependent on DEQM, so are using the same US Core version as that IG
-
-The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-30, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
 
 # US Core Variance received: https://jira.hl7.org/browse/FHIR-46467
 
@@ -67,7 +62,7 @@ The ImplementationGuide uses package hl7.fhir.us.core#6.1.0 released on 2023-06-
 The ImplementationGuide uses package hl7.fhir.us.qicore#6.0.0 released on 2024-03-01, but the most recent appropriate version is 7.0.0. This reference is getting old and the more recent version should be considered
 
 
-# URIs that are not intended to resolve
+# URIs that are not intended to resolve or have a definition defined in this IG
 No definition could be found for URL value 'urn:oid:1.2.5.8.2.7'
 No definition could be found for URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8'
 No definition could be found for URL value 'urn:oid:2.16.840.1.113883.19.5.1.798'
@@ -76,27 +71,12 @@ No definition could be found for URL value 'urn:oid:2.16.840.1.113883.19.5.1.798
 No definition could be found for URL value 'https://www.cdc.gov/nhsn/OrgID'
 No definition could be found for URL value 'https://www.cdc.gov/nhsn/index.html'
 
-URL value 'urn:oid:1.2.5.8.2.7' does not resolve
-URL value 'urn:oid:2.16.840.1.113883.19.5.1.698.8' does not resolve
-URL value 'urn:oid:2.16.840.1.113883.19.5.1.798' does not resolve
-URL value 'urn:oid:2.16.840.1.113883.19.5.1.798.32' does not resolve
-URL value 'urn:oid:2.16.840.1.113883.19.5.1.798.800' does not resolve
-URL value 'http://example.com/Identifier' does not resolve
-URL value 'https://www.cdc.gov/nhsn/OrgID' does not resolve
-URL value 'https://www.cdc.gov/nhsn/index.html' does not resolve
-Canonical URL 'http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1046.274' does not resolve
+
 
 
 # The following OID is for examples only, and was only created to suppress other informational messages about OIDs. The Measures and related artifacts in this IG are not for production use.
 
 WARNING: ImplementationGuide: The assigned auto-oid-root value '2.25.316204395913842452684237438142819890580' is not registered in https://github.com/FHIR/ig-registry/blob/master/oid-assignments.json so isn't known to be valid
-
-
-# The following extensions were intentionally added by our Measure developer 
-
-INFORMATION: Measure/NHSNdQMAcuteCareHospitalInitialPopulation: Measure.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-
-INFORMATION: Measure/NHSNdQMAcuteCareHospitalInitialPopulation: Measure.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/cohort-measure-cqfm|4.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
 
 # The following issues are in the snapshot and are inherited from US Core
 
@@ -105,14 +85,6 @@ INFORMATION: StructureDefinition/nhsn-submitting-organization: StructureDefiniti
 INFORMATION: StructureDefinition/nhsn-submitting-organization: StructureDefinition.snapshot.element[11].pattern.ofType(Identifier): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
 
 INFORMATION: StructureDefinition/nhsn-submitting-organization: StructureDefinition.snapshot.element[12].pattern.ofType(Identifier): The repeating element has a pattern. The pattern will apply to all the repeats (this has not been clear to all users)
-
-# The Healthcare Capacity code system will be removed once LOINC codes have been assigned. The request is in process and is being managed by NHSN
-
-Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
-
-# OID Based Code System that is externally managed (PHIN-VADS CDC Race/Ethnicity code system)
-
-The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated
 
 
 # CodeSystems that are draft in THO, will need to be changed in future versions of THO
