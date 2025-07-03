@@ -5,7 +5,7 @@ Description: "MedicationRequest - Example ACH Pass1 - Vancomycin Injectable Solu
 Usage: #example
 * meta.profile = Canonical(QICoreMedicationRequest|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
+* identifier.system = "http://example.org/identifiers/798"
 * identifier.value = "101888811"
 * status = #completed
 * intent = #order

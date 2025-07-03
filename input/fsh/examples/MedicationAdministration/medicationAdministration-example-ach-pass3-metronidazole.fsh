@@ -5,7 +5,7 @@ Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 M
 Usage: #example
 * meta.profile = Canonical(QICoreMedicationAdministration|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
+* identifier.system = "http://example.org/identifiers/798"
 * identifier.value = "1018888321"
 * status = #completed
 * category = $medicationrequest-category#inpatient "Inpatient"
@@ -33,7 +33,7 @@ Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 M
 Usage: #example
 * meta.profile = Canonical(QICoreMedicationAdministration|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
+* identifier.system = "http://example.org/identifiers/798"
 * identifier.value = "1018888322"
 * status = #completed
 * category = $medicationrequest-category#inpatient "Inpatient"
@@ -61,7 +61,7 @@ Description: "MedicationAdministration - Example ACH Pass3 - Metronidazole 500 M
 Usage: #example
 * meta.profile = Canonical(QICoreMedicationAdministration|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
+* identifier.system = "http://example.org/identifiers/798"
 * identifier.value = "1018888323"
 * status = #completed
 * category = $medicationrequest-category#inpatient "Inpatient"

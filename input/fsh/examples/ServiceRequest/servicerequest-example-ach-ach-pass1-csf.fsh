@@ -7,7 +7,7 @@ Usage: #example
 * identifier.use = #usual
 * identifier.type = $v2-0203#PLAC "Placer Identifier"
 * identifier.type.text = "Placer Identifier"
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
+* identifier.system = "http://example.org/identifiers/798"
 * identifier.value = "1019631822"
 * status = #completed
 * intent = #original-order

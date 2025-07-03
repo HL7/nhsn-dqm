@@ -4,10 +4,10 @@ Title: "Specimen - Example ACH Pass1 Blood"
 Description: "Specimen - Example ACH Pass1 - Blood venous from heel"
 Usage: #example
 * meta.profile = Canonical(USCoreSpecimenProfile|6.1.0)
-* identifier[0].system = "urn:oid:2.16.840.1.113883.19.5.1.798.32"
+* identifier[0].system = "http://example.org/identifiers/798.32"
 * identifier[=].value = "C104082901"
 * identifier[=].assigner.display = "LIS"
-* identifier[+].system = "urn:oid:2.16.840.1.113883.19.5.1.798.800"
+* identifier[+].system = "http://example.org/identifiers/798.800"
 * identifier[=].value = "C10408290:41"
 * type = $v2-0487#BLDV "Blood venous"
 * type.text = "Blood venous"

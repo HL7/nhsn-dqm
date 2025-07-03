@@ -4,10 +4,10 @@ Title: "Specimen - Example ACH Pass1 CSF"
 Description: "Specimen - Example ACH Pass1 - Cerebral spinal fluid from superior articular process of lumbar vertebra"
 Usage: #example
 * meta.profile = Canonical(USCoreSpecimenProfile|6.1.0)
-* identifier[0].system = "urn:oid:2.16.840.1.113883.19.5.1.798.32"
+* identifier[0].system = "http://example.org/identifiers/798.32"
 * identifier[=].value = "C104082902"
 * identifier[=].assigner.display = "LIS"
-* identifier[+].system = "urn:oid:2.16.840.1.113883.19.5.1.798.800"
+* identifier[+].system = "http://example.org/identifiers/798.800"
 * identifier[=].value = "C10408290:42"
 * type = $v2-0487#CSF "Cerebral spinal fluid"
 * type.text = "Cerebral spinal fluid"

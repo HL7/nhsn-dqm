@@ -5,7 +5,7 @@ Description: "Procedure - Example ACH Pass1 - Drainage of Spinal Canal, Percutan
 Usage: #example
 * meta.profile = Canonical(QICoreProcedure|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.698.8"
+* identifier.system = "http://example.org/identifiers/698.8"
 * identifier.value = "1000510352"
 * status = #completed
 * code = $icd-10#009U3ZX "Drainage of Spinal Canal, Percutaneous Approach, Diagnostic"

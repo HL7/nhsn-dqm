@@ -5,7 +5,7 @@ Description: "Procedure - Example ACH Pass2 - Percutaneous insertion of inferior
 Usage: #example
 * meta.profile = Canonical(QICoreProcedure|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.698.8"
+* identifier.system = "http://example.org/identifiers/698.8"
 * identifier.value = "10005103526"
 * status = #completed
 * code = $sct#397913009 "Percutaneous insertion of inferior vena cava filter (procedure)"

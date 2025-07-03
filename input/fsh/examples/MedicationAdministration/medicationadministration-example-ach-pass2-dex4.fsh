@@ -5,7 +5,7 @@ Description: "MedicationAdministration - Example ACH Pass2 - Dex4 4 gm chewable 
 Usage: #example
 * meta.profile = Canonical(QICoreMedicationAdministration|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
+* identifier.system = "http://example.org/identifiers/798"
 * identifier.value = "101888893"
 * status = #completed
 * category = $medicationrequest-category#outpatient "Outpatient"

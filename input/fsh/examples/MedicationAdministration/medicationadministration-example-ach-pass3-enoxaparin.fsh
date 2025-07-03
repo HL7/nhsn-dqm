@@ -7,7 +7,7 @@ Usage: #example
 * extension[0].url = "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-recorded"
 * extension[=].valueDateTime = "2024-02-02T21:04:00-05:00"
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.798"
+* identifier.system = "http://example.org/identifiers/798"
 * identifier.value = "101888833"
 * status = #not-done
 * statusReason = $sct#182903008 "Drug declined by patient - reason unknown (situation)"

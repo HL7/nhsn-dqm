@@ -5,7 +5,7 @@ Description: "Encounter - Example ACH Pass3 - Acute critical care visit"
 Usage: #example
 * meta.profile = Canonical(QICoreEncounter|6.0.0)
 * identifier.use = #usual
-* identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.698.8"
+* identifier.system = "http://example.org/identifiers/698.8"
 * identifier.value = "10005104253a"
 * status = #finished
 * class = $v3-ActCode#ACUTE "inpatient acute"
@@ -34,7 +34,7 @@ Usage: #example
 //* reasonCode = $icd-10-cm#R19.7 "Diarrhea, unspecified"
 //* reasonCode.text = "Diarrhea"
 /* diagnosis.condition.display = "Hyperglycemia"
-* account.identifier.system = "urn:oid:2.16.840.1.113883.19.5.1.3.726"
+* account.identifier.system = "http://example.org/identifiers/3.726"
 * account.identifier.value = "100066850"
 * account.display = "HYPO,EDADD"
 */

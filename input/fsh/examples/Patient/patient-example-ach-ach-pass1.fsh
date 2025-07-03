@@ -23,7 +23,7 @@ Usage: #example
 * identifier.use = #usual
 * identifier.type = $v2-0203#MR "Medical record number"
 * identifier.type.text = "MRN"
-* identifier.system = "urn:oid:1.2.5.8.2.7"
+* identifier.system = "http://example.org/identifiers/"
 * identifier.value = "1601191901010308"
 * active = true
 * name[0].use = #official
