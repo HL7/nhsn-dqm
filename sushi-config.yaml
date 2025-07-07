@@ -10,7 +10,7 @@ status: active
 date: 2024-03-28
 copyrightYear: 2025+
 version: 1.0.0
-releaseLabel: STU1
+releaseLabel: STU 1
 jurisdiction: urn:iso:std:iso:3166#US "United States of America"
 extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
