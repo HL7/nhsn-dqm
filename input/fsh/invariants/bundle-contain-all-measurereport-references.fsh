@@ -13,5 +13,5 @@ Severity: #error
 
 /*
 If this fails, use the following FHIRPath expression to discover missing resources: 
-Bundle.entry.resource.descendants().reference.where($this.startsWith('#').not()).where((%resource.entry.fullUrl.join('|')&'|').contains(($this&'|')).not())"
+Bundle.entry.resource.descendants().reference.where($this.startsWith('#').not()).where((%resource.entry.fullUrl.join('|')&'|').contains(($this&'|')).not())
 */
